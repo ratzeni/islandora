@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/root/!svn/ver/2813/islandora/islandora-module/Islandora-dru6-fed3/trunk/fedora_repository/mnpl/content_models
+END
+specimencm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/root/!svn/ver/2638/islandora/islandora-module/Islandora-dru6-fed3/trunk/fedora_repository/mnpl/content_models/specimencm.xml
+END
+compoundcm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/root/!svn/ver/2813/islandora/islandora-module/Islandora-dru6-fed3/trunk/fedora_repository/mnpl/content_models/compoundcm.xml
+END
+fractioncm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/root/!svn/ver/2813/islandora/islandora-module/Islandora-dru6-fed3/trunk/fedora_repository/mnpl/content_models/fractioncm.xml
+END
+fraction_batchcm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/root/!svn/ver/2638/islandora/islandora-module/Islandora-dru6-fed3/trunk/fedora_repository/mnpl/content_models/fraction_batchcm.xml
+END

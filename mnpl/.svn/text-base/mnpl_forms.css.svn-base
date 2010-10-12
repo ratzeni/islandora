@@ -1,0 +1,12 @@
+.horiz_checkboxes .form-radios .form-item {
+float: left;
+width: 15%
+}
+
+.form-item label.option {
+display: inline;
+}
+
+.form-item textarea {
+  width: 80% 
+}

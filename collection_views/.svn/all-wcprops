@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/root/!svn/ver/2817/islandora/islandora-module/Islandora-dru6-fed3/trunk/fedora_repository/collection_views
+END
+Coverflow_Collection_View.xsl
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/root/!svn/ver/2813/islandora/islandora-module/Islandora-dru6-fed3/trunk/fedora_repository/collection_views/Coverflow_Collection_View.xsl
+END
+default-sparqltoHtml.xsl
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/root/!svn/ver/2638/islandora/islandora-module/Islandora-dru6-fed3/trunk/fedora_repository/collection_views/default-sparqltoHtml.xsl
+END
+COLLECTION_VIEW.xml
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/root/!svn/ver/2638/islandora/islandora-module/Islandora-dru6-fed3/trunk/fedora_repository/collection_views/COLLECTION_VIEW.xml
+END
+REFWORKS-COLLECTION_VIEW.xml
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/root/!svn/ver/2817/islandora/islandora-module/Islandora-dru6-fed3/trunk/fedora_repository/collection_views/REFWORKS-COLLECTION_VIEW.xml
+END
+Coverflow_PRE_Collection_View.xsl
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/svn/root/!svn/ver/2813/islandora/islandora-module/Islandora-dru6-fed3/trunk/fedora_repository/collection_views/Coverflow_PRE_Collection_View.xsl
+END
+README.txt
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/root/!svn/ver/2817/islandora/islandora-module/Islandora-dru6-fed3/trunk/fedora_repository/collection_views/README.txt
+END
+SIMPLE-COLLECTION_VIEW.xml
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/root/!svn/ver/2638/islandora/islandora-module/Islandora-dru6-fed3/trunk/fedora_repository/collection_views/SIMPLE-COLLECTION_VIEW.xml
+END
+SmileyStuff-COLLECTION_VIEW.xml
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/root/!svn/ver/2638/islandora/islandora-module/Islandora-dru6-fed3/trunk/fedora_repository/collection_views/SmileyStuff-COLLECTION_VIEW.xml
+END
+FLV-COLLECTION VIEW(2).xml
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/root/!svn/ver/2638/islandora/islandora-module/Islandora-dru6-fed3/trunk/fedora_repository/collection_views/FLV-COLLECTION%20VIEW(2).xml
+END
+simple_list_view.xml
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/root/!svn/ver/2817/islandora/islandora-module/Islandora-dru6-fed3/trunk/fedora_repository/collection_views/simple_list_view.xml
+END
+Collection_QUERY.txt
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/root/!svn/ver/2638/islandora/islandora-module/Islandora-dru6-fed3/trunk/fedora_repository/collection_views/Collection_QUERY.txt
+END

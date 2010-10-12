@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/root/!svn/ver/2817/islandora/islandora-module/Islandora-dru6-fed3/trunk/fedora_repository/ilives
+END
+fedora_ilives.module
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/root/!svn/ver/2817/islandora/islandora-module/Islandora-dru6-fed3/trunk/fedora_repository/ilives/fedora_ilives.module
+END
+searchTerms.xml
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/root/!svn/ver/2817/islandora/islandora-module/Islandora-dru6-fed3/trunk/fedora_repository/ilives/searchTerms.xml
+END
+fedora_ilives.install
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/root/!svn/ver/2813/islandora/islandora-module/Islandora-dru6-fed3/trunk/fedora_repository/ilives/fedora_ilives.install
+END
+fedora_ilives.info
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/root/!svn/ver/2813/islandora/islandora-module/Islandora-dru6-fed3/trunk/fedora_repository/ilives/fedora_ilives.info
+END

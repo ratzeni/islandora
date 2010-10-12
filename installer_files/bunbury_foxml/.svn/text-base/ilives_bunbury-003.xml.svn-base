@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<foxml:digitalObject PID="ilives:bunbury-003" VERSION="1.1" xmlns:foxml="info:fedora/fedora-system:def/foxml#"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="info:fedora/fedora-system:def/foxml# http://www.fedora.info/definitions/1/0/foxml1-1.xsd">
+  <foxml:objectProperties>
+    <foxml:property NAME="info:fedora/fedora-system:def/model#state" VALUE="Active"/>
+    <foxml:property NAME="info:fedora/fedora-system:def/model#label" VALUE="BLANK"/>
+    <foxml:property NAME="info:fedora/fedora-system:def/model#ownerId" VALUE="fedoraAdmin"/>
+    <foxml:property NAME="info:fedora/fedora-system:def/model#createdDate" VALUE="2009-03-22T23:28:14.209Z"/>
+    <foxml:property NAME="info:fedora/fedora-system:def/view#lastModifiedDate" VALUE="2009-03-22T23:30:59.749Z"/>
+  </foxml:objectProperties>
+  <foxml:datastream CONTROL_GROUP="X" ID="AUDIT" STATE="A" VERSIONABLE="false">
+    <foxml:datastreamVersion CREATED="2009-03-22T23:28:14.209Z"
+      FORMAT_URI="info:fedora/fedora-system:format/xml.fedora.audit" ID="AUDIT.0" LABEL="Audit Trail for this object" MIMETYPE="text/xml">
+      <foxml:xmlContent>
+        <audit:auditTrail xmlns:audit="info:fedora/fedora-system:def/audit#">
+          <audit:record ID="AUDREC1">
+            <audit:process type="Fedora API-M"/>
+            <audit:action>ingest</audit:action>
+            <audit:componentID/>
+            <audit:responsibility>fedoraAdmin</audit:responsibility>
+            <audit:date>2009-03-22T23:28:14.209Z</audit:date>
+            <audit:justification>Created with Admin GUI "New Object" command</audit:justification>
+          </audit:record>
+          <audit:record ID="AUDREC2">
+            <audit:process type="Fedora API-M"/>
+            <audit:action>addDatastream</audit:action>
+            <audit:componentID>RELS-EXT</audit:componentID>
+            <audit:responsibility>fedoraAdmin</audit:responsibility>
+            <audit:date>2009-03-22T23:28:49.882Z</audit:date>
+            <audit:justification/>
+          </audit:record>
+          <audit:record ID="AUDREC3">
+            <audit:process type="Fedora API-M"/>
+            <audit:action>addDatastream</audit:action>
+            <audit:componentID>MIX</audit:componentID>
+            <audit:responsibility>fedoraAdmin</audit:responsibility>
+            <audit:date>2009-03-22T23:29:12.330Z</audit:date>
+            <audit:justification>DatastreamsPane generated this logMessage.</audit:justification>
+          </audit:record>
+          <audit:record ID="AUDREC4">
+            <audit:process type="Fedora API-M"/>
+            <audit:action>addDatastream</audit:action>
+            <audit:componentID>MODS</audit:componentID>
+            <audit:responsibility>fedoraAdmin</audit:responsibility>
+            <audit:date>2009-03-22T23:29:31.147Z</audit:date>
+            <audit:justification>DatastreamsPane generated this logMessage.</audit:justification>
+          </audit:record>
+          <audit:record ID="AUDREC5">
+            <audit:process type="Fedora API-M"/>
+            <audit:action>addDatastream</audit:action>
+            <audit:componentID>PAGE_OCR</audit:componentID>
+            <audit:responsibility>fedoraAdmin</audit:responsibility>
+            <audit:date>2009-03-22T23:30:04.390Z</audit:date>
+            <audit:justification>DatastreamsPane generated this logMessage.</audit:justification>
+          </audit:record>
+          <audit:record ID="AUDREC6">
+            <audit:process type="Fedora API-M"/>
+            <audit:action>addDatastream</audit:action>
+            <audit:componentID>PAGE_TEI</audit:componentID>
+            <audit:responsibility>fedoraAdmin</audit:responsibility>
+            <audit:date>2009-03-22T23:30:29.463Z</audit:date>
+            <audit:justification>DatastreamsPane generated this logMessage.</audit:justification>
+          </audit:record>
+          <audit:record ID="AUDREC7">
+            <audit:process type="Fedora API-M"/>
+            <audit:action>addDatastream</audit:action>
+            <audit:componentID>JPG</audit:componentID>
+            <audit:responsibility>fedoraAdmin</audit:responsibility>
+            <audit:date>2009-03-22T23:30:59.749Z</audit:date>
+            <audit:justification>DatastreamsPane generated this logMessage.</audit:justification>
+          </audit:record>
+        </audit:auditTrail>
+      </foxml:xmlContent>
+    </foxml:datastreamVersion>
+  </foxml:datastream>
+  <foxml:datastream CONTROL_GROUP="X" ID="DC" STATE="A" VERSIONABLE="true">
+    <foxml:datastreamVersion CREATED="2009-03-22T23:28:14.209Z" FORMAT_URI="http://www.openarchives.org/OAI/2.0/oai_dc/"
+      ID="DC1.0" LABEL="Dublin Core Record for this object" MIMETYPE="text/xml" SIZE="376">
+      <foxml:xmlContent>
+        <oai_dc:dc xmlns:dc="http://purl.org/dc/elements/1.1/"
+          xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>BLANK</dc:title>
+          <dc:identifier>ilives:bunbury-003</dc:identifier>
+        </oai_dc:dc>
+      </foxml:xmlContent>
+    </foxml:datastreamVersion>
+  </foxml:datastream>
+  <foxml:datastream CONTROL_GROUP="X" ID="RELS-EXT" STATE="A" VERSIONABLE="true">
+    <foxml:datastreamVersion CREATED="2009-03-22T23:28:49.882Z" FORMAT_URI="info:fedora/fedora-system:FedoraRELSExt-1.0"
+      ID="RELS-EXT.0" LABEL="RDF Statements about this object" MIMETYPE="application/rdf+xml" SIZE="408">
+      <foxml:xmlContent>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+          <rdf:Description rdf:about="info:fedora/ilives:bunbury-003">
+            <hasModel rdf:resource="info:fedora/ilives:pageCModel" xmlns="info:fedora/fedora-system:def/model#"/>
+            <isMemberOf rdf:resource="info:fedora/ilives:bunbury" xmlns="info:fedora/fedora-system:def/relations-external#"/>
+          </rdf:Description>
+        </rdf:RDF>
+      </foxml:xmlContent>
+    </foxml:datastreamVersion>
+  </foxml:datastream>
+  <foxml:datastream CONTROL_GROUP="X" ID="MIX" STATE="A" VERSIONABLE="true">
+    <foxml:datastreamVersion CREATED="2009-03-22T23:29:12.330Z" ID="MIX.0" LABEL="MIX.xml" MIMETYPE="text/xml" SIZE="2604">
+      <foxml:xmlContent>
+        <mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-3.xsd">
+          <titleInfo>
+            <title>Bunbury : notes on a community :</title>
+            <subTitle>or ; Blurbs on the burbs</subTitle>
+          </titleInfo>
+          <titleInfo type="alternative">
+            <title>Blurbs on the burbs.</title>
+          </titleInfo>
+          <name type="personal">
+            <namePart xmlns:xlink="http://www.w3.org/TR/xlink">Kelly, Doug</namePart>
+            <role>
+              <text>creator</text>
+            </role>
+          </name>
+          <part>
+            <detail type="page">
+              <caption>Blank</caption>
+              <number>003</number>
+            </detail>
+          </part>
+          <identifier type="fedora">ilives:bunbury-003</identifier>
+          <typeOfResource xmlns:xlink="http://www.w3.org/TR/xlink">text</typeOfResource>
+          <originInfo xmlns:xlink="http://www.w3.org/TR/xlink">
+            <place>
+              <code authority="marc">PIC</code>
+            </place>
+            <place>
+              <text>S. l</text>
+            </place>
+            <publisher>s.n</publisher>
+            <dateIssued>1994</dateIssued>
+            <issuance>monographic</issuance>
+          </originInfo>
+          <language>
+            <languageTerm type="text">English</languageTerm>
+            <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+          </language>
+          <physicalDescription>
+            <form authority="marcform">electronic</form>
+            <form authority="marcform">print</form>
+            <internetMediaType>image/jp2</internetMediaType>
+            <internetMediaType>text/xml</internetMediaType>
+            <internetMediaType>text/plain</internetMediaType>
+            <extent>1 p.</extent>
+            <digitalOrigin>reformatted digital</digitalOrigin>
+          </physicalDescription>
+          <subject authority="lcsh">
+            <geographic>Bunbury (P.E.I.)</geographic>
+            <topic>History</topic>
+          </subject>
+          <classification authority="lcc">FC4649</classification>
+          <relatedItem displayLabel="Appears in" ns2:href="ilives:bunbury" type="host" xmlns:ns2="http://www.w3.org/1999/xlink"/>
+          <location>
+            <physicalLocation>University of Prince Edward Island, Robertson Library (Charlottetown,
+            PE)</physicalLocation>
+          </location>
+          <accessCondition type="useAndReproduction"> Use of this resource is governed by the Canadian
+        Copyright Act. Unless otherwise noted you must contact the right's holder(s) for permission
+        to publish or reproduce this resource. or Use of this resource is governed by the terms and
+        conditions of the Creative Commons "Attribution-NonCommercial-ShareAlike" License
+        (http://creativecommons.org/licenses/by-nc-sa/2.0/) </accessCondition>
+        </mods>
+      </foxml:xmlContent>
+    </foxml:datastreamVersion>
+  </foxml:datastream>
+  <foxml:datastream CONTROL_GROUP="X" ID="MODS" STATE="A" VERSIONABLE="true">
+    <foxml:datastreamVersion CREATED="2009-03-22T23:29:31.147Z" ID="MODS.0" LABEL="MODS.xml" MIMETYPE="text/xml" SIZE="2604">
+      <foxml:xmlContent>
+        <mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-3.xsd">
+          <titleInfo>
+            <title>Bunbury : notes on a community :</title>
+            <subTitle>or ; Blurbs on the burbs</subTitle>
+          </titleInfo>
+          <titleInfo type="alternative">
+            <title>Blurbs on the burbs.</title>
+          </titleInfo>
+          <name type="personal">
+            <namePart xmlns:xlink="http://www.w3.org/TR/xlink">Kelly, Doug</namePart>
+            <role>
+              <text>creator</text>
+            </role>
+          </name>
+          <part>
+            <detail type="page">
+              <caption>Blank</caption>
+              <number>003</number>
+            </detail>
+          </part>
+          <identifier type="fedora">ilives:bunbury-003</identifier>
+          <typeOfResource xmlns:xlink="http://www.w3.org/TR/xlink">text</typeOfResource>
+          <originInfo xmlns:xlink="http://www.w3.org/TR/xlink">
+            <place>
+              <code authority="marc">PIC</code>
+            </place>
+            <place>
+              <text>S. l</text>
+            </place>
+            <publisher>s.n</publisher>
+            <dateIssued>1994</dateIssued>
+            <issuance>monographic</issuance>
+          </originInfo>
+          <language>
+            <languageTerm type="text">English</languageTerm>
+            <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+          </language>
+          <physicalDescription>
+            <form authority="marcform">electronic</form>
+            <form authority="marcform">print</form>
+            <internetMediaType>image/jp2</internetMediaType>
+            <internetMediaType>text/xml</internetMediaType>
+            <internetMediaType>text/plain</internetMediaType>
+            <extent>1 p.</extent>
+            <digitalOrigin>reformatted digital</digitalOrigin>
+          </physicalDescription>
+          <subject authority="lcsh">
+            <geographic>Bunbury (P.E.I.)</geographic>
+            <topic>History</topic>
+          </subject>
+          <classification authority="lcc">FC4649</classification>
+          <relatedItem displayLabel="Appears in" ns2:href="ilives:bunbury" type="host" xmlns:ns2="http://www.w3.org/1999/xlink"/>
+          <location>
+            <physicalLocation>University of Prince Edward Island, Robertson Library (Charlottetown,
+            PE)</physicalLocation>
+          </location>
+          <accessCondition type="useAndReproduction"> Use of this resource is governed by the Canadian
+        Copyright Act. Unless otherwise noted you must contact the right's holder(s) for permission
+        to publish or reproduce this resource. or Use of this resource is governed by the terms and
+        conditions of the Creative Commons "Attribution-NonCommercial-ShareAlike" License
+        (http://creativecommons.org/licenses/by-nc-sa/2.0/) </accessCondition>
+        </mods>
+      </foxml:xmlContent>
+    </foxml:datastreamVersion>
+  </foxml:datastream>
+  <foxml:datastream CONTROL_GROUP="M" ID="PAGE_OCR" STATE="A" VERSIONABLE="true">
+    <foxml:datastreamVersion CREATED="2009-03-22T23:30:04.390Z" ID="PAGE_OCR.0" LABEL="PAGE_OCR.txt" MIMETYPE="text/plain">
+      <foxml:contentLocation REF="http://blade2.vre.upei.ca/ilives/215258_jpg/bunbury-003/pageOCR.txt" TYPE="URL"/>
+    </foxml:datastreamVersion>
+  </foxml:datastream>
+  <foxml:datastream CONTROL_GROUP="X" ID="PAGE_TEI" STATE="A" VERSIONABLE="true">
+    <foxml:datastreamVersion CREATED="2009-03-22T23:30:29.463Z" ID="PAGE_TEI.0" LABEL="PAGE_TEI.xml" MIMETYPE="text/xml" SIZE="82">
+      <foxml:xmlContent>
+        <front>
+          <pb facs="ilives:bunbury-003/JPG" n="4" xml:id="d1e120"/>
+        </front>
+      </foxml:xmlContent>
+    </foxml:datastreamVersion>
+  </foxml:datastream>
+  <foxml:datastream CONTROL_GROUP="M" ID="JPG" STATE="A" VERSIONABLE="true">
+    <foxml:datastreamVersion CREATED="2009-03-22T23:30:59.749Z" ID="JPG.0" LABEL="JPG.jpg" MIMETYPE="image/jpeg">
+      <foxml:contentLocation REF="http://blade2.vre.upei.ca/ilives/215258_jpg/bunbury-003/JPG.jpg" TYPE="URL"/>
+    </foxml:datastreamVersion>
+  </foxml:datastream>
+</foxml:digitalObject>

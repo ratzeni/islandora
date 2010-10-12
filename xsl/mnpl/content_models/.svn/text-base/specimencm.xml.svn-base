@@ -1,0 +1,102 @@
+
+<content_model name="CRITTERS">
+  <display_in_fieldset>
+    <datastream id="CRITTERS">
+      <method>
+        <file>mnpl/plugins/ShowStreamsInFieldSets.php</file>
+        <class_name>ShowStreamsInFieldSets</class_name>
+        <method_name>showCritter</method_name>
+      </method>
+    </datastream>
+    <datastream id="IMAGE_0">
+      <allowed_mime_type>image/gif</allowed_mime_type>
+      <allowed_mime_type>image/png</allowed_mime_type>
+      <allowed_mime_type>image/jpeg</allowed_mime_type>
+      <allowed_mime_type>image/tiff</allowed_mime_type>
+      <add_datastream_method>
+        <file>mnpl/plugins/ImageManipulation.php</file>
+        <class_name>ImageManipulation</class_name>
+        <method_name>createThumbnail</method_name>
+        <modified_files_ext>jpg</modified_files_ext>
+        <datastream_id>TN</datastream_id>
+        <parameters>
+          <parameter name="width">100</parameter>
+          <parameter name="height">120</parameter>
+        </parameters>
+      </add_datastream_method>
+    </datastream>
+    <datastream id="IMAGE_1">
+      <allowed_mime_type>image/gif</allowed_mime_type>
+      <allowed_mime_type>image/png</allowed_mime_type>
+      <allowed_mime_type>image/jpeg</allowed_mime_type>
+      <allowed_mime_type>image/tiff</allowed_mime_type>
+    </datastream>
+    <datastream id="RAW"></datastream>
+    <datastream id="POLICY"></datastream>
+    <datastream id="mzXML"></datastream>
+  </display_in_fieldset>
+  <mimetypes>
+    <type>image/raw</type>
+    <type>image/gif</type>
+    <type>image/png</type>
+    <type>image/jpeg</type>
+    <type>image/tiff</type>
+    <type>text/xml</type>
+    <type>text/plain</type>
+    <type>application/xml</type>
+  </mimetypes>
+  <edit_metadata>
+    <build_form_method dsid="CRITTER">
+      <file>mnpl/plugins/EditStreams.php</file>
+      <class_name>EditStreams</class_name>
+      <method_name>buildSpecimenEditForm</method_name>
+    </build_form_method>
+    <submit_form_method>
+      <file>mnpl/plugins/EditStreams.php</file>
+      <class_name>EditStreams</class_name>
+      <method_name>handleSpecimenEditForm</method_name>
+    </submit_form_method>
+  </edit_metadata>
+  <ingest_rules>
+    <rule>
+      <applies_to>
+	                text/xml
+	      </applies_to>
+      <applies_to>
+	                text/plain
+	      </applies_to>
+      <applies_to>
+	              application/xml
+	      </applies_to>
+      <methods></methods>
+    </rule>
+    <rule>
+      <applies_to>text/xml</applies_to>
+      <methods>
+        <method>
+          <name>addCritterToDCStream</name>
+          <datastream_id>CRITTER</datastream_id>
+        </method>
+      </methods>
+    </rule>
+  </ingest_rules>
+  <ingest_form dsid="QDC" page="2">
+    <form_builder_method>
+      <file>plugins/Refworks.php</file>
+      <class_name>Refworks</class_name>
+      <method_name>buildForm</method_name>
+      <form_handler>handleForm</form_handler>
+    </form_builder_method>
+    <form_elements>
+      <element>
+        <label>Ingest</label>
+        <name>hiddenvalue</name>
+        <value>hidden</value>
+        <type>hidden</type>
+        <prefix>We now have all the information we need to ingest.</prefix>
+        <description>The name given to the resource</description>
+        <required>false</required>
+      </element>
+    </form_elements>
+  </ingest_form>
+</content_model>

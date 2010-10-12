@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/root/!svn/ver/2813/islandora/islandora-module/Islandora-dru6-fed3/trunk/fedora_repository/policies
+END
+viewANDeditbyrole.xml
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/root/!svn/ver/2813/islandora/islandora-module/Islandora-dru6-fed3/trunk/fedora_repository/policies/viewANDeditbyrole.xml
+END
+noObjectEditPolicy.xml
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/root/!svn/ver/2813/islandora/islandora-module/Islandora-dru6-fed3/trunk/fedora_repository/policies/noObjectEditPolicy.xml
+END
+viewANDeditbyroleandDenyapi-mToAnotherRole.xml
+K 25
+svn:wc:ra_dav:version-url
+V 150
+/svn/root/!svn/ver/2638/islandora/islandora-module/Islandora-dru6-fed3/trunk/fedora_repository/policies/viewANDeditbyroleandDenyapi-mToAnotherRole.xml
+END

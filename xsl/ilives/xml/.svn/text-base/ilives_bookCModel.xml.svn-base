@@ -1,0 +1,1870 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<foxml:digitalObject VERSION="1.1" PID="ilives:bookCModel"
+xmlns:foxml="info:fedora/fedora-system:def/foxml#"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="info:fedora/fedora-system:def/foxml# http://www.fedora.info/definitions/1/0/foxml1-1.xsd">
+<foxml:objectProperties>
+<foxml:property NAME="info:fedora/fedora-system:def/model#state" VALUE="Active"/>
+<foxml:property NAME="info:fedora/fedora-system:def/model#label" VALUE="BookCModel"/>
+<foxml:property NAME="info:fedora/fedora-system:def/model#ownerId" VALUE="fedoraAdmin"/>
+<foxml:property NAME="info:fedora/fedora-system:def/model#createdDate" VALUE="2008-12-14T00:12:52.636Z"/>
+<foxml:property NAME="info:fedora/fedora-system:def/view#lastModifiedDate" VALUE="2009-08-10T15:12:10.447Z"/>
+</foxml:objectProperties>
+<foxml:datastream ID="AUDIT" STATE="A" CONTROL_GROUP="X" VERSIONABLE="false">
+<foxml:datastreamVersion ID="AUDIT.0" LABEL="Audit Trail for this object" CREATED="2008-12-14T00:12:52.636Z" MIMETYPE="text/xml" FORMAT_URI="info:fedora/fedora-system:format/xml.fedora.audit">
+<foxml:xmlContent>
+<audit:auditTrail xmlns:audit="info:fedora/fedora-system:def/audit#">
+<audit:record ID="AUDREC1">
+<audit:process type="Fedora API-M"/>
+<audit:action>ingest</audit:action>
+<audit:componentID></audit:componentID>
+<audit:responsibility>fedoraAdmin</audit:responsibility>
+<audit:date>2008-12-14T00:12:52.636Z</audit:date>
+<audit:justification>Created with Admin GUI &quot;New Object&quot; command</audit:justification>
+</audit:record>
+<audit:record ID="AUDREC2">
+<audit:process type="Fedora API-M"/>
+<audit:action>modifyObject</audit:action>
+<audit:componentID></audit:componentID>
+<audit:responsibility>fedoraAdmin</audit:responsibility>
+<audit:date>2008-12-19T18:56:56.331Z</audit:date>
+<audit:justification></audit:justification>
+</audit:record>
+<audit:record ID="AUDREC3">
+<audit:process type="Fedora API-M"/>
+<audit:action>modifyDatastreamByValue</audit:action>
+<audit:componentID>DS-COMPOSITE-MODEL</audit:componentID>
+<audit:responsibility>fedoraAdmin</audit:responsibility>
+<audit:date>2008-12-19T18:59:52.928Z</audit:date>
+<audit:justification>added TEI as a dstype</audit:justification>
+</audit:record>
+<audit:record ID="AUDREC4">
+<audit:process type="Fedora API-M"/>
+<audit:action>modifyDatastreamByValue</audit:action>
+<audit:componentID>DC</audit:componentID>
+<audit:responsibility>fedoraAdmin</audit:responsibility>
+<audit:date>2008-12-19T19:01:00.277Z</audit:date>
+<audit:justification></audit:justification>
+</audit:record>
+<audit:record ID="AUDREC5">
+<audit:process type="Fedora API-M"/>
+<audit:action>modifyDatastreamByValue</audit:action>
+<audit:componentID>RELS-EXT</audit:componentID>
+<audit:responsibility>fedoraAdmin</audit:responsibility>
+<audit:date>2008-12-19T19:03:24.551Z</audit:date>
+<audit:justification></audit:justification>
+</audit:record>
+<audit:record ID="AUDREC6">
+<audit:process type="Fedora API-M"/>
+<audit:action>modifyDatastreamByValue</audit:action>
+<audit:componentID>DS-COMPOSITE-MODEL</audit:componentID>
+<audit:responsibility>fedoraAdmin</audit:responsibility>
+<audit:date>2008-12-19T19:39:26.787Z</audit:date>
+<audit:justification></audit:justification>
+</audit:record>
+<audit:record ID="AUDREC7">
+<audit:process type="Fedora API-M"/>
+<audit:action>modifyDatastreamByValue</audit:action>
+<audit:componentID>DS-COMPOSITE-MODEL</audit:componentID>
+<audit:responsibility>fedoraAdmin</audit:responsibility>
+<audit:date>2008-12-19T19:41:11.531Z</audit:date>
+<audit:justification></audit:justification>
+</audit:record>
+<audit:record ID="AUDREC8">
+<audit:process type="Fedora API-M"/>
+<audit:action>ingest</audit:action>
+<audit:componentID></audit:componentID>
+<audit:responsibility>fedoraAdmin</audit:responsibility>
+<audit:date>2009-01-21T12:25:48.796Z</audit:date>
+<audit:justification>Ingested from local file /Users/dmoses/Desktop/ilives_BookCModel</audit:justification>
+</audit:record>
+<audit:record ID="AUDREC9">
+<audit:process type="Fedora API-M"/>
+<audit:action>modifyDatastreamByValue</audit:action>
+<audit:componentID>DS-COMPOSITE-MODEL</audit:componentID>
+<audit:responsibility>fedoraAdmin</audit:responsibility>
+<audit:date>2009-01-23T13:39:14.821Z</audit:date>
+<audit:justification></audit:justification>
+</audit:record>
+<audit:record ID="AUDREC10">
+<audit:process type="Fedora API-M"/>
+<audit:action>ingest</audit:action>
+<audit:componentID></audit:componentID>
+<audit:responsibility>fedoraAdmin</audit:responsibility>
+<audit:date>2009-01-26T20:27:14.090Z</audit:date>
+<audit:justification>Ingested from local file /opt/fedora/export/ilives_BookCModel.xml</audit:justification>
+</audit:record>
+<audit:record ID="AUDREC11">
+<audit:process type="Fedora API-M"/>
+<audit:action>modifyDatastreamByValue</audit:action>
+<audit:componentID>DS-COMPOSITE-MODEL</audit:componentID>
+<audit:responsibility>fedoraAdmin</audit:responsibility>
+<audit:date>2009-02-02T20:10:45.878Z</audit:date>
+<audit:justification></audit:justification>
+</audit:record>
+<audit:record ID="AUDREC12">
+<audit:process type="Fedora API-M"/>
+<audit:action>modifyDatastreamByValue</audit:action>
+<audit:componentID>DC</audit:componentID>
+<audit:responsibility>fedoraAdmin</audit:responsibility>
+<audit:date>2009-02-13T17:57:45.873Z</audit:date>
+<audit:justification></audit:justification>
+</audit:record>
+<audit:record ID="AUDREC13">
+<audit:process type="Fedora API-M"/>
+<audit:action>modifyDatastreamByValue</audit:action>
+<audit:componentID>DS-COMPOSITE-MODEL</audit:componentID>
+<audit:responsibility>fedoraAdmin</audit:responsibility>
+<audit:date>2009-03-11T19:14:32.337Z</audit:date>
+<audit:justification></audit:justification>
+</audit:record>
+<audit:record ID="AUDREC14">
+<audit:process type="Fedora API-M"/>
+<audit:action>modifyDatastreamByValue</audit:action>
+<audit:componentID>DS-COMPOSITE-MODEL</audit:componentID>
+<audit:responsibility>fedoraAdmin</audit:responsibility>
+<audit:date>2009-03-11T19:16:18.656Z</audit:date>
+<audit:justification></audit:justification>
+</audit:record>
+<audit:record ID="AUDREC15">
+<audit:process type="Fedora API-M"/>
+<audit:action>ingest</audit:action>
+<audit:componentID></audit:componentID>
+<audit:responsibility>fedoraAdmin</audit:responsibility>
+<audit:date>2009-03-21T22:35:32.122Z</audit:date>
+<audit:justification>Ingested from local file /Volumes/iLives/iLivesTexts/215258_jpg/Content_Models/BookCModel.xml</audit:justification>
+</audit:record>
+<audit:record ID="AUDREC16">
+<audit:process type="Fedora API-M"/>
+<audit:action>ingest</audit:action>
+<audit:componentID></audit:componentID>
+<audit:responsibility>fedoraAdmin</audit:responsibility>
+<audit:date>2009-05-03T20:00:02.023Z</audit:date>
+<audit:justification>Ingested from local file /home/jonathan/Desktop/installer_files/bunbury_foxml/ilives_BookCModel.xml</audit:justification>
+</audit:record>
+<audit:record ID="AUDREC17">
+<audit:process type="Fedora API-M"/>
+<audit:action>ingest</audit:action>
+<audit:componentID></audit:componentID>
+<audit:responsibility>fedoraAdmin</audit:responsibility>
+<audit:date>2009-05-18T15:00:02.393Z</audit:date>
+<audit:justification>Ingested from local file /home/jonathan/Desktop/bookCModel.xml</audit:justification>
+</audit:record>
+<audit:record ID="AUDREC18">
+<audit:process type="Fedora API-M"/>
+<audit:action>modifyDatastreamByValue</audit:action>
+<audit:componentID>RELS-EXT</audit:componentID>
+<audit:responsibility>fedoraAdmin</audit:responsibility>
+<audit:date>2009-05-18T15:22:13.639Z</audit:date>
+<audit:justification></audit:justification>
+</audit:record>
+<audit:record ID="AUDREC19">
+<audit:process type="Fedora API-M"/>
+<audit:action>setDatastreamVersionable</audit:action>
+<audit:componentID>RELS-EXT</audit:componentID>
+<audit:responsibility>fedoraAdmin</audit:responsibility>
+<audit:date>2009-05-18T16:55:00.959Z</audit:date>
+<audit:justification></audit:justification>
+</audit:record>
+<audit:record ID="AUDREC20">
+<audit:process type="Fedora API-M"/>
+<audit:action>modifyDatastreamByValue</audit:action>
+<audit:componentID>RELS-EXT</audit:componentID>
+<audit:responsibility>fedoraAdmin</audit:responsibility>
+<audit:date>2009-05-18T16:55:01.324Z</audit:date>
+<audit:justification></audit:justification>
+</audit:record>
+<audit:record ID="AUDREC21">
+<audit:process type="Fedora API-M"/>
+<audit:action>modifyDatastreamByValue</audit:action>
+<audit:componentID>RELS-EXT</audit:componentID>
+<audit:responsibility>fedoraAdmin</audit:responsibility>
+<audit:date>2009-05-18T16:55:45.204Z</audit:date>
+<audit:justification></audit:justification>
+</audit:record>
+<audit:record ID="AUDREC22">
+<audit:process type="Fedora API-M"/>
+<audit:action>modifyDatastreamByValue</audit:action>
+<audit:componentID>RELS-EXT</audit:componentID>
+<audit:responsibility>fedoraAdmin</audit:responsibility>
+<audit:date>2009-05-18T19:58:26.781Z</audit:date>
+<audit:justification></audit:justification>
+</audit:record>
+<audit:record ID="AUDREC23">
+<audit:process type="Fedora API-M"/>
+<audit:action>ingest</audit:action>
+<audit:componentID></audit:componentID>
+<audit:responsibility>fedoraAdmin</audit:responsibility>
+<audit:date>2009-05-25T14:45:25.183Z</audit:date>
+<audit:justification>Ingested from local file /tmp/iiv/etc/fedora-objects/ilives_bookCModel.xml</audit:justification>
+</audit:record>
+<audit:record ID="AUDREC24">
+<audit:process type="Fedora API-M"/>
+<audit:action>modifyDatastreamByValue</audit:action>
+<audit:componentID>DS-COMPOSITE-MODEL</audit:componentID>
+<audit:responsibility>fedoraAdmin</audit:responsibility>
+<audit:date>2009-05-25T15:23:45.635Z</audit:date>
+<audit:justification></audit:justification>
+</audit:record>
+<audit:record ID="AUDREC25">
+<audit:process type="Fedora API-M"/>
+<audit:action>modifyDatastreamByValue</audit:action>
+<audit:componentID>DS-COMPOSITE-MODEL</audit:componentID>
+<audit:responsibility>fedoraAdmin</audit:responsibility>
+<audit:date>2009-05-25T15:24:25.593Z</audit:date>
+<audit:justification></audit:justification>
+</audit:record>
+<audit:record ID="AUDREC26">
+<audit:process type="Fedora API-M"/>
+<audit:action>addDatastream</audit:action>
+<audit:componentID>ISLANDORACM</audit:componentID>
+<audit:responsibility>fedoraAdmin</audit:responsibility>
+<audit:date>2009-05-25T15:47:14.902Z</audit:date>
+<audit:justification>DatastreamsPane generated this logMessage.</audit:justification>
+</audit:record>
+<audit:record ID="AUDREC27">
+<audit:process type="Fedora API-M"/>
+<audit:action>modifyDatastreamByValue</audit:action>
+<audit:componentID>ISLANDORACM</audit:componentID>
+<audit:responsibility>fedoraAdmin</audit:responsibility>
+<audit:date>2009-05-25T19:41:22.410Z</audit:date>
+<audit:justification></audit:justification>
+</audit:record>
+<audit:record ID="AUDREC28">
+<audit:process type="Fedora API-M"/>
+<audit:action>modifyDatastreamByValue</audit:action>
+<audit:componentID>DS-COMPOSITE-MODEL</audit:componentID>
+<audit:responsibility>fedoraAdmin</audit:responsibility>
+<audit:date>2009-06-01T16:49:01.676Z</audit:date>
+<audit:justification></audit:justification>
+</audit:record>
+<audit:record ID="AUDREC29">
+<audit:process type="Fedora API-M"/>
+<audit:action>modifyDatastreamByValue</audit:action>
+<audit:componentID>DS-COMPOSITE-MODEL</audit:componentID>
+<audit:responsibility>fedoraAdmin</audit:responsibility>
+<audit:date>2009-06-06T17:01:33.741Z</audit:date>
+<audit:justification></audit:justification>
+</audit:record>
+<audit:record ID="AUDREC30">
+<audit:process type="Fedora API-M"/>
+<audit:action>modifyDatastreamByValue</audit:action>
+<audit:componentID>ISLANDORACM</audit:componentID>
+<audit:responsibility>fedoraAdmin</audit:responsibility>
+<audit:date>2009-06-09T20:28:21.204Z</audit:date>
+<audit:justification></audit:justification>
+</audit:record>
+<audit:record ID="AUDREC31">
+<audit:process type="Fedora API-M"/>
+<audit:action>modifyDatastreamByValue</audit:action>
+<audit:componentID>ISLANDORACM</audit:componentID>
+<audit:responsibility>fedoraAdmin</audit:responsibility>
+<audit:date>2009-08-10T15:08:23.431Z</audit:date>
+<audit:justification></audit:justification>
+</audit:record>
+<audit:record ID="AUDREC32">
+<audit:process type="Fedora API-M"/>
+<audit:action>modifyDatastreamByValue</audit:action>
+<audit:componentID>ISLANDORACM</audit:componentID>
+<audit:responsibility>fedoraAdmin</audit:responsibility>
+<audit:date>2009-08-10T15:12:10.447Z</audit:date>
+<audit:justification></audit:justification>
+</audit:record>
+</audit:auditTrail>
+</foxml:xmlContent>
+</foxml:datastreamVersion>
+</foxml:datastream>
+<foxml:datastream ID="RELS-EXT" STATE="A" CONTROL_GROUP="X" VERSIONABLE="false">
+<foxml:datastreamVersion ID="RELS-EXT1.0" LABEL="RDF Statements about this object" CREATED="2008-12-14T00:12:53.017Z" MIMETYPE="application/rdf+xml" FORMAT_URI="info:fedora/fedora-system:FedoraRELSExt-1.0" SIZE="361">
+<foxml:xmlContent>
+<rdf:RDF xmlns:fedora-model="info:fedora/fedora-system:def/model#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+          <rdf:Description rdf:about="info:fedora/ilives:bookCModel">
+            <fedora-model:hasModel rdf:resource="info:fedora/fedora-system:ContentModel-3.0"></fedora-model:hasModel>
+          </rdf:Description>
+        </rdf:RDF>
+</foxml:xmlContent>
+</foxml:datastreamVersion>
+<foxml:datastreamVersion ID="RELS-EXT.1" LABEL="RDF Statements about this object" CREATED="2008-12-19T19:03:24.551Z" MIMETYPE="application/rdf+xml" FORMAT_URI="info:fedora/fedora-system:FedoraRELSExt-1.0" SIZE="448">
+<foxml:xmlContent>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+          <rdf:Description rdf:about="info:fedora/ilives:bookCModel">
+            <hasModel xmlns="info:fedora/fedora-system:def/model#" rdf:resource="info:fedora/fedora-system:ContentModel-3.0"></hasModel>
+            <hasService xmlns="info:fedora/fedora-system:def/model#" rdf:resource="ilives:sdef-book-transcript"></hasService>
+          </rdf:Description>
+        </rdf:RDF>
+</foxml:xmlContent>
+</foxml:datastreamVersion>
+<foxml:datastreamVersion ID="RELS-EXT.5" LABEL="RDF Statements about this object" CREATED="2009-05-18T19:58:26.781Z" MIMETYPE="application/rdf+xml" FORMAT_URI="info:fedora/fedora-system:FedoraRELSExt-1.0" SIZE="450">
+<foxml:xmlContent>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+          <rdf:Description rdf:about="info:fedora/ilives:bookCModel">
+            <hasModel xmlns="info:fedora/fedora-system:def/model#" rdf:resource="info:fedora/fedora-system:ContentModel-3.0"></hasModel>
+            <hasService xmlns="info:fedora/fedora-system:def/model#" rdf:resource="info:fedora/ilives:viewerSdef"></hasService>
+          </rdf:Description>
+        </rdf:RDF>
+</foxml:xmlContent>
+</foxml:datastreamVersion>
+</foxml:datastream>
+<foxml:datastream ID="DS-COMPOSITE-MODEL" STATE="A" CONTROL_GROUP="X" VERSIONABLE="true">
+<foxml:datastreamVersion ID="DS-COMPOSITE-MODEL1.0" LABEL="Datastream Composite Model" CREATED="2008-12-14T00:12:53.018Z" MIMETYPE="text/xml" FORMAT_URI="info:fedora/fedora-system:FedoraDSCompositeModel-1.0" SIZE="1120">
+<foxml:xmlContent>
+<dsCompositeModel xmlns="info:fedora/fedora-system:def/dsCompositeModel#">
+          <comment xmlns="info:fedora/fedora-system:def/comment#">
+            This DS-COMPOSITE-MODEL datastream is included as a starting point to
+              assist in the creation of a content model. The DS-COMPOSITE-MODEL
+              should define the datastreams that are required for any objects
+              conforming to this content model.
+            For more information about content models, see:
+              http://fedora-commons.org/confluence/x/dgBI.
+            For examples of completed content model objects, see the demonstration
+              objects included with your Fedora distribution, such as:
+              demo:CMImage, demo:UVA_STD_IMAGE, demo:DualResImageCollection,
+              demo:TEI_TO_PDFDOC, and demo:XML_TO_HTMLDOC.
+            For more information about the demonstration objects, see:
+              http://fedora-commons.org/confluence/x/AwFI.
+          </comment>
+          <dsTypeModel ID="DSID">
+            <form MIME="text/xml"></form>
+          </dsTypeModel>
+        </dsCompositeModel>
+</foxml:xmlContent>
+</foxml:datastreamVersion>
+<foxml:datastreamVersion ID="DS-COMPOSITE-MODEL.1" LABEL="Datastream Composite Model" CREATED="2008-12-19T18:59:52.928Z" MIMETYPE="text/xml" FORMAT_URI="info:fedora/fedora-system:FedoraDSCompositeModel-1.0" SIZE="1135">
+<foxml:xmlContent>
+<dsCompositeModel xmlns="info:fedora/fedora-system:def/dsCompositeModel#">
+          <comment xmlns="info:fedora/fedora-system:def/comment#">
+            This DS-COMPOSITE-MODEL datastream is included as a starting point to
+              assist in the creation of a content model. The DS-COMPOSITE-MODEL
+              should define the datastreams that are required for any objects
+              conforming to this content model.
+            For more information about content models, see:
+              http://fedora-commons.org/confluence/x/dgBI.
+            For examples of completed content model objects, see the demonstration
+              objects included with your Fedora distribution, such as:
+              demo:CMImage, demo:UVA_STD_IMAGE, demo:DualResImageCollection,
+              demo:TEI_TO_PDFDOC, and demo:XML_TO_HTMLDOC.
+            For more information about the demonstration objects, see:
+              http://fedora-commons.org/confluence/x/AwFI.
+          </comment>
+          <dsTypeModel ID="TEI" ORDERED="false">
+            <form MIME="text/xml"></form>
+          </dsTypeModel>
+        </dsCompositeModel>
+</foxml:xmlContent>
+</foxml:datastreamVersion>
+<foxml:datastreamVersion ID="DS-COMPOSITE-MODEL.2" LABEL="Datastream Composite Model" CREATED="2008-12-19T19:39:26.787Z" MIMETYPE="text/xml" FORMAT_URI="info:fedora/fedora-system:FedoraDSCompositeModel-1.0" SIZE="1258">
+<foxml:xmlContent>
+<dsCompositeModel xmlns="info:fedora/fedora-system:def/dsCompositeModel#">
+          <comment xmlns="info:fedora/fedora-system:def/comment#">
+            This DS-COMPOSITE-MODEL datastream is included as a starting point to
+              assist in the creation of a content model. The DS-COMPOSITE-MODEL
+              should define the datastreams that are required for any objects
+              conforming to this content model.
+            For more information about content models, see:
+              http://fedora-commons.org/confluence/x/dgBI.
+            For examples of completed content model objects, see the demonstration
+              objects included with your Fedora distribution, such as:
+              demo:CMImage, demo:UVA_STD_IMAGE, demo:DualResImageCollection,
+              demo:TEI_TO_PDFDOC, and demo:XML_TO_HTMLDOC.
+            For more information about the demonstration objects, see:
+              http://fedora-commons.org/confluence/x/AwFI.
+          </comment>
+          <dsTypeModel ID="TEI" ORDERED="false">
+            <form MIME="text/xml"></form>
+          </dsTypeModel>
+          <dsTypeModel ID="PDF" ORDERED="false">
+            <form MIME="application/pdf"></form>
+          </dsTypeModel>
+        </dsCompositeModel>
+</foxml:xmlContent>
+</foxml:datastreamVersion>
+<foxml:datastreamVersion ID="DS-COMPOSITE-MODEL.3" LABEL="Datastream Composite Model" CREATED="2008-12-19T19:41:11.531Z" MIMETYPE="text/xml" FORMAT_URI="info:fedora/fedora-system:FedoraDSCompositeModel-1.0" SIZE="1618">
+<foxml:xmlContent>
+<dsCompositeModel xmlns="info:fedora/fedora-system:def/dsCompositeModel#">
+          <comment xmlns="info:fedora/fedora-system:def/comment#">
+            This DS-COMPOSITE-MODEL datastream is included as a starting point to
+              assist in the creation of a content model. The DS-COMPOSITE-MODEL
+              should define the datastreams that are required for any objects
+              conforming to this content model.
+            For more information about content models, see:
+              http://fedora-commons.org/confluence/x/dgBI.
+            For examples of completed content model objects, see the demonstration
+              objects included with your Fedora distribution, such as:
+              demo:CMImage, demo:UVA_STD_IMAGE, demo:DualResImageCollection,
+              demo:TEI_TO_PDFDOC, and demo:XML_TO_HTMLDOC.
+            For more information about the demonstration objects, see:
+              http://fedora-commons.org/confluence/x/AwFI.
+          </comment>
+          <dsTypeModel ID="TEI" ORDERED="false">
+            <form MIME="text/xml"></form>
+          </dsTypeModel>
+          <dsTypeModel ID="MARCXML" ORDERED="false">
+            <form MIME="text/xml"></form>
+          </dsTypeModel>
+          <dsTypeModel ID="MODS" ORDERED="false">
+            <form MIME="text/xml"></form>
+          </dsTypeModel>
+          <dsTypeModel ID="METSRights" ORDERED="false">
+            <form MIME="text/xml"></form>
+          </dsTypeModel>
+          <dsTypeModel ID="PDF" ORDERED="false">
+            <form MIME="application/pdf"></form>
+          </dsTypeModel>
+        </dsCompositeModel>
+</foxml:xmlContent>
+</foxml:datastreamVersion>
+<foxml:datastreamVersion ID="DS-COMPOSITE-MODEL.4" LABEL="Datastream Composite Model" CREATED="2009-01-23T13:39:14.821Z" MIMETYPE="text/xml" FORMAT_URI="info:fedora/fedora-system:FedoraDSCompositeModel-1.0" SIZE="1740">
+<foxml:xmlContent>
+<dsCompositeModel xmlns="info:fedora/fedora-system:def/dsCompositeModel#">
+          <comment xmlns="info:fedora/fedora-system:def/comment#">
+            This DS-COMPOSITE-MODEL datastream is included as a starting point to
+              assist in the creation of a content model. The DS-COMPOSITE-MODEL
+              should define the datastreams that are required for any objects
+              conforming to this content model.
+            For more information about content models, see:
+              http://fedora-commons.org/confluence/x/dgBI.
+            For examples of completed content model objects, see the demonstration
+              objects included with your Fedora distribution, such as:
+              demo:CMImage, demo:UVA_STD_IMAGE, demo:DualResImageCollection,
+              demo:TEI_TO_PDFDOC, and demo:XML_TO_HTMLDOC.
+            For more information about the demonstration objects, see:
+              http://fedora-commons.org/confluence/x/AwFI.
+          </comment>
+          <dsTypeModel ID="TEI" ORDERED="false">
+            <form MIME="text/xml"></form>
+          </dsTypeModel>
+          <dsTypeModel ID="MARCXML" ORDERED="false">
+            <form MIME="text/xml"></form>
+          </dsTypeModel>
+          <dsTypeModel ID="MODS" ORDERED="false">
+            <form MIME="text/xml"></form>
+          </dsTypeModel>
+          <dsTypeModel ID="METSRights" ORDERED="false">
+            <form MIME="text/xml"></form>
+          </dsTypeModel>
+          <dsTypeModel ID="StructMap" ORDERED="false">
+            <form MIME="text/xml"></form>
+          </dsTypeModel>
+          <dsTypeModel ID="PDF" ORDERED="false">
+            <form MIME="application/pdf"></form>
+          </dsTypeModel>
+        </dsCompositeModel>
+</foxml:xmlContent>
+</foxml:datastreamVersion>
+<foxml:datastreamVersion ID="DS-COMPOSITE-MODEL.5" LABEL="Datastream Composite Model" CREATED="2009-02-02T20:10:45.878Z" MIMETYPE="text/xml" FORMAT_URI="info:fedora/fedora-system:FedoraDSCompositeModel-1.0" SIZE="2011">
+<foxml:xmlContent>
+<dsCompositeModel xmlns="info:fedora/fedora-system:def/dsCompositeModel#">
+          <comment xmlns="info:fedora/fedora-system:def/comment#">
+            This DS-COMPOSITE-MODEL datastream is included as a starting point to
+              assist in the creation of a content model. The DS-COMPOSITE-MODEL
+              should define the datastreams that are required for any objects
+              conforming to this content model.
+            For more information about content models, see:
+              http://fedora-commons.org/confluence/x/dgBI.
+            For examples of completed content model objects, see the demonstration
+              objects included with your Fedora distribution, such as:
+              demo:CMImage, demo:UVA_STD_IMAGE, demo:DualResImageCollection,
+              demo:TEI_TO_PDFDOC, and demo:XML_TO_HTMLDOC.
+            For more information about the demonstration objects, see:
+              http://fedora-commons.org/confluence/x/AwFI.
+          </comment>
+          <dsTypeModel ID="TEI" ORDERED="false">
+            <form MIME="text/xml"></form>
+          </dsTypeModel>
+          <dsTypeModel ID="MARCXML" ORDERED="false">
+            <form MIME="text/xml"></form>
+          </dsTypeModel>
+          <dsTypeModel ID="MODS" ORDERED="false">
+            <form MIME="text/xml"></form>
+          </dsTypeModel>
+          <dsTypeModel ID="METSRights" ORDERED="false">
+            <form MIME="text/xml"></form>
+          </dsTypeModel>
+          <dsTypeModel ID="StructMap" ORDERED="false">
+            <form MIME="text/xml"></form>
+          </dsTypeModel>
+          <dsTypeModel ID="PDF" ORDERED="false">
+            <form MIME="application/pdf"></form>
+          </dsTypeModel>
+          <dsTypeModel ID="Correspondence" ORDERED="false">
+            <form MIME="application/pdf"></form>
+          </dsTypeModel>
+          <dsTypeModel ID="Permission_Letter" ORDERED="false">
+            <form MIME="application/pdf"></form>
+          </dsTypeModel>
+        </dsCompositeModel>
+</foxml:xmlContent>
+</foxml:datastreamVersion>
+<foxml:datastreamVersion ID="DS-COMPOSITE-MODEL.6" LABEL="Datastream Composite Model" CREATED="2009-03-11T19:14:32.337Z" MIMETYPE="text/xml" FORMAT_URI="info:fedora/fedora-system:FedoraDSCompositeModel-1.0" SIZE="2133">
+<foxml:xmlContent>
+<dsCompositeModel xmlns="info:fedora/fedora-system:def/dsCompositeModel#">
+          <comment xmlns="info:fedora/fedora-system:def/comment#">
+            This DS-COMPOSITE-MODEL datastream is included as a starting point to
+              assist in the creation of a content model. The DS-COMPOSITE-MODEL
+              should define the datastreams that are required for any objects
+              conforming to this content model.
+            For more information about content models, see:
+              http://fedora-commons.org/confluence/x/dgBI.
+            For examples of completed content model objects, see the demonstration
+              objects included with your Fedora distribution, such as:
+              demo:CMImage, demo:UVA_STD_IMAGE, demo:DualResImageCollection,
+              demo:TEI_TO_PDFDOC, and demo:XML_TO_HTMLDOC.
+            For more information about the demonstration objects, see:
+              http://fedora-commons.org/confluence/x/AwFI.
+          </comment>
+          <dsTypeModel ID="ABBYY_XML" ORDERED="false">
+            <form MIME="text/xml"></form>
+          </dsTypeModel>
+          <dsTypeModel ID="TEI" ORDERED="false">
+            <form MIME="text/xml"></form>
+          </dsTypeModel>
+          <dsTypeModel ID="MARCXML" ORDERED="false">
+            <form MIME="text/xml"></form>
+          </dsTypeModel>
+          <dsTypeModel ID="MODS" ORDERED="false">
+            <form MIME="text/xml"></form>
+          </dsTypeModel>
+          <dsTypeModel ID="METSRights" ORDERED="false">
+            <form MIME="text/xml"></form>
+          </dsTypeModel>
+          <dsTypeModel ID="StructMap" ORDERED="false">
+            <form MIME="text/xml"></form>
+          </dsTypeModel>
+          <dsTypeModel ID="PDF" ORDERED="false">
+            <form MIME="application/pdf"></form>
+          </dsTypeModel>
+          <dsTypeModel ID="Correspondence" ORDERED="false">
+            <form MIME="application/pdf"></form>
+          </dsTypeModel>
+          <dsTypeModel ID="Permission_Letter" ORDERED="false">
+            <form MIME="application/pdf"></form>
+          </dsTypeModel>
+        </dsCompositeModel>
+</foxml:xmlContent>
+</foxml:datastreamVersion>
+<foxml:datastreamVersion ID="DS-COMPOSITE-MODEL.7" LABEL="Datastream Composite Model" CREATED="2009-03-11T19:16:18.656Z" MIMETYPE="text/xml" FORMAT_URI="info:fedora/fedora-system:FedoraDSCompositeModel-1.0" SIZE="2378">
+<foxml:xmlContent>
+<dsCompositeModel xmlns="info:fedora/fedora-system:def/dsCompositeModel#">
+          <comment xmlns="info:fedora/fedora-system:def/comment#">
+            This DS-COMPOSITE-MODEL datastream is included as a starting point to
+              assist in the creation of a content model. The DS-COMPOSITE-MODEL
+              should define the datastreams that are required for any objects
+              conforming to this content model.
+            For more information about content models, see:
+              http://fedora-commons.org/confluence/x/dgBI.
+            For examples of completed content model objects, see the demonstration
+              objects included with your Fedora distribution, such as:
+              demo:CMImage, demo:UVA_STD_IMAGE, demo:DualResImageCollection,
+              demo:TEI_TO_PDFDOC, and demo:XML_TO_HTMLDOC.
+            For more information about the demonstration objects, see:
+              http://fedora-commons.org/confluence/x/AwFI.
+          </comment>
+          <dsTypeModel ID="ABBYY_XML" ORDERED="false">
+            <form MIME="text/xml"></form>
+          </dsTypeModel>
+          <dsTypeModel ID="ABBYY_OCR" ORDERED="false">
+            <form MIME="text/plain"></form>
+          </dsTypeModel>
+          <dsTypeModel ID="TEI" ORDERED="false">
+            <form MIME="text/xml"></form>
+          </dsTypeModel>
+          <dsTypeModel ID="MARCXML" ORDERED="false">
+            <form MIME="text/xml"></form>
+          </dsTypeModel>
+          <dsTypeModel ID="MODS" ORDERED="false">
+            <form MIME="text/xml"></form>
+          </dsTypeModel>
+          <dsTypeModel ID="METSRights" ORDERED="false">
+            <form MIME="text/xml"></form>
+          </dsTypeModel>
+          <dsTypeModel ID="StructMap" ORDERED="false">
+            <form MIME="text/xml"></form>
+          </dsTypeModel>
+          <dsTypeModel ID="PDF" ORDERED="false">
+            <form MIME="application/pdf"></form>
+          </dsTypeModel>
+          <dsTypeModel ID="Correspondence" ORDERED="false">
+            <form MIME="application/pdf"></form>
+          </dsTypeModel>
+          <dsTypeModel ID="Permission_Letter" ORDERED="false">
+            <form MIME="application/pdf"></form>
+          </dsTypeModel>
+          <dsTypeModel ID="CoverTN" ORDERED="false">
+            <form MIME="image/JPG"></form>
+          </dsTypeModel>
+        </dsCompositeModel>
+</foxml:xmlContent>
+</foxml:datastreamVersion>
+<foxml:datastreamVersion ID="DS-COMPOSITE-MODEL.8" LABEL="Datastream Composite Model" CREATED="2009-05-25T15:23:45.635Z" MIMETYPE="text/xml" FORMAT_URI="info:fedora/fedora-system:FedoraDSCompositeModel-1.0" SIZE="2000">
+<foxml:xmlContent>
+<dsCompositeModel xmlns="info:fedora/fedora-system:def/dsCompositeModel#">
+  <comment xmlns="info:fedora/fedora-system:def/comment#">
+            This DS-COMPOSITE-MODEL datastream is included as a starting point to
+              assist in the creation of a content model. The DS-COMPOSITE-MODEL
+              should define the datastreams that are required for any objects
+              conforming to this content model.
+            For more information about content models, see:
+              http://fedora-commons.org/confluence/x/dgBI.
+            For examples of completed content model objects, see the demonstration
+              objects included with your Fedora distribution, such as:
+              demo:CMImage, demo:UVA_STD_IMAGE, demo:DualResImageCollection,
+              demo:TEI_TO_PDFDOC, and demo:XML_TO_HTMLDOC.
+            For more information about the demonstration objects, see:
+              http://fedora-commons.org/confluence/x/AwFI.
+          </comment>
+  <dsTypeModel ID="ABBYY_XML" ORDERED="false">
+    <form MIME="text/xml"></form>
+  </dsTypeModel>
+  <dsTypeModel ID="ABBYY_OCR" ORDERED="false">
+    <form MIME="text/plain"></form>
+  </dsTypeModel>
+  <dsTypeModel ID="TEI" ORDERED="false">
+    <form MIME="text/xml"></form>
+  </dsTypeModel>
+  <dsTypeModel ID="MARCXML" ORDERED="false">
+    <form MIME="text/xml"></form>
+  </dsTypeModel>
+  <dsTypeModel ID="MODS" ORDERED="false">
+    <form MIME="text/xml"></form>
+  </dsTypeModel>
+  <dsTypeModel ID="METSRights" ORDERED="false">
+    <form MIME="text/xml"></form>
+  </dsTypeModel>
+  <dsTypeModel ID="PDF" ORDERED="false">
+    <form MIME="application/pdf"></form>
+  </dsTypeModel>
+  <dsTypeModel ID="Correspondence" ORDERED="false">
+    <form MIME="application/pdf"></form>
+  </dsTypeModel>
+  <dsTypeModel ID="Permission_Letter" ORDERED="false">
+    <form MIME="application/pdf"></form>
+  </dsTypeModel>
+  <dsTypeModel ID="CoverTN" ORDERED="false">
+    <form MIME="image/PNG"></form>
+  </dsTypeModel>
+</dsCompositeModel>
+</foxml:xmlContent>
+</foxml:datastreamVersion>
+<foxml:datastreamVersion ID="DS-COMPOSITE-MODEL.9" LABEL="Datastream Composite Model" CREATED="2009-05-25T15:24:25.593Z" MIMETYPE="text/xml" FORMAT_URI="info:fedora/fedora-system:FedoraDSCompositeModel-1.0" SIZE="2096">
+<foxml:xmlContent>
+<dsCompositeModel xmlns="info:fedora/fedora-system:def/dsCompositeModel#">
+  <comment xmlns="info:fedora/fedora-system:def/comment#">
+            This DS-COMPOSITE-MODEL datastream is included as a starting point to
+              assist in the creation of a content model. The DS-COMPOSITE-MODEL
+              should define the datastreams that are required for any objects
+              conforming to this content model.
+            For more information about content models, see:
+              http://fedora-commons.org/confluence/x/dgBI.
+            For examples of completed content model objects, see the demonstration
+              objects included with your Fedora distribution, such as:
+              demo:CMImage, demo:UVA_STD_IMAGE, demo:DualResImageCollection,
+              demo:TEI_TO_PDFDOC, and demo:XML_TO_HTMLDOC.
+            For more information about the demonstration objects, see:
+              http://fedora-commons.org/confluence/x/AwFI.
+          </comment>
+  <dsTypeModel ID="ABBYY_XML" ORDERED="false">
+    <form MIME="text/xml"></form>
+  </dsTypeModel>
+  <dsTypeModel ID="ABBYY_OCR" ORDERED="false">
+    <form MIME="text/plain"></form>
+  </dsTypeModel>
+  <dsTypeModel ID="TEI" ORDERED="false">
+    <form MIME="text/xml"></form>
+  </dsTypeModel>
+  <dsTypeModel ID="MARCXML" ORDERED="false">
+    <form MIME="text/xml"></form>
+  </dsTypeModel>
+  <dsTypeModel ID="MODS" ORDERED="false">
+    <form MIME="text/xml"></form>
+  </dsTypeModel>
+  <dsTypeModel ID="METSRights" ORDERED="false">
+    <form MIME="text/xml"></form>
+  </dsTypeModel>
+  <dsTypeModel ID="PDF" ORDERED="false">
+    <form MIME="application/pdf"></form>
+  </dsTypeModel>
+  <dsTypeModel ID="Correspondence" ORDERED="false">
+    <form MIME="application/pdf"></form>
+  </dsTypeModel>
+  <dsTypeModel ID="Permission_Letter" ORDERED="false">
+    <form MIME="application/pdf"></form>
+  </dsTypeModel>
+  <dsTypeModel ID="CoverTN" ORDERED="false">
+    <form MIME="image/PNG"></form>
+  </dsTypeModel>
+  <dsTypeModel ID="MEDIUM" ORDERED="false">
+    <form MIME="image/PNG"></form>
+  </dsTypeModel>
+</dsCompositeModel>
+</foxml:xmlContent>
+</foxml:datastreamVersion>
+<foxml:datastreamVersion ID="DS-COMPOSITE-MODEL.10" LABEL="Datastream Composite Model" CREATED="2009-06-01T16:49:01.676Z" MIMETYPE="text/xml" FORMAT_URI="info:fedora/fedora-system:FedoraDSCompositeModel-1.0" SIZE="1995">
+<foxml:xmlContent>
+<dsCompositeModel xmlns="info:fedora/fedora-system:def/dsCompositeModel#">
+  <comment xmlns="info:fedora/fedora-system:def/comment#">
+            This DS-COMPOSITE-MODEL datastream is included as a starting point to
+              assist in the creation of a content model. The DS-COMPOSITE-MODEL
+              should define the datastreams that are required for any objects
+              conforming to this content model.
+            For more information about content models, see:
+              http://fedora-commons.org/confluence/x/dgBI.
+            For examples of completed content model objects, see the demonstration
+              objects included with your Fedora distribution, such as:
+              demo:CMImage, demo:UVA_STD_IMAGE, demo:DualResImageCollection,
+              demo:TEI_TO_PDFDOC, and demo:XML_TO_HTMLDOC.
+            For more information about the demonstration objects, see:
+              http://fedora-commons.org/confluence/x/AwFI.
+          </comment>
+  <dsTypeModel ID="ABBYY_XML" ORDERED="false">
+    <form MIME="text/xml"></form>
+  </dsTypeModel>
+  <dsTypeModel ID="ABBYY_OCR" ORDERED="false">
+    <form MIME="text/plain"></form>
+  </dsTypeModel>
+  <dsTypeModel ID="TEI" ORDERED="false">
+    <form MIME="text/xml"></form>
+  </dsTypeModel>
+  <dsTypeModel ID="MARCXML" ORDERED="false">
+    <form MIME="text/xml"></form>
+  </dsTypeModel>
+  <dsTypeModel ID="MODS" ORDERED="false">
+    <form MIME="text/xml"></form>
+  </dsTypeModel>
+  <dsTypeModel ID="METSRights" ORDERED="false">
+    <form MIME="text/xml"></form>
+  </dsTypeModel>
+  <dsTypeModel ID="PDF" ORDERED="false">
+    <form MIME="application/pdf"></form>
+  </dsTypeModel>
+  <dsTypeModel ID="Correspondence" ORDERED="false">
+    <form MIME="application/pdf"></form>
+  </dsTypeModel>
+  <dsTypeModel ID="Permission_Letter" ORDERED="false">
+    <form MIME="application/pdf"></form>
+  </dsTypeModel>
+  <dsTypeModel ID="TN" ORDERED="false">
+    <form MIME="image/jpg"></form>
+  </dsTypeModel>
+</dsCompositeModel>
+</foxml:xmlContent>
+</foxml:datastreamVersion>
+<foxml:datastreamVersion ID="DS-COMPOSITE-MODEL.11" LABEL="Datastream Composite Model" CREATED="2009-06-06T17:01:33.741Z" MIMETYPE="text/xml" FORMAT_URI="info:fedora/fedora-system:FedoraDSCompositeModel-1.0" SIZE="2195">
+<foxml:xmlContent>
+<dsCompositeModel xmlns="info:fedora/fedora-system:def/dsCompositeModel#">
+  <comment xmlns="info:fedora/fedora-system:def/comment#">
+            This DS-COMPOSITE-MODEL datastream is included as a starting point to
+              assist in the creation of a content model. The DS-COMPOSITE-MODEL
+              should define the datastreams that are required for any objects
+              conforming to this content model.
+            For more information about content models, see:
+              http://fedora-commons.org/confluence/x/dgBI.
+            For examples of completed content model objects, see the demonstration
+              objects included with your Fedora distribution, such as:
+              demo:CMImage, demo:UVA_STD_IMAGE, demo:DualResImageCollection,
+              demo:TEI_TO_PDFDOC, and demo:XML_TO_HTMLDOC.
+            For more information about the demonstration objects, see:
+              http://fedora-commons.org/confluence/x/AwFI.
+          </comment>
+  <dsTypeModel ID="ABBYY_XML" ORDERED="false">
+    <form MIME="text/xml"></form>
+  </dsTypeModel>
+  <dsTypeModel ID="ABBYY_OCR" ORDERED="false">
+    <form MIME="text/plain"></form>
+  </dsTypeModel>
+  <dsTypeModel ID="TEI" ORDERED="false">
+    <form MIME="text/xml"></form>
+  </dsTypeModel>
+  <dsTypeModel ID="MARCXML" ORDERED="false">
+    <form MIME="text/xml"></form>
+  </dsTypeModel>
+  <dsTypeModel ID="MODS" ORDERED="false">
+    <form MIME="text/xml"></form>
+  </dsTypeModel>
+  <dsTypeModel ID="METSRights" ORDERED="false">
+    <form MIME="text/xml"></form>
+  </dsTypeModel>
+  <dsTypeModel ID="PDF" ORDERED="false">
+    <form MIME="application/pdf"></form>
+  </dsTypeModel>
+  <dsTypeModel ID="Correspondence" ORDERED="false">
+    <form MIME="application/pdf"></form>
+  </dsTypeModel>
+  <dsTypeModel ID="Permission_Letter" ORDERED="false">
+    <form MIME="application/pdf"></form>
+  </dsTypeModel>
+  <dsTypeModel ID="TN" ORDERED="false">
+    <form MIME="image/jpg"></form>
+  </dsTypeModel>
+  <dsTypeModel ID="QUERY" ORDERED="false">
+    <form MIME="text/plain"></form>
+  </dsTypeModel>
+  <dsTypeModel ID="COLLECTION_VIEW" ORDERED="false">
+    <form MIME="text/xml"></form>
+  </dsTypeModel>
+</dsCompositeModel>
+</foxml:xmlContent>
+</foxml:datastreamVersion>
+</foxml:datastream>
+<foxml:datastream ID="DC" STATE="A" CONTROL_GROUP="X" VERSIONABLE="true">
+<foxml:datastreamVersion ID="DC1.0" LABEL="Dublin Core Record for this object" CREATED="2008-12-14T00:12:52.636Z" MIMETYPE="text/xml" FORMAT_URI="http://www.openarchives.org/OAI/2.0/oai_dc/" SIZE="404">
+<foxml:xmlContent>
+<oai_dc:dc xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>cBookModel</dc:title>
+          <dc:identifier>ilives:bookCModel</dc:identifier>
+        </oai_dc:dc>
+</foxml:xmlContent>
+</foxml:datastreamVersion>
+<foxml:datastreamVersion ID="DC.1" LABEL="Dublin Core Record for this object" CREATED="2008-12-19T19:01:00.277Z" MIMETYPE="text/xml" FORMAT_URI="http://www.openarchives.org/OAI/2.0/oai_dc/" SIZE="258">
+<foxml:xmlContent>
+<oai_dc:dc xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/">
+          <dc:title>CModel Definition for TEI text</dc:title>
+          <dc:identifier>ilives:bookCModel</dc:identifier>
+        </oai_dc:dc>
+</foxml:xmlContent>
+</foxml:datastreamVersion>
+<foxml:datastreamVersion ID="DC.2" LABEL="Dublin Core Record for this object" CREATED="2009-02-13T17:57:45.873Z" MIMETYPE="text/xml" FORMAT_URI="http://www.openarchives.org/OAI/2.0/oai_dc/" SIZE="388">
+<foxml:xmlContent>
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+  <dc:title>Book Content Model</dc:title>
+  <dc:identifier>ilives:bookCModel</dc:identifier>
+</oai_dc:dc>
+</foxml:xmlContent>
+</foxml:datastreamVersion>
+</foxml:datastream>
+<foxml:datastream ID="ISLANDORACM" STATE="A" CONTROL_GROUP="X" VERSIONABLE="true">
+<foxml:datastreamVersion ID="ISLANDORACM.0" LABEL="ISLANDORACM" CREATED="2009-05-25T15:47:14.902Z" MIMETYPE="text/xml" SIZE="6568">
+<foxml:xmlContent>
+<content_model name="standard_jp2">
+  <mimetypes>
+    <type>image/jp2</type>
+  </mimetypes>
+  <display_in_fieldset>
+    <datastream id="JP2">
+      <method>
+        <file>plugins/ShowStreamsInFieldSets.php
+        </file>
+        <class_name>ShowStreamsInFieldSets
+        </class_name>
+        <method_name>showJP2</method_name>
+      </method>
+    </datastream>
+    <datastream id="QDC">
+      <method>
+        <file>plugins/ShowStreamsInFieldSets.php
+        </file>
+        <class_name>ShowStreamsInFieldSets
+        </class_name>
+        <method_name>showQdc</method_name>
+      </method>
+    </datastream>
+  </display_in_fieldset>
+  <ingest_rules>
+    <rule>
+      <applies_to>
+        image/jpeg
+           </applies_to>
+      <methods>
+        <method>
+          <file>plugins/ImageManipulation.php
+          </file>
+          <class_name>ImageManipulation</class_name>
+          <method_name>manipulateImage</method_name>
+          <modified_files_ext>jpg</modified_files_ext>
+          <datastream_id>MEDIUM_SIZE</datastream_id>
+          <parameters>
+            <parameter name="width">160</parameter>
+            <parameter name="height">120</parameter>
+          </parameters>
+        </method>
+        <method>
+          <file>plugins/ImageManipulation.php
+          </file>
+          <class_name>ImageManipulation</class_name>
+          <method_name>manipulateImage</method_name>
+          <modified_files_ext>jpg</modified_files_ext>
+          <datastream_id>TN</datastream_id>
+          <parameters>
+            <parameter name="width">120</parameter>
+            <parameter name="height">120</parameter>
+          </parameters>
+        </method>
+      </methods>
+    </rule>
+  </ingest_rules>
+  <ingest_form dsid="QDC" page="2">
+    <form_builder_method>
+      <file>plugins/DemoFormBuilder.php
+      </file>
+      <class_name>DemoFormBuilder</class_name>
+      <method_name>buildQDCForm</method_name>
+      <form_handler>handleQDCForm</form_handler>
+      
+    </form_builder_method>
+    <form_elements>
+      <element>
+        <label>Title/Caption/Image Name</label>
+        <name>dc:title</name>
+        <type>textfield</type>
+        <description>The name given to the resource</description>
+        <required>true</required>
+      </element>
+      <element>
+        <label>Creator/Photographer</label>
+        <name>dc:creator</name>
+        <type>textfield</type>
+        <description>An entity primarily responsible for making the
+          content of the resource such as a person, organization or
+          service.</description>
+        <required>false</required>
+      </element>
+      <element>
+        <label>Subject</label>
+        <name>dc:subject</name>
+        <type>select</type>
+        <description>Subject</description>
+        <required>false</required>
+        <authoritative_list>
+          <item>
+            <field>image</field>
+            <value>image</value>
+          </item>
+          <item>
+            <field>photograph</field>
+            <value>photograph</value>
+          </item>
+          <item>
+            <field>presentation</field>
+            <value>presentation</value>
+          </item>
+          <item>
+            <field>art</field>
+            <value>art</value>
+          </item>
+        </authoritative_list>
+      </element>
+      <element>
+        <label>Description</label>
+        <name>dc:description</name>
+        <type>textarea</type>
+        <description>Description of the Image</description>
+        <required>true</required>
+      </element>
+      <element>
+        <label>Publisher</label>
+        <name>dc:publisher</name>
+        <type>textfield</type>
+        <description>An entity, (including persons, organizations, or
+          services), responsible for making the resource available.
+        </description>
+        <required>false</required>
+      </element>
+      <element>
+        <label>Contributor</label>
+        <name>dc:contributor</name>
+        <type>textfield</type>
+        <description>An entity responsible for contributing to the
+          content of the resource such as a person, organization or
+          service.</description>
+        <required>false</required>
+      </element>
+      <element>
+        <label>Date</label>
+        <name>dc:date</name>
+        <type>textfield</type>
+        <description>Temporal scope of the content if known.
+          Date format is YYYY-MM-DD (e.g. 1890,1910-10,or 2007-10-23)
+        </description>
+        <required>false</required>
+      </element>
+      <element>
+        <label>Resource Type</label>
+        <name>dc:type</name>
+        <type>textfield</type>
+        <description>Genre of the content of the resource. Examples
+          include: home page, novel, poem, working paper, technical
+          report, essay, dictionary.</description>
+        <required>false</required>
+      </element>
+      <element>
+        <label>Source</label>
+        <name>dc:source</name>
+        <type>textfield</type>
+        <description>A reference to a resource from which the present
+          resource is derived.</description>
+        <required>false</required>
+      </element>
+      <element>
+        <label>Identifier</label>
+        <name>dc:identifier</name>
+        <type>textfield</type>
+        <description>A unique reference to the resource; In this
+          instance, the accession number or collection number.
+        </description>
+        <required>false</required>
+      </element>
+      <element>
+        <label>Language</label>
+        <name>dc:language</name>
+        <type>select</type>
+        <description>The language of the intellectual content of the
+          resource.</description>
+        <required>false</required>
+        <authoritative_list>
+          <item>
+            <field>eng</field>
+            <value>English</value>
+          </item>
+          <item>
+            <field>fre</field>
+            <value>French</value>
+          </item>
+        </authoritative_list>
+      </element>
+      <element>
+        <label>Relation</label>
+        <name>dc:relation</name>
+        <type>textfield</type>
+        <description>Reference to a related resource.
+        </description>
+        <required>false</required>
+      </element>
+      <element>
+        <label>Rights Management</label>
+        <name>dc:rights</name>
+        <type>textarea</type>
+        <description>Information about intellectual property
+          rights, copyright, and various property rights.</description>
+        <required>false</required>
+      </element>
+    </form_elements>
+  </ingest_form>
+</content_model>
+</foxml:xmlContent>
+</foxml:datastreamVersion>
+<foxml:datastreamVersion ID="ISLANDORACM.1" LABEL="ISLANDORACM" CREATED="2009-05-25T19:41:22.410Z" MIMETYPE="text/xml" SIZE="6525">
+<foxml:xmlContent>
+<content_model name="standard_jp2">
+  <mimetypes>
+    <type>image/jp2</type>
+  </mimetypes>
+  <display_in_fieldset>
+    <datastream id="JP2">
+      <method>
+        <file>plugins/ShowStreamsInFieldSets.php</file>
+        <class_name>ShowStreamsInFieldSets</class_name>
+        <method_name>showJP2</method_name>
+      </method>
+    </datastream>
+    <datastream id="QDC">
+      <method>
+        <file>plugins/ShowStreamsInFieldSets.php</file>
+        <class_name>ShowStreamsInFieldSets</class_name>
+        <method_name>showQdc</method_name>
+      </method>
+    </datastream>
+  </display_in_fieldset>
+  <ingest_rules>
+    <rule>
+      <applies_to>
+        image/jpeg
+           </applies_to>
+      <methods>
+        <method>
+          <file>plugins/ImageManipulation.php
+          </file>
+          <class_name>ImageManipulation</class_name>
+          <method_name>manipulateImage</method_name>
+          <modified_files_ext>jpg</modified_files_ext>
+          <datastream_id>MEDIUM_SIZE</datastream_id>
+          <parameters>
+            <parameter name="width">160</parameter>
+            <parameter name="height">120</parameter>
+          </parameters>
+        </method>
+        <method>
+          <file>plugins/ImageManipulation.php
+          </file>
+          <class_name>ImageManipulation</class_name>
+          <method_name>manipulateImage</method_name>
+          <modified_files_ext>jpg</modified_files_ext>
+          <datastream_id>TN</datastream_id>
+          <parameters>
+            <parameter name="width">120</parameter>
+            <parameter name="height">120</parameter>
+          </parameters>
+        </method>
+      </methods>
+    </rule>
+  </ingest_rules>
+  <ingest_form dsid="QDC" page="2">
+    <form_builder_method>
+      <file>plugins/DemoFormBuilder.php
+      </file>
+      <class_name>DemoFormBuilder</class_name>
+      <method_name>buildQDCForm</method_name>
+      <form_handler>handleQDCForm</form_handler>
+    </form_builder_method>
+    <form_elements>
+      <element>
+        <label>Title/Caption/Image Name</label>
+        <name>dc:title</name>
+        <type>textfield</type>
+        <description>The name given to the resource</description>
+        <required>true</required>
+      </element>
+      <element>
+        <label>Creator/Photographer</label>
+        <name>dc:creator</name>
+        <type>textfield</type>
+        <description>An entity primarily responsible for making the
+          content of the resource such as a person, organization or
+          service.</description>
+        <required>false</required>
+      </element>
+      <element>
+        <label>Subject</label>
+        <name>dc:subject</name>
+        <type>select</type>
+        <description>Subject</description>
+        <required>false</required>
+        <authoritative_list>
+          <item>
+            <field>image</field>
+            <value>image</value>
+          </item>
+          <item>
+            <field>photograph</field>
+            <value>photograph</value>
+          </item>
+          <item>
+            <field>presentation</field>
+            <value>presentation</value>
+          </item>
+          <item>
+            <field>art</field>
+            <value>art</value>
+          </item>
+        </authoritative_list>
+      </element>
+      <element>
+        <label>Description</label>
+        <name>dc:description</name>
+        <type>textarea</type>
+        <description>Description of the Image</description>
+        <required>true</required>
+      </element>
+      <element>
+        <label>Publisher</label>
+        <name>dc:publisher</name>
+        <type>textfield</type>
+        <description>An entity, (including persons, organizations, or
+          services), responsible for making the resource available.
+        </description>
+        <required>false</required>
+      </element>
+      <element>
+        <label>Contributor</label>
+        <name>dc:contributor</name>
+        <type>textfield</type>
+        <description>An entity responsible for contributing to the
+          content of the resource such as a person, organization or
+          service.</description>   
+     <required>false</required>
+      </element>
+      <element>
+        <label>Date</label>
+        <name>dc:date</name>
+        <type>textfield</type>
+        <description>Temporal scope of the content if known.
+          Date format is YYYY-MM-DD (e.g. 1890,1910-10,or 2007-10-23)
+        </description>
+        <required>false</required>
+      </element>
+      <element>
+        <label>Resource Type</label>
+        <name>dc:type</name>
+        <type>textfield</type>
+        <description>Genre of the content of the resource. Examples
+          include: home page, novel, poem, working paper, technical
+          report, essay, dictionary.</description>
+        <required>false</required>
+      </element>
+      <element>
+        <label>Source</label>
+        <name>dc:source</name>
+        <type>textfield</type>
+        <description>A reference to a resource from which the present
+          resource is derived.</description>
+        <required>false</required>
+      </element>
+      <element>
+        <label>Identifier</label>
+        <name>dc:identifier</name>
+        <type>textfield</type>
+        <description>A unique reference to the resource; In this
+          instance, the accession number or collection number.
+        </description>
+        <required>false</required>
+      </element>
+      <element>
+        <label>Language</label>
+        <name>dc:language</name>
+        <type>select</type>
+        <description>The language of the intellectual content of the
+          resource.</description>
+        <required>false</required>
+        <authoritative_list>
+          <item>
+            <field>eng</field>
+            <value>English</value>
+          </item>
+          <item>
+            <field>fre</field>
+            <value>French</value>
+          </item>
+        </authoritative_list>
+      </element>
+      <element>
+        <label>Relation</label>
+        <name>dc:relation</name>
+        <type>textfield</type>
+        <description>Reference to a related resource.
+        </description>
+        <required>false</required>
+      </element>
+      <element>
+        <label>Rights Management</label>
+        <name>dc:rights</name>
+        <type>textarea</type>
+        <description>Information about intellectual property
+          rights, copyright, and various property rights.</description>
+        <required>false</required>
+      </element>
+    </form_elements>
+  </ingest_form>
+</content_model>
+</foxml:xmlContent>
+</foxml:datastreamVersion>
+<foxml:datastreamVersion ID="ISLANDORACM.2" LABEL="ISLANDORACM" CREATED="2009-06-09T20:28:21.204Z" MIMETYPE="text/xml" SIZE="6563">
+<foxml:xmlContent>
+<content_model name="standard_jp2">
+  <mimetypes>
+    <type>image/jp2</type>
+  </mimetypes>
+  <display_in_fieldset>
+    <datastream id="TN"></datastream>
+    <datastream id="JP2">
+      <method>
+        <file>plugins/ShowStreamsInFieldSets.php</file>
+        <class_name>ShowStreamsInFieldSets</class_name>
+        <method_name>showJP2</method_name>
+      </method>
+    </datastream>
+    <datastream id="QDC">
+      <method>
+        <file>plugins/ShowStreamsInFieldSets.php</file>
+        <class_name>ShowStreamsInFieldSets</class_name>
+        <method_name>showQdc</method_name>
+      </method>
+    </datastream>
+  </display_in_fieldset>
+  <ingest_rules>
+    <rule>
+      <applies_to>
+        image/jpeg
+           </applies_to>
+      <methods>
+        <method>
+          <file>plugins/ImageManipulation.php
+          </file>
+          <class_name>ImageManipulation</class_name>
+          <method_name>manipulateImage</method_name>
+          <modified_files_ext>jpg</modified_files_ext>
+          <datastream_id>MEDIUM_SIZE</datastream_id>
+          <parameters>
+            <parameter name="width">160</parameter>
+            <parameter name="height">120</parameter>
+          </parameters>
+        </method>
+        <method>
+          <file>plugins/ImageManipulation.php
+          </file>
+          <class_name>ImageManipulation</class_name>
+          <method_name>manipulateImage</method_name>
+          <modified_files_ext>jpg</modified_files_ext>
+          <datastream_id>TN</datastream_id>
+          <parameters>
+            <parameter name="width">120</parameter>
+            <parameter name="height">120</parameter>
+          </parameters>
+        </method>
+      </methods>
+    </rule>
+  </ingest_rules>
+  <ingest_form dsid="QDC" page="2">
+    <form_builder_method>
+      <file>plugins/DemoFormBuilder.php
+      </file>
+      <class_name>DemoFormBuilder</class_name>
+      <method_name>buildQDCForm</method_name>
+      <form_handler>handleQDCForm</form_handler>
+    </form_builder_method>
+    <form_elements>
+      <element>
+        <label>Title/Caption/Image Name</label>
+        <name>dc:title</name>
+        <type>textfield</type>
+        <description>The name given to the resource</description>
+        <required>true</required>
+      </element>
+      <element>
+        <label>Creator/Photographer</label>
+        <name>dc:creator</name>
+        <type>textfield</type>
+        <description>An entity primarily responsible for making the
+          content of the resource such as a person, organization or
+          service.</description>
+        <required>false</required>
+      </element>
+      <element>
+        <label>Subject</label>
+        <name>dc:subject</name>
+        <type>select</type>
+        <description>Subject</description>
+        <required>false</required>
+        <authoritative_list>
+          <item>
+            <field>image</field>
+            <value>image</value>
+          </item>
+          <item>
+            <field>photograph</field>
+            <value>photograph</value>
+          </item>
+          <item>
+            <field>presentation</field>
+            <value>presentation</value>
+          </item>
+          <item>
+            <field>art</field>
+            <value>art</value>
+          </item>
+        </authoritative_list>
+      </element>
+      <element>
+        <label>Description</label>
+        <name>dc:description</name>
+        <type>textarea</type>
+        <description>Description of the Image</description>
+        <required>true</required>
+      </element>
+      <element>
+        <label>Publisher</label>
+        <name>dc:publisher</name>
+        <type>textfield</type>
+        <description>An entity, (including persons, organizations, or
+          services), responsible for making the resource available.
+        </description>
+        <required>false</required>
+      </element>
+      <element>
+        <label>Contributor</label>
+        <name>dc:contributor</name>
+        <type>textfield</type>
+        <description>An entity responsible for contributing to the
+          content of the resource such as a person, organization or          
+service.</description>
+        <required>false</required>
+      </element>
+      <element>
+        <label>Date</label>
+        <name>dc:date</name>
+        <type>textfield</type>
+        <description>Temporal scope of the content if known.
+          Date format is YYYY-MM-DD (e.g. 1890,1910-10,or 2007-10-23)
+        </description>
+        <required>false</required>
+      </element>
+      <element>
+        <label>Resource Type</label>
+        <name>dc:type</name>
+        <type>textfield</type>
+        <description>Genre of the content of the resource. Examples
+          include: home page, novel, poem, working paper, technical
+          report, essay, dictionary.</description>
+        <required>false</required>
+      </element>
+      <element>
+        <label>Source</label>
+        <name>dc:source</name>
+        <type>textfield</type>
+        <description>A reference to a resource from which the present
+          resource is derived.</description>
+        <required>false</required>
+      </element>
+      <element>
+        <label>Identifier</label>
+        <name>dc:identifier</name>
+        <type>textfield</type>
+        <description>A unique reference to the resource; In this
+          instance, the accession number or collection number.
+        </description>
+        <required>false</required>
+      </element>
+      <element>
+        <label>Language</label>
+        <name>dc:language</name>
+        <type>select</type>
+        <description>The language of the intellectual content of the
+          resource.</description>
+        <required>false</required>
+        <authoritative_list>
+          <item>
+            <field>eng</field>
+            <value>English</value>
+          </item>
+          <item>
+            <field>fre</field>
+            <value>French</value>
+          </item>
+        </authoritative_list>
+      </element>
+      <element>
+        <label>Relation</label>
+        <name>dc:relation</name>
+        <type>textfield</type>
+        <description>Reference to a related resource.
+        </description>
+        <required>false</required>
+      </element>
+      <element>
+        <label>Rights Management</label>
+        <name>dc:rights</name>
+        <type>textarea</type>
+        <description>Information about intellectual property
+          rights, copyright, and various property rights.</description>
+        <required>false</required>
+      </element>
+    </form_elements>
+  </ingest_form>
+</content_model>
+</foxml:xmlContent>
+</foxml:datastreamVersion>
+<foxml:datastreamVersion ID="ISLANDORACM.3" LABEL="ISLANDORACM" CREATED="2009-08-10T15:08:23.431Z" MIMETYPE="text/xml" SIZE="6609">
+<foxml:xmlContent>
+<content_model name="standard_jp2">
+  <mimetypes>
+    <type>image/jp2</type>
+  </mimetypes>
+  <display_in_fieldset>
+    <datastream id="TN"></datastream>
+    <datastream id="METSRIGHTS"></datastream>
+    <datastream id="JP2">
+      <method>
+        <file>plugins/ShowStreamsInFieldSets.php</file>
+        <class_name>ShowStreamsInFieldSets</class_name>
+        <method_name>showJP2</method_name>
+      </method>
+    </datastream>
+    <datastream id="QDC">
+      <method>
+        <file>plugins/ShowStreamsInFieldSets.php</file>
+        <class_name>ShowStreamsInFieldSets</class_name>
+        <method_name>showQdc</method_name>
+      </method>
+    </datastream>
+  </display_in_fieldset>
+  <ingest_rules>
+    <rule>
+      <applies_to>
+        image/jpeg
+           </applies_to>
+      <methods>
+        <method>
+          <file>plugins/ImageManipulation.php
+          </file>
+          <class_name>ImageManipulation</class_name>
+          <method_name>manipulateImage</method_name>
+          <modified_files_ext>jpg</modified_files_ext>
+          <datastream_id>MEDIUM_SIZE</datastream_id>
+          <parameters>
+            <parameter name="width">160</parameter>
+            <parameter name="height">120</parameter>
+          </parameters>
+        </method>
+        <method>
+          <file>plugins/ImageManipulation.php
+          </file>
+          <class_name>ImageManipulation</class_name>
+          <method_name>manipulateImage</method_name>
+          <modified_files_ext>jpg</modified_files_ext>
+          <datastream_id>TN</datastream_id>
+          <parameters>
+            <parameter name="width">120</parameter>
+            <parameter name="height">120</parameter>
+          </parameters>
+        </method>
+      </methods>
+    </rule>
+  </ingest_rules>
+  <ingest_form dsid="QDC" page="2">
+    <form_builder_method>
+      <file>plugins/DemoFormBuilder.php
+      </file>
+      <class_name>DemoFormBuilder</class_name>
+      <method_name>buildQDCForm</method_name>
+      <form_handler>handleQDCForm</form_handler>
+    </form_builder_method>
+    <form_elements>
+      <element>
+        <label>Title/Caption/Image Name</label>
+        <name>dc:title</name>
+        <type>textfield</type>
+        <description>The name given to the resource</description>
+        <required>true</required>
+      </element>
+      <element>
+        <label>Creator/Photographer</label>
+        <name>dc:creator</name>
+        <type>textfield</type>
+        <description>An entity primarily responsible for making the
+          content of the resource such as a person, organization or
+          service.</description>
+        <required>false</required>
+      </element>
+      <element>
+        <label>Subject</label>
+        <name>dc:subject</name>
+        <type>select</type>
+        <description>Subject</description>
+        <required>false</required>
+        <authoritative_list>
+          <item>
+            <field>image</field>
+            <value>image</value>
+          </item>
+          <item>
+            <field>photograph</field>
+            <value>photograph</value>
+          </item>
+          <item>
+            <field>presentation</field>
+            <value>presentation</value>
+          </item>
+          <item>
+            <field>art</field>
+            <value>art</value>
+          </item>
+        </authoritative_list>
+      </element>
+      <element>
+        <label>Description</label>
+        <name>dc:description</name>
+        <type>textarea</type>
+        <description>Description of the Image</description>
+        <required>true</required>
+      </element>
+      <element>
+        <label>Publisher</label>
+        <name>dc:publisher</name>
+        <type>textfield</type>
+        <description>An entity, (including persons, organizations, or
+          services), responsible for making the resource available.
+        </description>
+        <required>false</required>
+      </element>
+      <element>
+        <label>Contributor</label>
+        <name>dc:contributor</name>
+        <type>textfield</type>
+        <description>An entity responsible for contributing to the
+          content of the resource such as a person, organization or          
+service.</description>
+        <required>false</required>
+      </element>
+      <element>
+        <label>Date</label>
+        <name>dc:date</name>
+        <type>textfield</type>
+        <description>Temporal scope of the content if known.
+          Date format is YYYY-MM-DD (e.g. 1890,1910-10,or 2007-10-23)
+        </description>
+        <required>false</required>
+      </element>
+      <element>
+        <label>Resource Type</label>
+        <name>dc:type</name>
+        <type>textfield</type>
+        <description>Genre of the content of the resource. Examples
+          include: home page, novel, poem, working paper, technical
+          report, essay, dictionary.</description>
+        <required>false</required>
+      </element>
+      <element>
+        <label>Source</label>
+        <name>dc:source</name>
+        <type>textfield</type>
+        <description>A reference to a resource from which the present
+          resource is derived.</description>
+        <required>false</required>
+      </element>
+      <element>
+        <label>Identifier</label>
+        <name>dc:identifier</name>
+        <type>textfield</type>
+        <description>A unique reference to the resource; In this
+          instance, the accession number or collection number.
+        </description>
+        <required>false</required>
+      </element>
+      <element>
+        <label>Language</label>
+        <name>dc:language</name>
+        <type>select</type>
+        <description>The language of the intellectual content of the
+          resource.</description>
+        <required>false</required>
+        <authoritative_list>
+          <item>
+            <field>eng</field>
+            <value>English</value>
+          </item>
+          <item>
+            <field>fre</field>
+            <value>French</value>
+          </item>
+        </authoritative_list>
+      </element>
+      <element>
+        <label>Relation</label>
+        <name>dc:relation</name>
+        <type>textfield</type>
+        <description>Reference to a related resource.
+        </description>
+        <required>false</required>
+      </element>
+      <element>
+        <label>Rights Management</label>
+        <name>dc:rights</name>
+        <type>textarea</type>
+        <description>Information about intellectual property
+          rights, copyright, and various property rights.</description>
+        <required>false</required>
+      </element>
+    </form_elements>
+  </ingest_form>
+</content_model>
+</foxml:xmlContent>
+</foxml:datastreamVersion>
+<foxml:datastreamVersion ID="ISLANDORACM.4" LABEL="ISLANDORACM" CREATED="2009-08-10T15:12:10.447Z" MIMETYPE="text/xml" SIZE="6778">
+<foxml:xmlContent>
+<content_model name="standard_jp2">
+  <mimetypes>
+    <type>image/jp2</type>
+  </mimetypes>
+  <display_in_fieldset>
+    <datastream id="TN"></datastream>
+    <datastream id="METSRIGHTS"></datastream>
+    <datastream id="POLICY"></datastream>
+    <datastream id="MARCXML"></datastream>
+    <datastream id="MODS"></datastream>
+    <datastream id="RELS-EXT"></datastream>
+    <datastream id="JP2">
+      <method>
+        <file>plugins/ShowStreamsInFieldSets.php</file>
+        <class_name>ShowStreamsInFieldSets</class_name>
+        <method_name>showJP2</method_name>
+      </method>
+    </datastream>
+    <datastream id="QDC">
+      <method>
+        <file>plugins/ShowStreamsInFieldSets.php</file>
+        <class_name>ShowStreamsInFieldSets</class_name>
+        <method_name>showQdc</method_name>
+      </method>
+    </datastream>
+  </display_in_fieldset>
+  <ingest_rules>
+    <rule>
+      <applies_to>
+        image/jpeg
+           </applies_to>
+      <methods>
+        <method>
+          <file>plugins/ImageManipulation.php
+          </file>
+          <class_name>ImageManipulation</class_name>
+          <method_name>manipulateImage</method_name>
+          <modified_files_ext>jpg</modified_files_ext>
+          <datastream_id>MEDIUM_SIZE</datastream_id>
+          <parameters>
+            <parameter name="width">160</parameter>
+            <parameter name="height">120</parameter>
+          </parameters>
+        </method>
+        <method>
+          <file>plugins/ImageManipulation.php
+          </file>
+          <class_name>ImageManipulation</class_name>
+          <method_name>manipulateImage</method_name>
+          <modified_files_ext>jpg</modified_files_ext>
+          <datastream_id>TN</datastream_id>
+          <parameters>
+            <parameter name="width">120</parameter>
+            <parameter name="height">120</parameter>
+          </parameters>
+        </method>
+      </methods>
+    </rule>
+  </ingest_rules>
+  <ingest_form dsid="QDC" page="2">
+    <form_builder_method>
+      <file>plugins/DemoFormBuilder.php
+      </file>
+      <class_name>DemoFormBuilder</class_name>
+      <method_name>buildQDCForm</method_name>
+      <form_handler>handleQDCForm</form_handler>
+    </form_builder_method>
+    <form_elements>
+      <element>
+        <label>Title/Caption/Image Name</label>
+        <name>dc:title</name>
+        <type>textfield</type>
+        <description>The name given to the resource</description>
+        <required>true</required>
+      </element>
+      <element>
+        <label>Creator/Photographer</label>
+        <name>dc:creator</name>
+        <type>textfield</type>
+        <description>An entity primarily responsible for making the
+          content of the resource such as a person, organization or
+          service.</description>
+        <required>false</required>
+      </element>
+      <element>
+        <label>Subject</label>
+        <name>dc:subject</name>
+        <type>select</type>
+        <description>Subject</description>
+        <required>false</required>
+        <authoritative_list>
+          <item>
+            <field>image</field>
+            <value>image</value>
+          </item>
+          <item>
+            <field>photograph</field>
+            <value>photograph</value>
+          </item>
+          <item>
+            <field>presentation</field>
+            <value>presentation</value>
+          </item>
+          <item>
+            <field>art</field>
+            <value>art</value>
+          </item>
+        </authoritative_list>
+      </element>
+      <element>
+        <label>Description</label>
+        <name>dc:description</name>
+        <type>textarea</type>
+        <description>Description of the Image</description>
+        <required>true</required>
+      </element>
+      <element>
+        <label>Publisher</label>
+        <name>dc:publisher</name>
+        <type>textfield</type>
+        <description>An entity, (including persons, organizations, or
+          services), responsible for making the resource available.
+        </description>
+        <required>false</required>
+      </element>
+      <element>
+        <label>Contributor</label>
+        <name>dc:contributor</name>
+        <type>textfield</type>
+        <description>An entity responsible for contributing to the
+          content of the resource such as a person, organization or          
+service.</description>
+        <required>false</required>
+      </element>
+      <element>
+        <label>Date</label>
+        <name>dc:date</name>
+        <type>textfield</type>
+        <description>Temporal scope of the content if known.
+          Date format is YYYY-MM-DD (e.g. 1890,1910-10,or 2007-10-23)
+        </description>
+        <required>false</required>
+      </element>
+      <element>
+        <label>Resource Type</label>
+        <name>dc:type</name>
+        <type>textfield</type>
+        <description>Genre of the content of the resource. Examples
+          include: home page, novel, poem, working paper, technical
+          report, essay, dictionary.</description>
+        <required>false</required>
+      </element>
+      <element>
+        <label>Source</label>
+        <name>dc:source</name>
+        <type>textfield</type>
+        <description>A reference to a resource from which the present
+          resource is derived.</description>
+        <required>false</required>
+      </element>
+      <element>
+        <label>Identifier</label>
+        <name>dc:identifier</name>
+        <type>textfield</type>
+        <description>A unique reference to the resource; In this
+          instance, the accession number or collection number.
+        </description>
+        <required>false</required>
+      </element>
+      <element>
+        <label>Language</label>
+        <name>dc:language</name>
+        <type>select</type>
+        <description>The language of the intellectual content of the
+          resource.</description>
+        <required>false</required>
+        <authoritative_list>
+          <item>
+            <field>eng</field>
+            <value>English</value>
+          </item>
+          <item>
+            <field>fre</field>
+            <value>French</value>
+          </item>
+        </authoritative_list>
+      </element>
+      <element>
+        <label>Relation</label>
+        <name>dc:relation</name>
+        <type>textfield</type>
+        <description>Reference to a related resource.
+        </description>
+        <required>false</required>
+      </element>
+      <element>
+        <label>Rights Management</label>
+        <name>dc:rights</name>
+        <type>textarea</type>
+        <description>Information about intellectual property
+          rights, copyright, and various property rights.</description>
+        <required>false</required>
+      </element>
+    </form_elements>
+  </ingest_form>
+</content_model>
+</foxml:xmlContent>
+</foxml:datastreamVersion>
+</foxml:datastream>
+</foxml:digitalObject>

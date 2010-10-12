@@ -1,0 +1,387 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<foxml:digitalObject PID="ilives:bunbury-009" VERSION="1.1" xmlns:foxml="info:fedora/fedora-system:def/foxml#"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="info:fedora/fedora-system:def/foxml# http://www.fedora.info/definitions/1/0/foxml1-1.xsd">
+  <foxml:objectProperties>
+    <foxml:property NAME="info:fedora/fedora-system:def/model#state" VALUE="Active"/>
+    <foxml:property NAME="info:fedora/fedora-system:def/model#label" VALUE="Page 4"/>
+    <foxml:property NAME="info:fedora/fedora-system:def/model#ownerId" VALUE="fedoraAdmin"/>
+    <foxml:property NAME="info:fedora/fedora-system:def/model#createdDate" VALUE="2009-03-23T11:22:13.438Z"/>
+    <foxml:property NAME="info:fedora/fedora-system:def/view#lastModifiedDate" VALUE="2009-03-23T11:24:20.420Z"/>
+  </foxml:objectProperties>
+  <foxml:datastream CONTROL_GROUP="X" ID="AUDIT" STATE="A" VERSIONABLE="false">
+    <foxml:datastreamVersion CREATED="2009-03-23T11:22:13.438Z"
+      FORMAT_URI="info:fedora/fedora-system:format/xml.fedora.audit" ID="AUDIT.0" LABEL="Audit Trail for this object" MIMETYPE="text/xml">
+      <foxml:xmlContent>
+        <audit:auditTrail xmlns:audit="info:fedora/fedora-system:def/audit#">
+          <audit:record ID="AUDREC1">
+            <audit:process type="Fedora API-M"/>
+            <audit:action>ingest</audit:action>
+            <audit:componentID/>
+            <audit:responsibility>fedoraAdmin</audit:responsibility>
+            <audit:date>2009-03-23T11:22:13.438Z</audit:date>
+            <audit:justification>Created with Admin GUI "New Object" command</audit:justification>
+          </audit:record>
+          <audit:record ID="AUDREC2">
+            <audit:process type="Fedora API-M"/>
+            <audit:action>addDatastream</audit:action>
+            <audit:componentID>RELS-EXT</audit:componentID>
+            <audit:responsibility>fedoraAdmin</audit:responsibility>
+            <audit:date>2009-03-23T11:22:43.344Z</audit:date>
+            <audit:justification/>
+          </audit:record>
+          <audit:record ID="AUDREC3">
+            <audit:process type="Fedora API-M"/>
+            <audit:action>addDatastream</audit:action>
+            <audit:componentID>MIX</audit:componentID>
+            <audit:responsibility>fedoraAdmin</audit:responsibility>
+            <audit:date>2009-03-23T11:23:02.528Z</audit:date>
+            <audit:justification>DatastreamsPane generated this logMessage.</audit:justification>
+          </audit:record>
+          <audit:record ID="AUDREC4">
+            <audit:process type="Fedora API-M"/>
+            <audit:action>addDatastream</audit:action>
+            <audit:componentID>MODS</audit:componentID>
+            <audit:responsibility>fedoraAdmin</audit:responsibility>
+            <audit:date>2009-03-23T11:23:25.560Z</audit:date>
+            <audit:justification>DatastreamsPane generated this logMessage.</audit:justification>
+          </audit:record>
+          <audit:record ID="AUDREC5">
+            <audit:process type="Fedora API-M"/>
+            <audit:action>addDatastream</audit:action>
+            <audit:componentID>PAGE_OCR</audit:componentID>
+            <audit:responsibility>fedoraAdmin</audit:responsibility>
+            <audit:date>2009-03-23T11:23:46.566Z</audit:date>
+            <audit:justification>DatastreamsPane generated this logMessage.</audit:justification>
+          </audit:record>
+          <audit:record ID="AUDREC6">
+            <audit:process type="Fedora API-M"/>
+            <audit:action>addDatastream</audit:action>
+            <audit:componentID>PAGE_TEI</audit:componentID>
+            <audit:responsibility>fedoraAdmin</audit:responsibility>
+            <audit:date>2009-03-23T11:24:03.691Z</audit:date>
+            <audit:justification>DatastreamsPane generated this logMessage.</audit:justification>
+          </audit:record>
+          <audit:record ID="AUDREC7">
+            <audit:process type="Fedora API-M"/>
+            <audit:action>addDatastream</audit:action>
+            <audit:componentID>JPG</audit:componentID>
+            <audit:responsibility>fedoraAdmin</audit:responsibility>
+            <audit:date>2009-03-23T11:24:20.420Z</audit:date>
+            <audit:justification>DatastreamsPane generated this logMessage.</audit:justification>
+          </audit:record>
+        </audit:auditTrail>
+      </foxml:xmlContent>
+    </foxml:datastreamVersion>
+  </foxml:datastream>
+  <foxml:datastream CONTROL_GROUP="X" ID="DC" STATE="A" VERSIONABLE="true">
+    <foxml:datastreamVersion CREATED="2009-03-23T11:22:13.438Z" FORMAT_URI="http://www.openarchives.org/OAI/2.0/oai_dc/"
+      ID="DC1.0" LABEL="Dublin Core Record for this object" MIMETYPE="text/xml" SIZE="377">
+      <foxml:xmlContent>
+        <oai_dc:dc xmlns:dc="http://purl.org/dc/elements/1.1/"
+          xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>Page 4</dc:title>
+          <dc:identifier>ilives:bunbury-009</dc:identifier>
+        </oai_dc:dc>
+      </foxml:xmlContent>
+    </foxml:datastreamVersion>
+  </foxml:datastream>
+  <foxml:datastream CONTROL_GROUP="X" ID="RELS-EXT" STATE="A" VERSIONABLE="true">
+    <foxml:datastreamVersion CREATED="2009-03-23T11:22:43.344Z" FORMAT_URI="info:fedora/fedora-system:FedoraRELSExt-1.0"
+      ID="RELS-EXT.0" LABEL="RDF Statements about this object" MIMETYPE="application/rdf+xml" SIZE="408">
+      <foxml:xmlContent>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+          <rdf:Description rdf:about="info:fedora/ilives:bunbury-009">
+            <hasModel rdf:resource="info:fedora/ilives:pageCModel" xmlns="info:fedora/fedora-system:def/model#"/>
+            <isMemberOf rdf:resource="info:fedora/ilives:bunbury" xmlns="info:fedora/fedora-system:def/relations-external#"/>
+          </rdf:Description>
+        </rdf:RDF>
+      </foxml:xmlContent>
+    </foxml:datastreamVersion>
+  </foxml:datastream>
+  <foxml:datastream CONTROL_GROUP="X" ID="MIX" STATE="A" VERSIONABLE="true">
+    <foxml:datastreamVersion CREATED="2009-03-23T11:23:02.528Z" ID="MIX.0" LABEL="MIX.xml" MIMETYPE="text/xml" SIZE="1230">
+      <foxml:xmlContent>
+        <mix:mix xmlns="http://hul.harvard.edu/ois/xml/ns/jhove" xmlns:mix="http://www.loc.gov/mix/"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mix/ http://www.loc.gov/mix/mix.xsd">
+          <mix:BasicImageParameters>
+            <mix:Format>
+              <mix:MIMEType>image/jpeg</mix:MIMEType>
+              <mix:ByteOrder>big-endian</mix:ByteOrder>
+              <mix:Compression>
+                <mix:CompressionScheme>6</mix:CompressionScheme>
+              </mix:Compression>
+              <mix:PhotometricInterpretation>
+                <mix:ColorSpace>6</mix:ColorSpace>
+              </mix:PhotometricInterpretation>
+            </mix:Format>
+          </mix:BasicImageParameters>
+          <mix:ImageCreation/>
+          <mix:ImagingPerformanceAssessment>
+            <mix:SpatialMetrics>
+              <mix:SamplingFrequencyUnit>2</mix:SamplingFrequencyUnit>
+              <mix:XSamplingFrequency>72</mix:XSamplingFrequency>
+              <mix:YSamplingFrequency>72</mix:YSamplingFrequency>
+              <mix:ImageWidth>509</mix:ImageWidth>
+              <mix:ImageLength>800</mix:ImageLength>
+            </mix:SpatialMetrics>
+            <mix:Energetics>
+              <mix:BitsPerSample>8,8,8</mix:BitsPerSample>
+              <mix:SamplesPerPixel>3</mix:SamplesPerPixel>
+            </mix:Energetics>
+          </mix:ImagingPerformanceAssessment>
+        </mix:mix>
+      </foxml:xmlContent>
+    </foxml:datastreamVersion>
+  </foxml:datastream>
+  <foxml:datastream CONTROL_GROUP="X" ID="MODS" STATE="A" VERSIONABLE="true">
+    <foxml:datastreamVersion CREATED="2009-03-23T11:23:25.560Z" ID="MODS.0" LABEL="MODS.xml" MIMETYPE="text/xml" SIZE="2605">
+      <foxml:xmlContent>
+        <mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-3.xsd">
+          <titleInfo>
+            <title>Bunbury : notes on a community :</title>
+            <subTitle>or ; Blurbs on the burbs</subTitle>
+          </titleInfo>
+          <titleInfo type="alternative">
+            <title>Blurbs on the burbs.</title>
+          </titleInfo>
+          <name type="personal">
+            <namePart xmlns:xlink="http://www.w3.org/TR/xlink">Kelly, Doug</namePart>
+            <role>
+              <text>creator</text>
+            </role>
+          </name>
+          <part>
+            <detail type="page">
+              <caption>Page 4</caption>
+              <number>009</number>
+            </detail>
+          </part>
+          <identifier type="fedora">ilives:bunbury-009</identifier>
+          <typeOfResource xmlns:xlink="http://www.w3.org/TR/xlink">text</typeOfResource>
+          <originInfo xmlns:xlink="http://www.w3.org/TR/xlink">
+            <place>
+              <code authority="marc">PIC</code>
+            </place>
+            <place>
+              <text>S. l</text>
+            </place>
+            <publisher>s.n</publisher>
+            <dateIssued>1994</dateIssued>
+            <issuance>monographic</issuance>
+          </originInfo>
+          <language>
+            <languageTerm type="text">English</languageTerm>
+            <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+          </language>
+          <physicalDescription>
+            <form authority="marcform">electronic</form>
+            <form authority="marcform">print</form>
+            <internetMediaType>image/jp2</internetMediaType>
+            <internetMediaType>text/xml</internetMediaType>
+            <internetMediaType>text/plain</internetMediaType>
+            <extent>1 p.</extent>
+            <digitalOrigin>reformatted digital</digitalOrigin>
+          </physicalDescription>
+          <subject authority="lcsh">
+            <geographic>Bunbury (P.E.I.)</geographic>
+            <topic>History</topic>
+          </subject>
+          <classification authority="lcc">FC4649</classification>
+          <relatedItem displayLabel="Appears in" ns2:href="ilives:bunbury" type="host" xmlns:ns2="http://www.w3.org/1999/xlink"/>
+          <location>
+            <physicalLocation>University of Prince Edward Island, Robertson Library (Charlottetown,
+            PE)</physicalLocation>
+          </location>
+          <accessCondition type="useAndReproduction"> Use of this resource is governed by the Canadian
+        Copyright Act. Unless otherwise noted you must contact the right's holder(s) for permission
+        to publish or reproduce this resource. or Use of this resource is governed by the terms and
+        conditions of the Creative Commons "Attribution-NonCommercial-ShareAlike" License
+        (http://creativecommons.org/licenses/by-nc-sa/2.0/) </accessCondition>
+        </mods>
+      </foxml:xmlContent>
+    </foxml:datastreamVersion>
+  </foxml:datastream>
+  <foxml:datastream CONTROL_GROUP="M" ID="PAGE_OCR" STATE="A" VERSIONABLE="true">
+    <foxml:datastreamVersion CREATED="2009-03-23T11:23:46.566Z" ID="PAGE_OCR.0" LABEL="PAGE_OCR.txt" MIMETYPE="text/plain">
+      <foxml:contentLocation REF="http://blade2.vre.upei.ca/ilives/215258_jpg/bunbury-009/pageOCR.txt" TYPE="URL"/>
+    </foxml:datastreamVersion>
+  </foxml:datastream>
+  <foxml:datastream CONTROL_GROUP="X" ID="PAGE_TEI" STATE="A" VERSIONABLE="true">
+    <foxml:datastreamVersion CREATED="2009-03-23T11:24:03.691Z" ID="PAGE_TEI.0" LABEL="PAGE_TEI.xml" MIMETYPE="text/xml" SIZE="7213">
+      <foxml:xmlContent>
+        <body>
+          <pb facs="ilives:bunbury-009/JPG" n="10" xml:id="d1e544"/>
+          <div n="d1e545" rend="432,660,3268,3036" xml:id="d1e545">
+            <p n="d1e549" xml:id="d1e549">
+              <seg n="d1e550" rend="488,685,3235,778" xml:id="d1e550">To this
+                        union, six children were born, from whom</seg>
+              <lb/>
+              <seg n="d1e553" rend="487,801,3234,900" xml:id="d1e553">the <persName>
+                  <surname>Farquharson</surname>
+                </persName>s in
+                        <placeName>
+                  <settlement>Bunbury</settlement>
+                </placeName> and <placeName>
+                  <settlement>Mt. Herbert</settlement>
+                </placeName> are descended. A</seg>
+              <lb/>
+              <seg n="d1e556" rend="485,920,2640,1020" xml:id="d1e556">descendant of the
+                        Squire still lives on the property.</seg>
+              <lb/>
+            </p>
+            <p n="d1e559" xml:id="d1e559">
+              <seg n="d1e560" rend="485,1156,3235,1253" xml:id="d1e560">
+                <persName>
+                  <roleName>Captain</roleName>
+                  <forename>James</forename>
+                  <surname>Kelly</surname>
+                </persName>
+                        came to the Island from <placeName>
+                  <region type="country">England</region>
+                </placeName>, and bought</seg>
+              <lb/>
+              <seg n="d1e563" rend="482,1272,3222,1372" xml:id="d1e563">land in <placeName>
+                  <settlement>Bunbury</settlement>
+                </placeName> in
+                        <date
+                  when="1817">1817</date>, having lived on the property since <date when="1810">1810</date>.</seg>
+              <lb/>
+              <seg n="d1e566" rend="482,1392,3230,1492" xml:id="d1e566">
+                <persName>
+                  <roleName>Capt.</roleName>
+                  <surname>Kelly</surname>
+                </persName> was an
+                        entrepreneur in the young community, building</seg>
+              <lb/>
+              <seg n="d1e569" rend="482,1509,3233,1607" xml:id="d1e569">ships, operating a
+                        brick yard, and offering transportation across the</seg>
+              <lb/>
+              <seg n="d1e572" rend="478,1626,3227,1704" xml:id="d1e572">river to
+                        <placeName>
+                  <settlement>Charlottetown</settlement>
+                </placeName>. Members of the fifth and sixth</seg>
+              <lb/>
+              <seg n="d1e575" rend="477,1745,2029,1844" xml:id="d1e575">generations still live
+                        on the property.</seg>
+              <lb/>
+            </p>
+            <p n="d1e578" xml:id="d1e578">
+              <seg n="d1e579" rend="473,1983,3230,2080" xml:id="d1e579">The <persName>
+                  <surname>Hamm</surname>
+                </persName> Family came
+                        to this country about the same time as the</seg>
+              <lb/>
+              <seg n="d1e582" rend="472,2100,3215,2197" xml:id="d1e582">
+                <persName>
+                  <surname>Bovyer</surname>
+                </persName>s. Their English
+                        home was at <placeName>
+                  <settlement>Tor Point</settlement>
+                </placeName> in <placeName>
+                  <settlement>Cornwall</settlement>
+                </placeName>.</seg>
+              <lb/>
+              <seg n="d1e585" rend="471,2217,3224,2314" xml:id="d1e585">Descendants of the
+                        first <persName>
+                  <surname>Hamm</surname>
+                </persName> are still farming the original</seg>
+              <lb/>
+              <seg n="d1e588" rend="469,2348,843,2434" xml:id="d1e588">property.</seg>
+              <lb/>
+            </p>
+            <p n="d1e591" xml:id="d1e591">
+              <seg n="d1e592" rend="467,2573,3227,2671" xml:id="d1e592">The <persName>
+                  <surname>Duffy</surname>
+                </persName> family's
+                        paternal ancestor was <persName>
+                  <forename>Patrick</forename>
+                  <surname>Duffy</surname>
+                </persName>, who came</seg>
+              <lb/>
+              <seg n="d1e595" rend="467,2690,3223,2788" xml:id="d1e595">to <placeName>
+                  <settlement>Bunbury</settlement>
+                </placeName> from
+                        Ireland in <date when="1834">1834</date>. One of <persName>
+                  <forename>Patrick</forename>
+                  <surname>Duffy</surname>
+                </persName>'s</seg>
+              <lb/>
+              <seg n="d1e598" rend="464,2810,3223,2909" xml:id="d1e598">descendants has
+                        returned to <placeName>
+                  <settlement>Bunbury</settlement>
+                </placeName>, and resides on the <placeName type="road">Duffy Road</placeName>
+              </seg>
+              <lb/>
+              <seg n="d1e601" rend="464,2928,1376,3027" xml:id="d1e601"> with his
+                        family.</seg>
+              <lb/>
+            </p>
+          </div>
+          <div n="d1e604" rend="412,3384,3256,4848" xml:id="d1e604">
+            <p n="d1e608" xml:id="d1e608">
+              <seg n="d1e609" rend="459,3404,1436,3494" xml:id="d1e609">EARLY
+                        TRAVEL</seg>
+              <lb/>
+            </p>
+            <p n="d1e612" xml:id="d1e612">
+              <seg n="d1e613" rend="457,3662,3220,3762" xml:id="d1e613">Before <persName>
+                  <forename>John</forename>
+                  <surname>Bovyer</surname>
+                </persName>
+                        moved to <placeName>
+                  <region type="lot">Lot 48</region>
+                </placeName>, <placeName>
+                  <settlement>Bunbury</settlement>
+                </placeName> was merely the</seg>
+              <lb/>
+              <seg n="d1e616" rend="454,3784,3216,3882" xml:id="d1e616">back end of a few
+                        large properties that stretched from the </seg>
+              <lb/>
+              <seg n="d1e619" rend="455,3904,3219,4002" xml:id="d1e619">
+                <placeName type="road">Old Georgetown Road</placeName>, which
+                        was where today's Trans Canada</seg>
+              <lb/>
+              <seg n="d1e622" rend="452,4021,3214,4122" xml:id="d1e622">Highway runs through
+                        <placeName>
+                  <settlement>Cross Roads</settlement>
+                </placeName>, down to the shore of the East</seg>
+              <lb/>
+              <seg n="d1e625" rend="451,4139,3215,4240" xml:id="d1e625">River. Following
+                        settlement, the first roads into the community</seg>
+              <lb/>
+              <seg n="d1e628" rend="450,4259,3217,4361" xml:id="d1e628">were <placeName
+                  type="road">Bunberry Road</placeName> and
+                        <placeName
+                  type="road">Clifton Road</placeName>. <placeName type="road">Clifton Road</placeName> provided the</seg>
+              <lb/>
+              <seg n="d1e631" rend="451,4381,3211,4480"
+                  xml:id="d1e631">main access into the
+                        settlement, leading from the Old <placeName type="road">Georgetown Road</placeName>
+                <lb/>
+              </seg>
+              <seg n="d1e634" rend="447,4500,3223,4603" xml:id="d1e634">, directly to the
+                        shore of the river. <placeName>
+                  <settlement>Clifton</settlement>
+                </placeName> was the name of</seg>
+              <lb/>
+              <seg n="d1e637" rend="447,4621,3214,4721" xml:id="d1e637">the <persName>
+                  <surname>Mason</surname>
+                </persName> family farm.
+                        The name of <placeName type="road">Clifton Road</placeName> was later</seg>
+              <lb/>
+              <seg n="d1e640" rend="444,4742,1492,4839" xml:id="d1e640">changed to <placeName type="road">Mason
+                        Road</placeName>.</seg>
+              <lb/>
+            </p>
+          </div>
+        </body>
+      </foxml:xmlContent>
+    </foxml:datastreamVersion>
+  </foxml:datastream>
+  <foxml:datastream CONTROL_GROUP="M" ID="JPG" STATE="A" VERSIONABLE="true">
+    <foxml:datastreamVersion CREATED="2009-03-23T11:24:20.420Z" ID="JPG.0" LABEL="JPG.jpg" MIMETYPE="image/jpeg">
+      <foxml:contentLocation REF="http://blade2.vre.upei.ca/ilives/215258_jpg/bunbury-009/JPG.jpg" TYPE="URL"/>
+    </foxml:datastreamVersion>
+  </foxml:datastream>
+</foxml:digitalObject>

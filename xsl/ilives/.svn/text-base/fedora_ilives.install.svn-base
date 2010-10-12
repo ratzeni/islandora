@@ -1,0 +1,52 @@
+<?php
+
+// $Id$
+
+/*
+ * @file fedora_ilives.install
+ */
+
+/**
+ * Implementation of hook_enable()
+ * Check for and install ilives book and page content models and viewer service
+ * definitions and deployment objects if necessary.
+ */
+function fedora_ilives_enable() {
+  module_load_include('php', 'fedora_repository', 'api/fedora_item');
+  $allowed_pids_str = variable_get('fedora_pids_allowed', '');
+  $allowed_pids = explode(' ', $allowed_pids_str);
+
+  if (!in_array('ilives:', $allowed_pids)) {
+    variable_set('fedora_pids_allowed', $allowed_pids_str . ' ilives:');
+    drupal_set_message('Added ilives: to the set of allowed pidnamespaces.', 'info');
+  }
+
+  if ( !Fedora_Item::fedora_item_exists('ilives:bookCModel')) {
+    Fedora_Item::ingest_from_foxml_file(drupal_get_path('module', 'fedora_ilives') . '/xml/ilives_bookCModel.xml');
+  }
+
+  if ( !Fedora_Item::fedora_item_exists('ilives:pageCModel')) {
+    Fedora_Item::ingest_from_foxml_file(drupal_get_path('module', 'fedora_ilives') . '/xml/ilives_pageCModel.xml');
+  }
+
+  if ( !Fedora_Item::fedora_item_exists('ilives:viewerSdef')) {
+    Fedora_Item::ingest_from_foxml_file(drupal_get_path('module', 'fedora_ilives') . '/xml/ilives_viewerSdef.xml');
+  }
+
+  if ( !Fedora_Item::fedora_item_exists('ilives:viewerSdep-bookCModel')) {
+    Fedora_Item::ingest_from_foxml_file(drupal_get_path('module', 'fedora_ilives') . '/xml/ilives_viewerSdep-bookCModel.xml');
+  }
+
+  if ( !Fedora_Item::fedora_item_exists('ilives:viewerSdep-pageCModel')) {
+    Fedora_Item::ingest_from_foxml_file(drupal_get_path('module', 'fedora_ilives') . '/xml/ilives_viewerSdep-pageCModel.xml');
+  }
+
+  if ( !Fedora_Item::fedora_item_exists('ilives:collection')) {
+    Fedora_Item::ingest_from_foxml_file(drupal_get_path('module', 'fedora_ilives') . '/xml/ilives_collection.xml');
+  }
+
+  if ( !Fedora_Item::fedora_item_exists('ilives:CollectionModel')) {
+    Fedora_Item::ingest_from_foxml_file(drupal_get_path('module', 'fedora_ilives') . '/xml/ilives_CollectionModel.xml');
+  }
+
+}

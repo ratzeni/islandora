@@ -1,0 +1,20 @@
+<fractions:sample xmlns:fractions="http://vre.upei.ca/critters/">
+	<fractions:identifier> </fractions:identifier>
+	<fractions:weight> </fractions:weight>
+	<fractions:plate> </fractions:plate>
+	<fractions:ptp1b> </fractions:ptp1b>
+	<fractions:ptp1b_com> </fractions:ptp1b_com>
+	<fractions:hct116> </fractions:hct116>
+	<fractions:hct116_com> </fractions:hct116_com>
+	<fractions:hela> </fractions:hela>
+	<fractions:hela_com> </fractions:hela_com>
+	<fractions:pc3> </fractions:pc3>
+	<fractions:pc3_com> </fractions:pc3_com>
+	<fractions:are> </fractions:are>
+	<fractions:are_com> </fractions:are_com>
+	<fractions:antiproliferative> </fractions:antiproliferative>
+	<fractions:antiproliferative_com> </fractions:antiproliferative_com>
+	<fractions:chromatograph> </fractions:chromatograph>
+	<fractions:location> </fractions:location>
+	<fractions:notes> </fractions:notes>
+</fractions:sample>

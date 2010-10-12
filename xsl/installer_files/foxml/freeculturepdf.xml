@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<foxml:digitalObject PID="islandora:spdf-19" VERSION="1.1" xmlns:foxml="info:fedora/fedora-system:def/foxml#"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="info:fedora/fedora-system:def/foxml# http://www.fedora.info/definitions/1/0/foxml1-1.xsd">
+  <foxml:objectProperties>
+    <foxml:property NAME="info:fedora/fedora-system:def/model#state" VALUE="Active"/>
+    <foxml:property NAME="info:fedora/fedora-system:def/model#label" VALUE="Free Culture"/>
+    <foxml:property NAME="info:fedora/fedora-system:def/model#ownerId" VALUE="admin"/>
+    <foxml:property NAME="info:fedora/fedora-system:def/model#createdDate" VALUE="2009-04-02T14:42:21.889Z"/>
+    <foxml:property NAME="info:fedora/fedora-system:def/view#lastModifiedDate" VALUE="2009-04-02T14:42:21.889Z"/>
+  </foxml:objectProperties>
+  <foxml:datastream CONTROL_GROUP="X" ID="AUDIT" STATE="A" VERSIONABLE="false">
+    <foxml:datastreamVersion CREATED="2009-04-02T14:42:21.889Z"
+      FORMAT_URI="info:fedora/fedora-system:format/xml.fedora.audit" ID="AUDIT.0" LABEL="Audit Trail for this object" MIMETYPE="text/xml">
+      <foxml:xmlContent>
+        <audit:auditTrail xmlns:audit="info:fedora/fedora-system:def/audit#">
+          <audit:record ID="AUDREC1">
+            <audit:process type="Fedora API-M"/>
+            <audit:action>ingest</audit:action>
+            <audit:componentID/>
+            <audit:responsibility>admin</audit:responsibility>
+            <audit:date>2009-04-02T14:42:21.889Z</audit:date>
+            <audit:justification>Fedora Object Ingested</audit:justification>
+          </audit:record>
+        </audit:auditTrail>
+      </foxml:xmlContent>
+    </foxml:datastreamVersion>
+  </foxml:datastream>
+  <foxml:datastream CONTROL_GROUP="X" ID="RELS-EXT" STATE="A" VERSIONABLE="true">
+    <foxml:datastreamVersion CREATED="2009-04-02T14:42:21.922Z" FORMAT_URI="info:fedora/fedora-system:FedoraRELSExt-1.0"
+      ID="RELS-EXT.0" LABEL="RDF Statements about this Object" MIMETYPE="application/rdf+xml" SIZE="693">
+      <foxml:xmlContent>
+        <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/"
+          xmlns:fedora="info:fedora/fedora-system:def/relations-external#"
+          xmlns:fedora-model="info:fedora/fedora-system:def/model#"
+          xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+          xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+          <rdf:description rdf:about="info:fedora/islandora:spdf-19">
+            <fedora:isMemberOfCollection rdf:resource="info:fedora/islandora:collection-18"/>
+            <fedora-model:hasModel rdf:resource="info:fedora/islandora:strict_pdf"/>
+          </rdf:description>
+        </rdf:RDF>
+      </foxml:xmlContent>
+    </foxml:datastreamVersion>
+  </foxml:datastream>
+  <foxml:datastream CONTROL_GROUP="X" ID="DC" STATE="A" VERSIONABLE="true">
+    <foxml:datastreamVersion CREATED="2009-04-02T14:42:21.922Z" ID="DC.0" LABEL="Dublin Core Record" MIMETYPE="text/xml" SIZE="798">
+      <foxml:xmlContent>
+        <oai_dc:dc xmlns:dc="http://purl.org/dc/elements/1.1/"
+          xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>Free Culture</dc:title>
+          <dc:creator>Lawrence Lessig</dc:creator>
+          <dc:subject>text</dc:subject>
+          <dc:description>A book</dc:description>
+          <dc:publisher/>
+          <dc:contributor/>
+          <dc:date/>
+          <dc:type>none</dc:type>
+          <dc:identifier/>
+          <dc:identifier>islandora:spdf-19</dc:identifier>
+          <dc:source/>
+          <dc:language>eng</dc:language>
+          <dc:relation/>
+          <dc:rights>CC Non-Commercial Attribution (US)</dc:rights>
+        </oai_dc:dc>
+      </foxml:xmlContent>
+    </foxml:datastreamVersion>
+  </foxml:datastream>
+  <foxml:datastream CONTROL_GROUP="M" ID="OBJ" STATE="A" VERSIONABLE="true">
+    <foxml:datastreamVersion CREATED="2009-04-02T14:42:21.922Z" ID="OBJ.0" LABEL="freeculture.pdf" MIMETYPE="application/pdf">
+      <foxml:contentLocation
+        REF="http://www.free-culture.cc/freeculture.pdf" TYPE="URL"/>
+    </foxml:datastreamVersion>
+  </foxml:datastream>
+  <foxml:datastream CONTROL_GROUP="M" ID="TN" STATE="A" VERSIONABLE="true">
+    <foxml:datastreamVersion CREATED="2009-04-02T14:42:21.922Z" ID="TN.0" LABEL="freeculture.pdf_TN.jpg" MIMETYPE="image/jpeg">
+      <foxml:contentLocation
+        REF="http://ecx.images-amazon.com/images/I/519WWJBP8QL._SL160_PIsitb-sticker-arrow-dp,TopRight,12,-18_SH30_OU01_AA115_.jpg" TYPE="URL"/>
+    </foxml:datastreamVersion>
+  </foxml:datastream>
+</foxml:digitalObject>

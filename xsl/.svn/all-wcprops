@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/root/!svn/ver/2817/islandora/islandora-module/Islandora-dru6-fed3/trunk/fedora_repository/xsl
+END
+advanced_search_results.xsl
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/root/!svn/ver/2817/islandora/islandora-module/Islandora-dru6-fed3/trunk/fedora_repository/xsl/advanced_search_results.xsl
+END
+browseIndexToResultPage.xslt
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/root/!svn/ver/2817/islandora/islandora-module/Islandora-dru6-fed3/trunk/fedora_repository/xsl/browseIndexToResultPage.xslt
+END
+critter.xsl
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/root/!svn/ver/2638/islandora/islandora-module/Islandora-dru6-fed3/trunk/fedora_repository/xsl/critter.xsl
+END
+default-sparqltoHtml.xsl
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/root/!svn/ver/2638/islandora/islandora-module/Islandora-dru6-fed3/trunk/fedora_repository/xsl/default-sparqltoHtml.xsl
+END
+flv-sparqltoHtml.xsl
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/root/!svn/ver/2638/islandora/islandora-module/Islandora-dru6-fed3/trunk/fedora_repository/xsl/flv-sparqltoHtml.xsl
+END
+results.xslLABACK
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/root/!svn/ver/2638/islandora/islandora-module/Islandora-dru6-fed3/trunk/fedora_repository/xsl/results.xslLABACK
+END
+mlp-sparqltoHtml.xsl
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/root/!svn/ver/2638/islandora/islandora-module/Islandora-dru6-fed3/trunk/fedora_repository/xsl/mlp-sparqltoHtml.xsl
+END
+results.xsl
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/root/!svn/ver/2638/islandora/islandora-module/Islandora-dru6-fed3/trunk/fedora_repository/xsl/results.xsl
+END
+romeo.xsl
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/root/!svn/ver/2638/islandora/islandora-module/Islandora-dru6-fed3/trunk/fedora_repository/xsl/romeo.xsl
+END
+refworks.xsl
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/root/!svn/ver/2638/islandora/islandora-module/Islandora-dru6-fed3/trunk/fedora_repository/xsl/refworks.xsl
+END
+MHL-sparqltoHtml.xsl
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/root/!svn/ver/2638/islandora/islandora-module/Islandora-dru6-fed3/trunk/fedora_repository/xsl/MHL-sparqltoHtml.xsl
+END
+convertQDC.xsl
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/root/!svn/ver/2638/islandora/islandora-module/Islandora-dru6-fed3/trunk/fedora_repository/xsl/convertQDC.xsl
+END
+sparql_to_html.xsl
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/root/!svn/ver/2817/islandora/islandora-module/Islandora-dru6-fed3/trunk/fedora_repository/xsl/sparql_to_html.xsl
+END

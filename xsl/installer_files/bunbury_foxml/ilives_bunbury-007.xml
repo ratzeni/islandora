@@ -1,0 +1,402 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<foxml:digitalObject PID="ilives:bunbury-007" VERSION="1.1" xmlns:foxml="info:fedora/fedora-system:def/foxml#"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="info:fedora/fedora-system:def/foxml# http://www.fedora.info/definitions/1/0/foxml1-1.xsd">
+  <foxml:objectProperties>
+    <foxml:property NAME="info:fedora/fedora-system:def/model#state" VALUE="Active"/>
+    <foxml:property NAME="info:fedora/fedora-system:def/model#label" VALUE="Page 2"/>
+    <foxml:property NAME="info:fedora/fedora-system:def/model#ownerId" VALUE="fedoraAdmin"/>
+    <foxml:property NAME="info:fedora/fedora-system:def/model#createdDate" VALUE="2009-03-23T11:03:06.152Z"/>
+    <foxml:property NAME="info:fedora/fedora-system:def/view#lastModifiedDate" VALUE="2009-03-23T11:05:35.277Z"/>
+  </foxml:objectProperties>
+  <foxml:datastream CONTROL_GROUP="X" ID="AUDIT" STATE="A" VERSIONABLE="false">
+    <foxml:datastreamVersion CREATED="2009-03-23T11:03:06.152Z"
+      FORMAT_URI="info:fedora/fedora-system:format/xml.fedora.audit" ID="AUDIT.0" LABEL="Audit Trail for this object" MIMETYPE="text/xml">
+      <foxml:xmlContent>
+        <audit:auditTrail xmlns:audit="info:fedora/fedora-system:def/audit#">
+          <audit:record ID="AUDREC1">
+            <audit:process type="Fedora API-M"/>
+            <audit:action>ingest</audit:action>
+            <audit:componentID/>
+            <audit:responsibility>fedoraAdmin</audit:responsibility>
+            <audit:date>2009-03-23T11:03:06.152Z</audit:date>
+            <audit:justification>Created with Admin GUI "New Object" command</audit:justification>
+          </audit:record>
+          <audit:record ID="AUDREC2">
+            <audit:process type="Fedora API-M"/>
+            <audit:action>addDatastream</audit:action>
+            <audit:componentID>RELS-EXT</audit:componentID>
+            <audit:responsibility>fedoraAdmin</audit:responsibility>
+            <audit:date>2009-03-23T11:03:52.031Z</audit:date>
+            <audit:justification/>
+          </audit:record>
+          <audit:record ID="AUDREC3">
+            <audit:process type="Fedora API-M"/>
+            <audit:action>addDatastream</audit:action>
+            <audit:componentID>MIX</audit:componentID>
+            <audit:responsibility>fedoraAdmin</audit:responsibility>
+            <audit:date>2009-03-23T11:04:09.574Z</audit:date>
+            <audit:justification>DatastreamsPane generated this logMessage.</audit:justification>
+          </audit:record>
+          <audit:record ID="AUDREC4">
+            <audit:process type="Fedora API-M"/>
+            <audit:action>addDatastream</audit:action>
+            <audit:componentID>MODS</audit:componentID>
+            <audit:responsibility>fedoraAdmin</audit:responsibility>
+            <audit:date>2009-03-23T11:04:27.879Z</audit:date>
+            <audit:justification>DatastreamsPane generated this logMessage.</audit:justification>
+          </audit:record>
+          <audit:record ID="AUDREC5">
+            <audit:process type="Fedora API-M"/>
+            <audit:action>addDatastream</audit:action>
+            <audit:componentID>PAGE_OCR</audit:componentID>
+            <audit:responsibility>fedoraAdmin</audit:responsibility>
+            <audit:date>2009-03-23T11:04:50.843Z</audit:date>
+            <audit:justification>DatastreamsPane generated this logMessage.</audit:justification>
+          </audit:record>
+          <audit:record ID="AUDREC6">
+            <audit:process type="Fedora API-M"/>
+            <audit:action>addDatastream</audit:action>
+            <audit:componentID>PAGE_TEI</audit:componentID>
+            <audit:responsibility>fedoraAdmin</audit:responsibility>
+            <audit:date>2009-03-23T11:05:12.773Z</audit:date>
+            <audit:justification>DatastreamsPane generated this logMessage.</audit:justification>
+          </audit:record>
+          <audit:record ID="AUDREC7">
+            <audit:process type="Fedora API-M"/>
+            <audit:action>addDatastream</audit:action>
+            <audit:componentID>JPG</audit:componentID>
+            <audit:responsibility>fedoraAdmin</audit:responsibility>
+            <audit:date>2009-03-23T11:05:35.277Z</audit:date>
+            <audit:justification>DatastreamsPane generated this logMessage.</audit:justification>
+          </audit:record>
+        </audit:auditTrail>
+      </foxml:xmlContent>
+    </foxml:datastreamVersion>
+  </foxml:datastream>
+  <foxml:datastream CONTROL_GROUP="X" ID="DC" STATE="A" VERSIONABLE="true">
+    <foxml:datastreamVersion CREATED="2009-03-23T11:03:06.152Z" FORMAT_URI="http://www.openarchives.org/OAI/2.0/oai_dc/"
+      ID="DC1.0" LABEL="Dublin Core Record for this object" MIMETYPE="text/xml" SIZE="377">
+      <foxml:xmlContent>
+        <oai_dc:dc xmlns:dc="http://purl.org/dc/elements/1.1/"
+          xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>Page 2</dc:title>
+          <dc:identifier>ilives:bunbury-007</dc:identifier>
+        </oai_dc:dc>
+      </foxml:xmlContent>
+    </foxml:datastreamVersion>
+  </foxml:datastream>
+  <foxml:datastream CONTROL_GROUP="X" ID="RELS-EXT" STATE="A" VERSIONABLE="true">
+    <foxml:datastreamVersion CREATED="2009-03-23T11:03:52.031Z" FORMAT_URI="info:fedora/fedora-system:FedoraRELSExt-1.0"
+      ID="RELS-EXT.0" LABEL="RDF Statements about this object" MIMETYPE="application/rdf+xml" SIZE="408">
+      <foxml:xmlContent>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+          <rdf:Description rdf:about="info:fedora/ilives:bunbury-007">
+            <hasModel rdf:resource="info:fedora/ilives:pageCModel" xmlns="info:fedora/fedora-system:def/model#"/>
+            <isMemberOf rdf:resource="info:fedora/ilives:bunbury" xmlns="info:fedora/fedora-system:def/relations-external#"/>
+          </rdf:Description>
+        </rdf:RDF>
+      </foxml:xmlContent>
+    </foxml:datastreamVersion>
+  </foxml:datastream>
+  <foxml:datastream CONTROL_GROUP="X" ID="MIX" STATE="A" VERSIONABLE="true">
+    <foxml:datastreamVersion CREATED="2009-03-23T11:04:09.574Z" ID="MIX.0" LABEL="MIX.xml" MIMETYPE="text/xml" SIZE="1230">
+      <foxml:xmlContent>
+        <mix:mix xmlns="http://hul.harvard.edu/ois/xml/ns/jhove" xmlns:mix="http://www.loc.gov/mix/"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mix/ http://www.loc.gov/mix/mix.xsd">
+          <mix:BasicImageParameters>
+            <mix:Format>
+              <mix:MIMEType>image/jpeg</mix:MIMEType>
+              <mix:ByteOrder>big-endian</mix:ByteOrder>
+              <mix:Compression>
+                <mix:CompressionScheme>6</mix:CompressionScheme>
+              </mix:Compression>
+              <mix:PhotometricInterpretation>
+                <mix:ColorSpace>6</mix:ColorSpace>
+              </mix:PhotometricInterpretation>
+            </mix:Format>
+          </mix:BasicImageParameters>
+          <mix:ImageCreation/>
+          <mix:ImagingPerformanceAssessment>
+            <mix:SpatialMetrics>
+              <mix:SamplingFrequencyUnit>2</mix:SamplingFrequencyUnit>
+              <mix:XSamplingFrequency>72</mix:XSamplingFrequency>
+              <mix:YSamplingFrequency>72</mix:YSamplingFrequency>
+              <mix:ImageWidth>509</mix:ImageWidth>
+              <mix:ImageLength>800</mix:ImageLength>
+            </mix:SpatialMetrics>
+            <mix:Energetics>
+              <mix:BitsPerSample>8,8,8</mix:BitsPerSample>
+              <mix:SamplesPerPixel>3</mix:SamplesPerPixel>
+            </mix:Energetics>
+          </mix:ImagingPerformanceAssessment>
+        </mix:mix>
+      </foxml:xmlContent>
+    </foxml:datastreamVersion>
+  </foxml:datastream>
+  <foxml:datastream CONTROL_GROUP="X" ID="MODS" STATE="A" VERSIONABLE="true">
+    <foxml:datastreamVersion CREATED="2009-03-23T11:04:27.879Z" ID="MODS.0" LABEL="MODS.xml" MIMETYPE="text/xml" SIZE="2605">
+      <foxml:xmlContent>
+        <mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-3.xsd">
+          <titleInfo>
+            <title>Bunbury : notes on a community :</title>
+            <subTitle>or ; Blurbs on the burbs</subTitle>
+          </titleInfo>
+          <titleInfo type="alternative">
+            <title>Blurbs on the burbs.</title>
+          </titleInfo>
+          <name type="personal">
+            <namePart xmlns:xlink="http://www.w3.org/TR/xlink">Kelly, Doug</namePart>
+            <role>
+              <text>creator</text>
+            </role>
+          </name>
+          <part>
+            <detail type="page">
+              <caption>Page 2</caption>
+              <number>007</number>
+            </detail>
+          </part>
+          <identifier type="fedora">ilives:bunbury-007</identifier>
+          <typeOfResource xmlns:xlink="http://www.w3.org/TR/xlink">text</typeOfResource>
+          <originInfo xmlns:xlink="http://www.w3.org/TR/xlink">
+            <place>
+              <code authority="marc">PIC</code>
+            </place>
+            <place>
+              <text>S. l</text>
+            </place>
+            <publisher>s.n</publisher>
+            <dateIssued>1994</dateIssued>
+            <issuance>monographic</issuance>
+          </originInfo>
+          <language>
+            <languageTerm type="text">English</languageTerm>
+            <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+          </language>
+          <physicalDescription>
+            <form authority="marcform">electronic</form>
+            <form authority="marcform">print</form>
+            <internetMediaType>image/jp2</internetMediaType>
+            <internetMediaType>text/xml</internetMediaType>
+            <internetMediaType>text/plain</internetMediaType>
+            <extent>1 p.</extent>
+            <digitalOrigin>reformatted digital</digitalOrigin>
+          </physicalDescription>
+          <subject authority="lcsh">
+            <geographic>Bunbury (P.E.I.)</geographic>
+            <topic>History</topic>
+          </subject>
+          <classification authority="lcc">FC4649</classification>
+          <relatedItem displayLabel="Appears in" ns2:href="ilives:bunbury" type="host" xmlns:ns2="http://www.w3.org/1999/xlink"/>
+          <location>
+            <physicalLocation>University of Prince Edward Island, Robertson Library (Charlottetown,
+            PE)</physicalLocation>
+          </location>
+          <accessCondition type="useAndReproduction"> Use of this resource is governed by the Canadian
+        Copyright Act. Unless otherwise noted you must contact the right's holder(s) for permission
+        to publish or reproduce this resource. or Use of this resource is governed by the terms and
+        conditions of the Creative Commons "Attribution-NonCommercial-ShareAlike" License
+        (http://creativecommons.org/licenses/by-nc-sa/2.0/) </accessCondition>
+        </mods>
+      </foxml:xmlContent>
+    </foxml:datastreamVersion>
+  </foxml:datastream>
+  <foxml:datastream CONTROL_GROUP="M" ID="PAGE_OCR" STATE="A" VERSIONABLE="true">
+    <foxml:datastreamVersion CREATED="2009-03-23T11:04:50.843Z" ID="PAGE_OCR.0" LABEL="PAGE_OCR.txt" MIMETYPE="text/plain">
+      <foxml:contentLocation REF="http://blade2.vre.upei.ca/ilives/215258_jpg/bunbury-007/pageOCR.txt" TYPE="URL"/>
+    </foxml:datastreamVersion>
+  </foxml:datastream>
+  <foxml:datastream CONTROL_GROUP="X" ID="PAGE_TEI" STATE="A" VERSIONABLE="true">
+    <foxml:datastreamVersion CREATED="2009-03-23T11:05:12.773Z" ID="PAGE_TEI.0" LABEL="PAGE_TEI.xml" MIMETYPE="text/xml" SIZE="7566">
+      <foxml:xmlContent>
+        <body>
+          <pb facs="ilives:bunbury-007/JPG" n="8" xml:id="d1e341"/>
+          <div n="d1e342" rend="396,648,3212,1708" xml:id="d1e342">
+            <p n="d1e346" xml:id="d1e346">
+              <seg n="d1e347" rend="427,671,3159,775" xml:id="d1e347">Farm, where evidence of
+                        ploughed land was visible in the weeds.</seg>
+              <lb/>
+              <seg n="d1e350" rend="427,785,3180,889" xml:id="d1e350">When the first Mr. <persName>
+                  <surname>Hamm</surname>
+                </persName>
+                        bought his property, the remains of</seg>
+              <lb/>
+              <seg n="d1e353" rend="430,904,3168,1017" xml:id="d1e353">many old cellars and
+                        wells could be recognized. These remains</seg>
+              <lb/>
+              <seg n="d1e356" rend="429,1031,1573,1130" xml:id="d1e356">have long since been
+                        filled.</seg>
+              <lb/>
+            </p>
+            <p n="d1e359" xml:id="d1e359">
+              <seg n="d1e360" rend="428,1255,3170,1364" xml:id="d1e360">Local French place
+                        names are remembered only though early</seg>
+              <lb/>
+              <seg n="d1e363" rend="428,1375,3173,1483" xml:id="d1e363">records. Period maps
+                        of the area identify LaLongue Point, later</seg>
+              <lb/>
+              <seg n="d1e366" rend="428,1493,3168,1595" xml:id="d1e366">named <placeName>
+                  <settlement>Park's Point</settlement>
+                </placeName>,
+                        and now known as <placeName>
+                  <settlement>Duffy's Point</settlement>
+                </placeName>. </seg>
+              <lb/>
+              <seg n="d1e369" rend="427,1610,2870,1700" xml:id="d1e369">
+                <placeName>
+                  <settlement>Fullerton's Marsh</settlement>
+                </placeName> was known to the
+                        Acadians as <placeName>
+                  <settlement>Riviere de la Petite</settlement>
+                </placeName>.</seg>
+              <lb/>
+            </p>
+          </div>
+          <div n="d1e372" rend="376,2068,3216,4836" xml:id="d1e372">
+            <p n="d1e376" xml:id="d1e376">
+              <seg n="d1e377" rend="422,2090,1852,2185" xml:id="d1e377">ENGLISH
+                        SETTLEMENT</seg>
+              <lb/>
+            </p>
+            <p n="d1e380" xml:id="d1e380">
+              <seg n="d1e381" rend="421,2338,3168,2447" xml:id="d1e381">The <date when="1758">1758</date> deportation
+                        of the Acadians ended one era of our history</seg>
+              <lb/>
+              <seg n="d1e384" rend="418,2457,3172,2567"
+                  xml:id="d1e384">and began another -
+                        that of English colonization. In <date when="1766">1766</date>, </seg>
+              <lb/>
+              <seg n="d1e387" rend="417,2575,3171,2685" xml:id="d1e387">
+                <persName>
+                  <forename>Samuel</forename>
+                  <surname>Holland</surname>
+                </persName> completed his
+                        survey of the <placeName>
+                  <region>Island of St. John</region>
+                </placeName> for </seg>
+              <lb/>
+              <seg n="d1e390" rend="417,2696,3171,2805" xml:id="d1e390">
+                <persName>
+                  <roleName>King</roleName>
+                  <forename>George</forename>
+                  <genName>III</genName>
+                </persName>. A large
+                        piece of land, including <placeName>
+                  <settlement>Bunbury</settlement>
+                </placeName>, was</seg>
+              <lb/>
+              <seg n="d1e393" rend="414,2812,3172,2924" xml:id="d1e393">designated <placeName>
+                  <region type="lot">
+                    <placeName>
+                      <region type="lot">Lot 48</region>
+                    </placeName>
+                  </region>
+                </placeName>.
+                        Following the lottery of <date when="1767-07-23">July 23, 1767</date>, this</seg>
+              <lb/>
+              <seg n="d1e396" rend="414,2930,3173,3035" xml:id="d1e396">land, some 20,000
+                        acres, became the personal property of </seg>
+              <lb/>
+              <seg n="d1e399" rend="413,3055,2255,3156" xml:id="d1e399">
+                <persName>
+                  <forename>Samuel</forename>
+                  <surname>Touchet</surname>
+                  <roleName>Esq.</roleName>
+                </persName> and <persName>
+                  <forename>James</forename>
+                  <surname>Cunningham</surname>, <roleName>Esq.</roleName>
+                </persName>
+              </seg>
+              <lb/>
+            </p>
+            <p n="d1e402" xml:id="d1e402">
+              <seg n="d1e403" rend="416,3286,3173,3395" xml:id="d1e403">Ownership of the area
+                        changed several times before permanent</seg>
+              <lb/>
+              <seg n="d1e406" rend="415,3404,3169,3507" xml:id="d1e406">settlement was
+                        established. Among the early <placeName>
+                  <settlement>Bunbury</settlement>
+                </placeName> landowners</seg>
+              <lb/>
+              <seg n="d1e409" rend="411,3521,3171,3627" xml:id="d1e409">never to have lived in
+                        the community were <persName>
+                  <forename>James</forename>
+                  <surname>Park</surname>
+                </persName>, </seg>
+              <lb/>
+              <seg n="d1e412" rend="410,3640,3164,3750" xml:id="d1e412">
+                <persName>
+                  <forename>John</forename>
+                  <surname>Brecken</surname>
+                </persName>, <persName>
+                  <forename>Thomas</forename>
+                  <surname>DesBrisay</surname>
+                </persName>, <persName>
+                  <forename>Thomas</forename>
+                  <surname>Wright</surname>
+                </persName>, <persName>
+                  <forename>John</forename>
+                  <surname>Cambridge</surname>
+                </persName>,</seg>
+              <lb/>
+              <seg n="d1e415" rend="410,3777,1302,3856" xml:id="d1e415">and <persName>
+                  <forename>William</forename>
+                  <surname>Stewart</surname>
+                </persName>.</seg>
+              <lb/>
+            </p>
+            <p n="d1e418" xml:id="d1e418">
+              <seg n="d1e419" rend="409,4000,3177,4114" xml:id="d1e419">The first English
+                        settler in <placeName>
+                  <settlement>Bunbury</settlement>
+                </placeName> was <persName>
+                  <forename>John</forename>
+                  <surname>Bovyer</surname>
+                </persName>, son of the</seg>
+              <lb/>
+              <seg n="d1e422" rend="409,4117,3183,4234" xml:id="d1e422">
+                <persName>
+                  <roleName>Rev. </roleName>
+                  <forename>Stephen</forename>
+                  <surname>Bovyer</surname>
+                </persName>, a
+                        United Empire Loyalist. At the time of</seg>
+              <lb/>
+              <seg n="d1e425" rend="410,4237,3175,4349" xml:id="d1e425">the American
+                        Revolution, <persName>
+                  <roleName>Rev.</roleName>
+                  <surname>Bovyer</surname>
+                </persName> and his family left their</seg>
+              <lb/>
+              <seg n="d1e428" rend="411,4356,3173,4465" xml:id="d1e428">home in <placeName>
+                  <settlement>
+                    <settlement>Providence</settlement>,
+                        <region type="state">Rhode Island</region>
+                  </settlement>
+                </placeName> and came to <placeName>
+                  <settlement>Stanhope</settlement>
+                </placeName>, having</seg>
+              <lb/>
+              <seg n="d1e431" rend="411,4478,3165,4590"
+                  xml:id="d1e431">obtained a grant of
+                        land in that district in <date when="1777">1777</date>. Like his father,</seg>
+              <lb/>
+              <seg n="d1e434" rend="409,4597,3165,4709" xml:id="d1e434">John was also promised
+                        a grant of land, and it was allotted to him.</seg>
+              <lb/>
+              <seg n="d1e437" rend="412,4720,3173,4826" xml:id="d1e437">However, when he
+                        attempted to settle on the property, he was</seg>
+              <lb/>
+            </p>
+          </div>
+        </body>
+      </foxml:xmlContent>
+    </foxml:datastreamVersion>
+  </foxml:datastream>
+  <foxml:datastream CONTROL_GROUP="M" ID="JPG" STATE="A" VERSIONABLE="true">
+    <foxml:datastreamVersion CREATED="2009-03-23T11:05:35.277Z" ID="JPG.0" LABEL="JPG.jpg" MIMETYPE="image/jpeg">
+      <foxml:contentLocation REF="http://blade2.vre.upei.ca/ilives/215258_jpg/bunbury-007/JPG.jpg" TYPE="URL"/>
+    </foxml:datastreamVersion>
+  </foxml:datastream>
+</foxml:digitalObject>

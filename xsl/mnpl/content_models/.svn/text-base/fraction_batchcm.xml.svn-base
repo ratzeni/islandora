@@ -1,0 +1,40 @@
+<content_model name="FRACTION_BATCH">
+    <mimetypes>
+        <type>text/xml</type>
+        <type>text/plain</type>
+        <type>application/xml</type>
+        <applies_to>text/comma-separated-values</applies_to>
+        <applies_to>text/csv</applies_to>
+        <applies_to>application/csv</applies_to>
+    </mimetypes>
+    <ingest_rules>
+        <rule>
+            <applies_to>text/xml</applies_to>
+            <applies_to>text/plain</applies_to>
+            <applies_to>application/xml</applies_to>
+            <applies_to>text/comma-separated-values</applies_to>
+            <applies_to>text/csv</applies_to>
+            <applies_to>application/csv</applies_to>
+            <methods/>
+        </rule>
+    </ingest_rules>
+    <ingest_form dsid="QDC" page="2">
+        <form_builder_method>
+            <file>mnpl/plugins/FractionsFormBuilder.php</file>
+            <class_name>FractionsFormBuilder</class_name>
+            <method_name>buildFractionForm</method_name>
+            <form_handler>handle_fraction_batch_ingest</form_handler>
+        </form_builder_method>
+        <form_elements>
+            <element>
+                <label>Ingest</label>
+                <name>hiddenvalue</name>
+                <value>hidden</value>
+                <type>hidden</type>
+                <prefix>We now have all the information we need to ingest.</prefix>
+                <description>The name given to the resource</description>
+                <required>false</required>
+            </element>
+        </form_elements>
+    </ingest_form>
+</content_model>
