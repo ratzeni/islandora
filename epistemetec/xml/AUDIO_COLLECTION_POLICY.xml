@@ -1,0 +1,22 @@
+<collection_policy> 
+  <contentmodels> 
+    <contentmodel name="epistemetec_mp3"> 
+      <pid_namespace>epistemetec-audio:</pid_namespace> 
+      <pid>epistemetec:audioCModel</pid> 
+      <dsid>ISLANDORACM</dsid> 
+    </contentmodel> 
+  </contentmodels> 
+  <relationship>isMemberOfCollection</relationship> 
+  <search_terms> 
+    <default>dc.description</default> 
+    <term> 
+      <field>dc.title</field> 
+      <value>dc.title</value> 
+    </term> 
+    <term> 
+      <field>dc.creator</field> 
+      <value>dc.creator</value> 
+    </term> 
+  </search_terms> 
+</collection_policy> 
+

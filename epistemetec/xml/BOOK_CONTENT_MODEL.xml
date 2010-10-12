@@ -1,0 +1,210 @@
+<content_model name="Book">
+  <mimetypes>
+    <type>text/xml</type>
+    <type>text/plain</type>
+    <type>application/xml</type>
+    <type>application/zip</type>
+  </mimetypes>
+  <ingest_rules>
+    <rule>
+      <applies_to>application/zip</applies_to>
+      <applies_to>text/xml</applies_to>
+      <applies_to>text/plain</applies_to>
+      <applies_to>application/xml</applies_to>
+      <methods/>
+    </rule>
+  </ingest_rules>
+  <ingest_form dsid="QDC" page="2">
+    <form_builder_method>
+      <file>epistemetec/plugins/CollectionFormBuilder.php</file>
+      <class_name>EpistemetecCollectionFormBuilder</class_name>
+      <method_name>buildBookForm</method_name>
+      <form_handler>handleBookForm</form_handler>
+    </form_builder_method>
+    <form_elements>
+      <element>
+        <label>Progetto</label>
+        <name>gen_stprog</name>
+        <type>textfield</type>
+        <description>Indicazione del progetto di digitalizzazione.</description>
+        <required>false</required>
+      </element>
+      <element>
+        <label>Collezione</label>
+        <name>gen_collection</name>
+        <type>textfield</type>
+        <description>Riferimento alla collezione di cui la risorsa digitale farà parte.</description>
+        <required>false</required>
+      </element>
+      <element>
+        <label>Agenzia</label>
+        <name>gen_agency</name>
+        <type>textfield</type>
+        <description>Agenzia responsabile del processo di digitalizzazione.</description>
+        <required>false</required>
+      </element>
+      <element>
+        <label>Completezza</label>
+        <name>gen_completeness</name>
+        <type>textfield</type>
+        <description>Completezza della digitalizzazione</description>
+        <required>false</required>
+      </element>
+      <element>
+        <label>Condizioni di accesso</label>
+        <name>gen_access_rights</name>
+        <type>textfield</type>
+        <description>condizioni di accesso all'oggetto descritto nella sezione BIB</description>
+        <required>false</required>
+      </element>
+      <element>
+        <label>Condizioni di accesso</label>
+        <name>gen_access_rights</name>
+        <type>textfield</type>
+        <description>condizioni di accesso all'oggetto descritto nella sezione BIB</description>
+        <required>false</required>
+      </element>
+      <element>
+        <label>Title/Caption/Image Name</label>
+        <name>bib_title</name>
+        <type>textfield</type>
+        <description>The name given to the resource</description>
+        <required>true</required>
+      </element>
+      <element>
+        <label>Creator/Photographer</label>
+        <name>bib_creator</name>
+        <type>textfield</type>
+        <description>An entity primarily responsible for making the content of the resource such as a person, organization or service.</description>
+        <required>false</required>
+      </element>
+      <element>
+        <label>Subject</label>
+        <name>bib_subject</name>
+        <type>select</type>
+        <description>Subject</description>
+        <required>false</required>
+        <authoritative_list>
+          <item>
+            <field>image</field>
+            <value>image</value>
+          </item>
+          <item>
+            <field>photograph</field>
+            <value>photograph</value>
+          </item>
+          <item>
+            <field>presentation</field>
+            <value>presentation</value>
+          </item>
+          <item>
+            <field>art</field>
+            <value>art</value>
+          </item>
+        </authoritative_list>
+      </element>
+      <element>
+        <label>Description</label>
+        <name>bib_description</name>
+        <type>textarea</type>
+        <description>Description of the Image</description>
+        <required>true</required>
+      </element>
+      <element>
+        <label>Publisher</label>
+        <name>bib_publisher</name>
+        <type>textfield</type>
+        <description>An entity, (including persons, organizations, or services), responsible for making the resource available.</description>
+        <required>false</required>
+      </element>
+      <element>
+        <label>Contributor</label>
+        <name>bib_contributor</name>
+        <type>textfield</type>
+        <description>An entity responsible for contributing to the content of the resource such as a person, organization or service.</description>
+        <required>false</required>
+      </element>
+      <element>
+        <label>Date</label>
+        <name>bib_date</name>
+        <type>textfield</type>
+        <description>Temporal scope of the content if known. Date format is YYYY-MM-DD (e.g. 1890,1910-10,or 2007-10-23)</description>
+        <required>false</required>
+      </element>
+      <element>
+        <label>Resource Type</label>
+        <name>bib_type</name>
+        <type>textfield</type>
+        <description>Genre of the content of the resource. Examples include: home page, novel, poem, working paper, technical report, essay, dictionary.</description>
+        <required>false</required>
+      </element>
+      <element>
+        <label>Source</label>
+        <name>bib_source</name>
+        <type>textfield</type>
+        <description>A reference to a resource from which the present resource is derived.</description>
+        <required>false</required>
+      </element>
+      <element>
+        <label>Identifier</label>
+        <name>bib_identifier</name>
+        <type>textfield</type>
+        <description>A unique reference to the resource; In this instance, the accession number or collection number.</description>
+        <required>false</required>
+      </element>
+      <element>
+        <label>Language</label>
+        <name>bib_language</name>
+        <type>select</type>
+        <description>The language of the intellectual content of the resource.</description>
+        <required>false</required>
+        <authoritative_list>
+          <item>
+            <field>eng</field>
+            <value>English</value>
+          </item>
+          <item>
+            <field>fre</field>
+            <value>French</value>
+          </item>
+        </authoritative_list>
+      </element>
+      <element>
+        <label>Relation</label>
+        <name>bib_relation</name>
+        <type>textfield</type>
+        <description>Reference to a related resource.</description>
+        <required>false</required>
+      </element>
+      <element>
+        <label>Rights Management</label>
+        <name>bib_rights</name>
+        <type>textarea</type>
+        <description>Information about intellectual property rights, copyright, and various property rights.</description>
+        <required>false</required>
+      </element>
+      <element>
+        <label>Proprietario</label>
+        <name>bib_library</name>
+        <type>textfield</type>
+        <description>Nome dell'istituzione proprietaria dell'oggetto analogico o di parte dell'oggetto analogico.</description>
+        <required>false</required>
+      </element>
+      <element>
+        <label>Inventario</label>
+        <name>bib_inventory_number</name>
+        <type>textfield</type>
+        <description>Numero di inventario attribuito all'oggetto analogico dall'istituzione che lo possiede.</description>
+        <required>false</required>
+      </element>
+      <element>
+        <label>Collocazione</label>
+        <name>bib_shelfmark</name>
+        <type>textfield</type>
+        <description>Numero di inventario attribuito all'oggetto analogico dall'istituzione che lo possiede.</description>
+        <required>false</required>
+      </element>
+    </form_elements>
+  </ingest_form>
+</content_model>
+

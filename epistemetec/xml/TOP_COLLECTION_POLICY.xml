@@ -1,0 +1,41 @@
+<collection_policy>
+  <!---we will define allowed mimetypes and what to do with various types as part of the content model-->
+  <contentmodels>
+    <contentmodel name="Album">
+      <pid_namespace>epistemetec-collection:</pid_namespace>
+      <pid>epistemetec:albumCModel</pid>
+      <dsid>ISLANDORACM</dsid>
+    </contentmodel>
+    <contentmodel name="Book">
+      <pid_namespace>epistemetec-collection:</pid_namespace>
+      <pid>epistemetec:bookCModel</pid>
+      <dsid>ISLANDORACM</dsid>
+    </contentmodel>
+    <contentmodel name="Compilation">
+      <pid_namespace>epistemetec-collection:</pid_namespace>
+      <pid>epistemetec:compilationCModel</pid>
+      <dsid>ISLANDORACM</dsid>
+    </contentmodel>
+    <contentmodel name="Videoteca">
+      <pid_namespace>epistemetec-collection:</pid_namespace>
+      <pid>epistemetec:videotecaCModel</pid>
+      <dsid>ISLANDORACM</dsid>
+    </contentmodel>
+  </contentmodels>
+  <!--if we define a query for an object the relationship we ask for may not be isMemberOfCollection.  So when we ingest in th
+    Collection we will want the relationship to match the query. If this element is null we will use the isMemberOfCollection relationship-->
+  <relationship>isMemberOfCollection</relationship>
+  <search_terms>
+    <!--define what fields we can query as part of the advanced search for this collection-->
+    <default>dc.description</default>
+    <term>
+      <field>dc.title</field>
+      <value>dc.title</value>
+    </term>
+    <term>
+      <field>dc.creator</field>
+      <value>dc.creator</value>
+    </term>
+  </search_terms>
+</collection_policy>
+

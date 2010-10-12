@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<foxml:digitalObject PID="epistemetec:collectionCModel" VERSION="1.1" xmlns:foxml="info:fedora/fedora-system:def/foxml#"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="info:fedora/fedora-system:def/foxml# http://www.fedora.info/definitions/1/0/foxml1-1.xsd">
+  <foxml:objectProperties>
+    <foxml:property NAME="info:fedora/fedora-system:def/model#state" VALUE="Active"/>
+    <foxml:property NAME="info:fedora/fedora-system:def/model#label" VALUE="Epistemetec Collection Content Model"/>
+    <foxml:property NAME="info:fedora/fedora-system:def/model#ownerId" VALUE="fedoraAdmin"/>
+    <foxml:property NAME="info:fedora/fedora-system:def/model#createdDate" VALUE="2010-06-15T14:31:40.566Z"/>
+    <foxml:property NAME="info:fedora/fedora-system:def/view#lastModifiedDate" VALUE="2010-06-16T13:53:05.777Z"/>
+  </foxml:objectProperties>
+  <foxml:datastream CONTROL_GROUP="X" ID="AUDIT" STATE="A" VERSIONABLE="false">
+    <foxml:datastreamVersion CREATED="2010-06-15T14:31:40.566Z"
+      FORMAT_URI="info:fedora/fedora-system:format/xml.fedora.audit" ID="AUDIT.0" LABEL="Audit Trail for this object" MIMETYPE="text/xml">
+      <foxml:xmlContent>
+        <audit:auditTrail xmlns:audit="info:fedora/fedora-system:def/audit#">
+          <audit:record ID="AUDREC1">
+            <audit:process type="Fedora API-M"/>
+            <audit:action>ingest</audit:action>
+            <audit:componentID/>
+            <audit:responsibility>fedoraAdmin</audit:responsibility>
+            <audit:date>2010-06-15T14:31:40.566Z</audit:date>
+            <audit:justification>Created with Admin GUI "New Object" command</audit:justification>
+          </audit:record>
+          <audit:record ID="AUDREC2">
+            <audit:process type="Fedora API-M"/>
+            <audit:action>addDatastream</audit:action>
+            <audit:componentID>ISLANDORACM</audit:componentID>
+            <audit:responsibility>fedoraAdmin</audit:responsibility>
+            <audit:date>2010-06-15T14:44:01.180Z</audit:date>
+            <audit:justification>DatastreamsPane generated this logMessage.</audit:justification>
+          </audit:record>
+          <audit:record ID="AUDREC3">
+            <audit:process type="Fedora API-M"/>
+            <audit:action>modifyDatastreamByValue</audit:action>
+            <audit:componentID>ISLANDORACM</audit:componentID>
+            <audit:responsibility>fedoraAdmin</audit:responsibility>
+            <audit:date>2010-06-15T14:53:34.872Z</audit:date>
+            <audit:justification/>
+          </audit:record>
+          <audit:record ID="AUDREC4">
+            <audit:process type="Fedora API-M"/>
+            <audit:action>modifyDatastreamByValue</audit:action>
+            <audit:componentID>ISLANDORACM</audit:componentID>
+            <audit:responsibility>fedoraAdmin</audit:responsibility>
+            <audit:date>2010-06-15T15:32:16.778Z</audit:date>
+            <audit:justification/>
+          </audit:record>
+          <audit:record ID="AUDREC5">
+            <audit:process type="Fedora API-M"/>
+            <audit:action>modifyDatastreamByValue</audit:action>
+            <audit:componentID>ISLANDORACM</audit:componentID>
+            <audit:responsibility>fedoraAdmin</audit:responsibility>
+            <audit:date>2010-06-16T13:53:05.777Z</audit:date>
+            <audit:justification/>
+          </audit:record>
+        </audit:auditTrail>
+      </foxml:xmlContent>
+    </foxml:datastreamVersion>
+  </foxml:datastream>
+  <foxml:datastream CONTROL_GROUP="X" ID="RELS-EXT" STATE="A" VERSIONABLE="true">
+    <foxml:datastreamVersion CREATED="2010-06-15T14:31:41.000Z" FORMAT_URI="info:fedora/fedora-system:FedoraRELSExt-1.0"
+      ID="RELS-EXT1.0" LABEL="RDF Statements about this object" MIMETYPE="application/rdf+xml" SIZE="372">
+      <foxml:xmlContent>
+        <rdf:RDF xmlns:fedora-model="info:fedora/fedora-system:def/model#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+          <rdf:Description rdf:about="info:fedora/epistemetec:collectionCModel">
+            <fedora-model:hasModel rdf:resource="info:fedora/fedora-system:ContentModel-3.0"/>
+          </rdf:Description>
+        </rdf:RDF>
+      </foxml:xmlContent>
+    </foxml:datastreamVersion>
+  </foxml:datastream>
+  <foxml:datastream CONTROL_GROUP="X" ID="DS-COMPOSITE-MODEL" STATE="A" VERSIONABLE="true">
+    <foxml:datastreamVersion CREATED="2010-06-15T14:31:41.000Z"
+      FORMAT_URI="info:fedora/fedora-system:FedoraDSCompositeModel-1.0" ID="DS-COMPOSITE-MODEL1.0"
+      LABEL="Datastream Composite Model" MIMETYPE="text/xml" SIZE="1120">
+      <foxml:xmlContent>
+        <dsCompositeModel xmlns="info:fedora/fedora-system:def/dsCompositeModel#">
+          <comment xmlns="info:fedora/fedora-system:def/comment#">
+            This DS-COMPOSITE-MODEL datastream is included as a starting point to
+              assist in the creation of a content model. The DS-COMPOSITE-MODEL
+              should define the datastreams that are required for any objects
+              conforming to this content model.
+            For more information about content models, see:
+              http://fedora-commons.org/confluence/x/dgBI.
+            For examples of completed content model objects, see the demonstration
+              objects included with your Fedora distribution, such as:
+              demo:CMImage, demo:UVA_STD_IMAGE, demo:DualResImageCollection,
+              demo:TEI_TO_PDFDOC, and demo:XML_TO_HTMLDOC.
+            For more information about the demonstration objects, see:
+              http://fedora-commons.org/confluence/x/AwFI.
+          </comment>
+          <dsTypeModel ID="DSID">
+            <form MIME="text/xml"/>
+          </dsTypeModel>
+        </dsCompositeModel>
+      </foxml:xmlContent>
+    </foxml:datastreamVersion>
+  </foxml:datastream>
+  <foxml:datastream CONTROL_GROUP="X" ID="DC" STATE="A" VERSIONABLE="true">
+    <foxml:datastreamVersion CREATED="2010-06-15T14:31:40.566Z" FORMAT_URI="http://www.openarchives.org/OAI/2.0/oai_dc/"
+      ID="DC1.0" LABEL="Dublin Core Record for this object" MIMETYPE="text/xml" SIZE="417">
+      <foxml:xmlContent>
+        <oai_dc:dc xmlns:dc="http://purl.org/dc/elements/1.1/"
+          xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>Epistemetec Collection Content Model</dc:title>
+          <dc:identifier>epistemetec:collectionCModel</dc:identifier>
+        </oai_dc:dc>
+      </foxml:xmlContent>
+    </foxml:datastreamVersion>
+  </foxml:datastream>
+  <foxml:datastream CONTROL_GROUP="X" ID="ISLANDORACM" STATE="A" VERSIONABLE="true">
+    <foxml:datastreamVersion CREATED="2010-06-15T14:44:01.180Z" ID="ISLANDORACM.0" LABEL="Epistemetec Content Model.xml"
+      MIMETYPE="text/xml" SIZE="1395">
+      <foxml:xmlContent>
+        <content_model name="E-Collection">
+          <mimetypes>
+            <type>text/xml</type>
+            <type>text/plain</type>
+            <type>application/xml</type>
+          </mimetypes>
+          <ingest_rules>
+            <rule>
+              <applies_to>
+                text/xml
+            </applies_to>
+              <applies_to>
+                text/plain
+            </applies_to>
+              <applies_to>
+                application/xml
+            </applies_to>
+              <methods/>
+            </rule>
+          </ingest_rules>
+          <ingest_form dsid="QDC" page="2">
+            <form_builder_method>
+              <file>plugins/CollectionFormBuilder.php</file>
+              <class_name>CollectionFormBuilder</class_name>
+              <method_name>buildQDCForm</method_name>
+              <form_handler>handleQDCForm</form_handler>
+            </form_builder_method>
+            <form_elements>
+              <element>
+                <label>Title/Caption/Object Name</label>
+                <name>dc:title</name>
+                <type>textfield</type>
+                <description>The name given to the resource</description>
+                <required>true</required>
+              </element>
+              <element>
+                <label>Creator/Photographer/Author</label>
+                <name>dc:creator</name>
+                <type>textfield</type>
+                <description>An entity primarily responsible for making the content of the resource such as a person, organization or service.</description>
+                <required>false</required>
+              </element>
+            </form_elements>
+          </ingest_form>
+        </content_model>
+      </foxml:xmlContent>
+    </foxml:datastreamVersion>
+    <foxml:datastreamVersion CREATED="2010-06-15T14:53:34.872Z" ID="ISLANDORACM.1" LABEL="Epistemetec Content Model.xml"
+      MIMETYPE="text/xml" SIZE="1397">
+      <foxml:xmlContent>
+        <content_model name="Epi-Collection">
+          <mimetypes>
+            <type>text/xml</type>
+            <type>text/plain</type>
+            <type>application/xml</type>
+          </mimetypes>
+          <ingest_rules>
+            <rule>
+              <applies_to>
+                text/xml
+            </applies_to>
+              <applies_to>
+                text/plain
+            </applies_to>
+              <applies_to>
+                application/xml
+            </applies_to>
+              <methods/>
+            </rule>
+          </ingest_rules>
+          <ingest_form dsid="QDC" page="2">
+            <form_builder_method>
+              <file>plugins/CollectionFormBuilder.php</file>
+              <class_name>CollectionFormBuilder</class_name>
+              <method_name>buildQDCForm</method_name>
+              <form_handler>handleQDCForm</form_handler>
+            </form_builder_method>
+            <form_elements>
+              <element>
+                <label>Title/Caption/Object Name</label>
+                <name>dc:title</name>
+                <type>textfield</type>
+                <description>The name given to the resource</description>
+                <required>true</required>
+              </element>
+              <element>
+                <label>Creator/Photographer/Author</label>
+                <name>dc:creator</name>
+                <type>textfield</type>
+                <description>An entity primarily responsible for making the content of the resource such as a person, organization or service.</description>
+                <required>false</required>
+              </element>
+            </form_elements>
+          </ingest_form>
+        </content_model>
+      </foxml:xmlContent>
+    </foxml:datastreamVersion>
+    <foxml:datastreamVersion CREATED="2010-06-15T15:32:16.778Z" ID="ISLANDORACM.2" LABEL="Epistemetec Content Model.xml"
+      MIMETYPE="text/xml" SIZE="1396">
+      <foxml:xmlContent>
+        <content_model name="EpiCollection">
+          <mimetypes>
+            <type>text/xml</type>
+            <type>text/plain</type>
+            <type>application/xml</type>
+          </mimetypes>
+          <ingest_rules>
+            <rule>
+              <applies_to>
+                text/xml
+            </applies_to>
+              <applies_to>
+                text/plain
+            </applies_to>
+              <applies_to>
+                application/xml
+            </applies_to>
+              <methods/>
+            </rule>
+          </ingest_rules>
+          <ingest_form dsid="QDC" page="2">
+            <form_builder_method>
+              <file>plugins/CollectionFormBuilder.php</file>
+              <class_name>CollectionFormBuilder</class_name>
+              <method_name>buildQDCForm</method_name>
+              <form_handler>handleQDCForm</form_handler>
+            </form_builder_method>
+            <form_elements>
+              <element>
+                <label>Title/Caption/Object Name</label>
+                <name>dc:title</name>
+                <type>textfield</type>
+                <description>The name given to the resource</description>
+                <required>true</required>
+              </element>
+              <element>
+                <label>Creator/Photographer/Author</label>
+                <name>dc:creator</name>
+                <type>textfield</type>
+                <description>An entity primarily responsible for making the content of the resource such as a person, organization or service.</description>
+                <required>false</required>
+              </element>
+            </form_elements>
+          </ingest_form>
+        </content_model>
+      </foxml:xmlContent>
+    </foxml:datastreamVersion>
+    <foxml:datastreamVersion CREATED="2010-06-16T13:53:05.777Z" ID="ISLANDORACM.3" LABEL="Epistemetec Content Model.xml"
+      MIMETYPE="text/xml" SIZE="1393">
+      <foxml:xmlContent>
+        <content_model name="Collection">
+          <mimetypes>
+            <type>text/xml</type>
+            <type>text/plain</type>
+            <type>application/xml</type>
+          </mimetypes>
+          <ingest_rules>
+            <rule>
+              <applies_to>
+                text/xml
+            </applies_to>
+              <applies_to>
+                text/plain
+            </applies_to>
+              <applies_to>
+                application/xml
+            </applies_to>
+              <methods/>
+            </rule>
+          </ingest_rules>
+          <ingest_form dsid="QDC" page="2">
+            <form_builder_method>
+              <file>plugins/CollectionFormBuilder.php</file>
+              <class_name>CollectionFormBuilder</class_name>
+              <method_name>buildQDCForm</method_name>
+              <form_handler>handleQDCForm</form_handler>
+            </form_builder_method>
+            <form_elements>
+              <element>
+                <label>Title/Caption/Object Name</label>
+                <name>dc:title</name>
+                <type>textfield</type>
+                <description>The name given to the resource</description>
+                <required>true</required>
+              </element>
+              <element>
+                <label>Creator/Photographer/Author</label>
+                <name>dc:creator</name>
+                <type>textfield</type>
+                <description>An entity primarily responsible for making the content of the resource such as a person, organization or service.</description>
+                <required>false</required>
+              </element>
+            </form_elements>
+          </ingest_form>
+        </content_model>
+      </foxml:xmlContent>
+    </foxml:datastreamVersion>
+  </foxml:datastream>
+</foxml:digitalObject>

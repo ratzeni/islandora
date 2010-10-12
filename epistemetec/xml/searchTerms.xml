@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='utf-8'?>
+ <search_terms>
+        <!--define what fields we can query as part of the advanced search for this collection-->
+        <default>dc.title</default>
+		<number_of_results>1000</number_of_results>
+		<term>
+            <field>mag.stprog</field>
+            <value>mag.stprog</value>
+        </term>
+		<term>
+            <field>mag.collection</field>
+            <value>mag.collection</value>
+        </term>
+		<term>
+            <field>mag.agency</field>
+            <value>mag.agency</value>
+        </term>
+		<term>
+            <field>mag.completeness</field>
+            <value>mag.completeness</value>
+        </term>
+		<term>
+            <field>mag.title</field>
+            <value>mag.title</value>
+        </term>
+		<term>
+            <field>mag.creator</field>
+            <value>mag.creator</value>
+        </term>
+		<term>
+            <field>mag.subject</field>
+            <value>mag.subject</value>
+        </term>
+		<term>
+            <field>mag.description</field>
+            <value>mag.description</value>
+        </term>
+		<term>
+            <field>mag.sequence_number</field>
+            <value>mag.sequence_number</value>
+        </term>
+		<term>
+            <field>mag.nomenclature</field>
+            <value>mag.nomenclature</value>
+        </term>
+		<term>
+            <field>dsm.text</field>
+            <value>dsm.text</value>
+        </term>
+    </search_terms>
+
+
+
+
+
+
+
+
+

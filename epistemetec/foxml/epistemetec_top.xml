@@ -1,0 +1,432 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<foxml:digitalObject PID="epistemetec:top" VERSION="1.1" xmlns:foxml="info:fedora/fedora-system:def/foxml#"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="info:fedora/fedora-system:def/foxml# http://www.fedora.info/definitions/1/0/foxml1-1.xsd">
+  <foxml:objectProperties>
+    <foxml:property NAME="info:fedora/fedora-system:def/model#state" VALUE="Active"/>
+    <foxml:property NAME="info:fedora/fedora-system:def/model#label" VALUE="Epistemetec Top-Level Collection"/>
+    <foxml:property NAME="info:fedora/fedora-system:def/model#ownerId" VALUE="fedoraAdmin"/>
+    <foxml:property NAME="info:fedora/fedora-system:def/model#createdDate" VALUE="2010-06-15T14:54:33.631Z"/>
+    <foxml:property NAME="info:fedora/fedora-system:def/view#lastModifiedDate" VALUE="2010-10-11T08:40:52.281Z"/>
+  </foxml:objectProperties>
+  <foxml:datastream CONTROL_GROUP="X" ID="AUDIT" STATE="A" VERSIONABLE="false">
+    <foxml:datastreamVersion CREATED="2010-06-15T14:54:33.631Z"
+      FORMAT_URI="info:fedora/fedora-system:format/xml.fedora.audit" ID="AUDIT.0" LABEL="Audit Trail for this object" MIMETYPE="text/xml">
+      <foxml:xmlContent>
+        <audit:auditTrail xmlns:audit="info:fedora/fedora-system:def/audit#">
+          <audit:record ID="AUDREC1">
+            <audit:process type="Fedora API-M"/>
+            <audit:action>ingest</audit:action>
+            <audit:componentID/>
+            <audit:responsibility>fedoraAdmin</audit:responsibility>
+            <audit:date>2010-06-15T14:54:33.631Z</audit:date>
+            <audit:justification>Created with Admin GUI "New Object" command</audit:justification>
+          </audit:record>
+          <audit:record ID="AUDREC2">
+            <audit:process type="Fedora API-M"/>
+            <audit:action>addDatastream</audit:action>
+            <audit:componentID>RELS-EXT</audit:componentID>
+            <audit:responsibility>fedoraAdmin</audit:responsibility>
+            <audit:date>2010-06-15T14:57:29.129Z</audit:date>
+            <audit:justification/>
+          </audit:record>
+          <audit:record ID="AUDREC3">
+            <audit:process type="Fedora API-M"/>
+            <audit:action>addDatastream</audit:action>
+            <audit:componentID>COLLECTION_POLICY</audit:componentID>
+            <audit:responsibility>fedoraAdmin</audit:responsibility>
+            <audit:date>2010-06-15T15:19:07.859Z</audit:date>
+            <audit:justification>DatastreamsPane generated this logMessage.</audit:justification>
+          </audit:record>
+          <audit:record ID="AUDREC4">
+            <audit:process type="Fedora API-M"/>
+            <audit:action>modifyDatastreamByValue</audit:action>
+            <audit:componentID>COLLECTION_POLICY</audit:componentID>
+            <audit:responsibility>fedoraAdmin</audit:responsibility>
+            <audit:date>2010-06-15T15:23:49.802Z</audit:date>
+            <audit:justification/>
+          </audit:record>
+          <audit:record ID="AUDREC5">
+            <audit:process type="Fedora API-M"/>
+            <audit:action>purgeDatastream</audit:action>
+            <audit:componentID>COLLECTION_POLICY</audit:componentID>
+            <audit:responsibility>admin</audit:responsibility>
+            <audit:date>2010-06-15T16:06:24.707Z</audit:date>
+            <audit:justification>Purged datastream using Islandora API . . . Purged datastream (ID=COLLECTION_POLICY), versions ranging from the beginning of time to the end of time.  This resulted in the permanent removal of 2 datastream version(s) (2010-06-15T17:19:07.859Z, 2010-06-15T17:23:49.802Z) and all associated audit records.</audit:justification>
+          </audit:record>
+          <audit:record ID="AUDREC6">
+            <audit:process type="Fedora API-M"/>
+            <audit:action>addDatastream</audit:action>
+            <audit:componentID>COLLECTION_POLICY</audit:componentID>
+            <audit:responsibility>admin</audit:responsibility>
+            <audit:date>2010-06-15T16:07:07.326Z</audit:date>
+            <audit:justification>Ingested object COLLECTION_POLICY</audit:justification>
+          </audit:record>
+          <audit:record ID="AUDREC7">
+            <audit:process type="Fedora API-M"/>
+            <audit:action>modifyDatastreamByValue</audit:action>
+            <audit:componentID>RELS-EXT</audit:componentID>
+            <audit:responsibility>fedoraAdmin</audit:responsibility>
+            <audit:date>2010-06-15T16:09:51.324Z</audit:date>
+            <audit:justification/>
+          </audit:record>
+          <audit:record ID="AUDREC8">
+            <audit:process type="Fedora API-M"/>
+            <audit:action>modifyDatastreamByReference</audit:action>
+            <audit:componentID>COLLECTION_POLICY</audit:componentID>
+            <audit:responsibility>fedoraAdmin</audit:responsibility>
+            <audit:date>2010-06-15T16:09:55.455Z</audit:date>
+            <audit:justification/>
+          </audit:record>
+          <audit:record ID="AUDREC9">
+            <audit:process type="Fedora API-M"/>
+            <audit:action>modifyDatastreamByValue</audit:action>
+            <audit:componentID>RELS-EXT</audit:componentID>
+            <audit:responsibility>fedoraAdmin</audit:responsibility>
+            <audit:date>2010-06-16T13:51:53.459Z</audit:date>
+            <audit:justification/>
+          </audit:record>
+          <audit:record ID="AUDREC10">
+            <audit:process type="Fedora API-M"/>
+            <audit:action>modifyDatastreamByReference</audit:action>
+            <audit:componentID>COLLECTION_POLICY</audit:componentID>
+            <audit:responsibility>fedoraAdmin</audit:responsibility>
+            <audit:date>2010-06-16T13:52:39.333Z</audit:date>
+            <audit:justification/>
+          </audit:record>
+          <audit:record ID="AUDREC11">
+            <audit:process type="Fedora API-M"/>
+            <audit:action>modifyDatastreamByReference</audit:action>
+            <audit:componentID>COLLECTION_POLICY</audit:componentID>
+            <audit:responsibility>fedoraAdmin</audit:responsibility>
+            <audit:date>2010-06-16T14:35:27.925Z</audit:date>
+            <audit:justification/>
+          </audit:record>
+          <audit:record ID="AUDREC12">
+            <audit:process type="Fedora API-M"/>
+            <audit:action>modifyDatastreamByValue</audit:action>
+            <audit:componentID>RELS-EXT</audit:componentID>
+            <audit:responsibility>fedoraAdmin</audit:responsibility>
+            <audit:date>2010-06-16T14:35:44.464Z</audit:date>
+            <audit:justification/>
+          </audit:record>
+          <audit:record ID="AUDREC13">
+            <audit:process type="Fedora API-M"/>
+            <audit:action>modifyDatastreamByValue</audit:action>
+            <audit:componentID>DC</audit:componentID>
+            <audit:responsibility>fedoraAdmin</audit:responsibility>
+            <audit:date>2010-06-16T16:28:07.571Z</audit:date>
+            <audit:justification/>
+          </audit:record>
+          <audit:record ID="AUDREC14">
+            <audit:process type="Fedora API-M"/>
+            <audit:action>modifyDatastreamByReference</audit:action>
+            <audit:componentID>COLLECTION_POLICY</audit:componentID>
+            <audit:responsibility>fedoraAdmin</audit:responsibility>
+            <audit:date>2010-07-01T09:28:09.202Z</audit:date>
+            <audit:justification/>
+          </audit:record>
+          <audit:record ID="AUDREC15">
+            <audit:process type="Fedora API-M"/>
+            <audit:action>modifyDatastreamByReference</audit:action>
+            <audit:componentID>COLLECTION_POLICY</audit:componentID>
+            <audit:responsibility>fedoraAdmin</audit:responsibility>
+            <audit:date>2010-07-01T09:40:17.624Z</audit:date>
+            <audit:justification/>
+          </audit:record>
+          <audit:record ID="AUDREC16">
+            <audit:process type="Fedora API-M"/>
+            <audit:action>modifyDatastreamByReference</audit:action>
+            <audit:componentID>COLLECTION_POLICY</audit:componentID>
+            <audit:responsibility>fedoraAdmin</audit:responsibility>
+            <audit:date>2010-07-01T13:49:26.661Z</audit:date>
+            <audit:justification/>
+          </audit:record>
+          <audit:record ID="AUDREC17">
+            <audit:process type="Fedora API-M"/>
+            <audit:action>modifyDatastreamByReference</audit:action>
+            <audit:componentID>COLLECTION_POLICY</audit:componentID>
+            <audit:responsibility>fedoraAdmin</audit:responsibility>
+            <audit:date>2010-07-16T09:56:24.547Z</audit:date>
+            <audit:justification/>
+          </audit:record>
+          <audit:record ID="AUDREC18">
+            <audit:process type="Fedora API-M"/>
+            <audit:action>modifyDatastreamByReference</audit:action>
+            <audit:componentID>COLLECTION_POLICY</audit:componentID>
+            <audit:responsibility>fedoraAdmin</audit:responsibility>
+            <audit:date>2010-07-16T13:56:48.838Z</audit:date>
+            <audit:justification/>
+          </audit:record>
+          <audit:record ID="AUDREC19">
+            <audit:process type="Fedora API-M"/>
+            <audit:action>modifyDatastreamByReference</audit:action>
+            <audit:componentID>COLLECTION_POLICY</audit:componentID>
+            <audit:responsibility>fedoraAdmin</audit:responsibility>
+            <audit:date>2010-07-16T13:57:38.678Z</audit:date>
+            <audit:justification/>
+          </audit:record>
+          <audit:record ID="AUDREC20">
+            <audit:process type="Fedora API-M"/>
+            <audit:action>modifyDatastreamByReference</audit:action>
+            <audit:componentID>COLLECTION_POLICY</audit:componentID>
+            <audit:responsibility>fedoraAdmin</audit:responsibility>
+            <audit:date>2010-07-16T13:58:15.419Z</audit:date>
+            <audit:justification/>
+          </audit:record>
+          <audit:record ID="AUDREC21">
+            <audit:process type="Fedora API-M"/>
+            <audit:action>modifyDatastreamByReference</audit:action>
+            <audit:componentID>COLLECTION_POLICY</audit:componentID>
+            <audit:responsibility>fedoraAdmin</audit:responsibility>
+            <audit:date>2010-07-16T14:06:40.085Z</audit:date>
+            <audit:justification/>
+          </audit:record>
+          <audit:record ID="AUDREC22">
+            <audit:process type="Fedora API-M"/>
+            <audit:action>modifyDatastreamByReference</audit:action>
+            <audit:componentID>COLLECTION_POLICY</audit:componentID>
+            <audit:responsibility>fedoraAdmin</audit:responsibility>
+            <audit:date>2010-07-21T16:05:06.741Z</audit:date>
+            <audit:justification/>
+          </audit:record>
+          <audit:record ID="AUDREC23">
+            <audit:process type="Fedora API-M"/>
+            <audit:action>modifyDatastreamByReference</audit:action>
+            <audit:componentID>COLLECTION_POLICY</audit:componentID>
+            <audit:responsibility>fedoraAdmin</audit:responsibility>
+            <audit:date>2010-09-03T16:15:20.133Z</audit:date>
+            <audit:justification/>
+          </audit:record>
+          <audit:record ID="AUDREC24">
+            <audit:process type="Fedora API-M"/>
+            <audit:action>modifyDatastreamByReference</audit:action>
+            <audit:componentID>COLLECTION_POLICY</audit:componentID>
+            <audit:responsibility>fedoraAdmin</audit:responsibility>
+            <audit:date>2010-09-03T16:19:35.252Z</audit:date>
+            <audit:justification/>
+          </audit:record>
+          <audit:record ID="AUDREC25">
+            <audit:process type="Fedora API-M"/>
+            <audit:action>modifyDatastreamByReference</audit:action>
+            <audit:componentID>COLLECTION_POLICY</audit:componentID>
+            <audit:responsibility>fedoraAdmin</audit:responsibility>
+            <audit:date>2010-09-06T09:04:29.483Z</audit:date>
+            <audit:justification/>
+          </audit:record>
+          <audit:record ID="AUDREC26">
+            <audit:process type="Fedora API-M"/>
+            <audit:action>modifyDatastreamByReference</audit:action>
+            <audit:componentID>COLLECTION_POLICY</audit:componentID>
+            <audit:responsibility>fedoraAdmin</audit:responsibility>
+            <audit:date>2010-09-06T09:08:39.706Z</audit:date>
+            <audit:justification/>
+          </audit:record>
+          <audit:record ID="AUDREC27">
+            <audit:process type="Fedora API-M"/>
+            <audit:action>modifyDatastreamByValue</audit:action>
+            <audit:componentID>DC</audit:componentID>
+            <audit:responsibility>admin</audit:responsibility>
+            <audit:date>2010-09-10T15:59:28.183Z</audit:date>
+            <audit:justification>datastream_modified</audit:justification>
+          </audit:record>
+          <audit:record ID="AUDREC28">
+            <audit:process type="Fedora API-M"/>
+            <audit:action>modifyDatastreamByReference</audit:action>
+            <audit:componentID>COLLECTION_POLICY</audit:componentID>
+            <audit:responsibility>fedoraAdmin</audit:responsibility>
+            <audit:date>2010-09-14T15:41:44.458Z</audit:date>
+            <audit:justification/>
+          </audit:record>
+          <audit:record ID="AUDREC29">
+            <audit:process type="Fedora API-M"/>
+            <audit:action>modifyDatastreamByReference</audit:action>
+            <audit:componentID>COLLECTION_POLICY</audit:componentID>
+            <audit:responsibility>fedoraAdmin</audit:responsibility>
+            <audit:date>2010-09-15T08:23:11.613Z</audit:date>
+            <audit:justification/>
+          </audit:record>
+          <audit:record ID="AUDREC30">
+            <audit:process type="Fedora API-M"/>
+            <audit:action>modifyDatastreamByReference</audit:action>
+            <audit:componentID>COLLECTION_POLICY</audit:componentID>
+            <audit:responsibility>fedoraAdmin</audit:responsibility>
+            <audit:date>2010-09-16T10:15:47.498Z</audit:date>
+            <audit:justification/>
+          </audit:record>
+          <audit:record ID="AUDREC31">
+            <audit:process type="Fedora API-M"/>
+            <audit:action>modifyDatastreamByReference</audit:action>
+            <audit:componentID>COLLECTION_POLICY</audit:componentID>
+            <audit:responsibility>fedoraAdmin</audit:responsibility>
+            <audit:date>2010-10-11T08:40:52.281Z</audit:date>
+            <audit:justification/>
+          </audit:record>
+        </audit:auditTrail>
+      </foxml:xmlContent>
+    </foxml:datastreamVersion>
+  </foxml:datastream>
+  <foxml:datastream CONTROL_GROUP="X" ID="DC" STATE="A" VERSIONABLE="true">
+    <foxml:datastreamVersion CREATED="2010-06-15T14:54:33.631Z" FORMAT_URI="http://www.openarchives.org/OAI/2.0/oai_dc/"
+      ID="DC1.0" LABEL="Dublin Core Record for this object" MIMETYPE="text/xml" SIZE="400">
+      <foxml:xmlContent>
+        <oai_dc:dc xmlns:dc="http://purl.org/dc/elements/1.1/"
+          xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>Epistemetec Top-Level Collection</dc:title>
+          <dc:identifier>epistemetec:top</dc:identifier>
+        </oai_dc:dc>
+      </foxml:xmlContent>
+    </foxml:datastreamVersion>
+    <foxml:datastreamVersion CREATED="2010-06-16T16:28:07.571Z" FORMAT_URI="http://www.openarchives.org/OAI/2.0/oai_dc/"
+      ID="DC.1" LABEL="Dublin Core Record for this object" MIMETYPE="text/xml" SIZE="437">
+      <foxml:xmlContent>
+        <oai_dc:dc xmlns:dc="http://purl.org/dc/elements/1.1/"
+          xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>Epistemetec Top-Level Collection</dc:title>
+          <dc:author>Epistemetec</dc:author>
+          <dc:identifier>epistemetec:top</dc:identifier>
+        </oai_dc:dc>
+      </foxml:xmlContent>
+    </foxml:datastreamVersion>
+    <foxml:datastreamVersion CREATED="2010-09-10T15:59:28.183Z" FORMAT_URI="URL" ID="DC.2" LABEL="Qualified Dublin Core"
+      MIMETYPE="text/xml" SIZE="350">
+      <foxml:xmlContent>
+        <oai_dc:dc xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/"
+          xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+          <dc:title>Epistemetec Top</dc:title>
+          <dc:author>Epistemetec</dc:author>
+          <dc:identifier>epistemetec:top</dc:identifier>
+        </oai_dc:dc>
+      </foxml:xmlContent>
+    </foxml:datastreamVersion>
+  </foxml:datastream>
+  <foxml:datastream CONTROL_GROUP="X" ID="RELS-EXT" STATE="A" VERSIONABLE="true">
+    <foxml:datastreamVersion CREATED="2010-06-15T14:57:29.129Z" FORMAT_URI="info:fedora/fedora-system:FedoraRELSExt-1.0"
+      ID="RELS-EXT.0" LABEL="RDF Statements about this object" MIMETYPE="application/rdf+xml" SIZE="286">
+      <foxml:xmlContent>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+          <rdf:Description rdf:about="info:fedora/epistemetec:top">
+            <hasModel rdf:resource="info:fedora/epistemetec:collectionCModel" xmlns="info:fedora/fedora-system:def/model#"/>
+          </rdf:Description>
+        </rdf:RDF>
+      </foxml:xmlContent>
+    </foxml:datastreamVersion>
+    <foxml:datastreamVersion CREATED="2010-06-15T16:09:51.324Z" FORMAT_URI="info:fedora/fedora-system:FedoraRELSExt-1.0"
+      ID="RELS-EXT.1" LABEL="RDF Statements about this object" MIMETYPE="application/rdf+xml" SIZE="284">
+      <foxml:xmlContent>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+          <rdf:Description rdf:about="info:fedora/epistemetec:top">
+            <hasModel rdf:resource="info:fedora/islandora:collectionCModel" xmlns="info:fedora/fedora-system:def/model#"/>
+          </rdf:Description>
+        </rdf:RDF>
+      </foxml:xmlContent>
+    </foxml:datastreamVersion>
+    <foxml:datastreamVersion CREATED="2010-06-16T13:51:53.459Z" FORMAT_URI="info:fedora/fedora-system:FedoraRELSExt-1.0"
+      ID="RELS-EXT.2" LABEL="RDF Statements about this object" MIMETYPE="application/rdf+xml" SIZE="286">
+      <foxml:xmlContent>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+          <rdf:Description rdf:about="info:fedora/epistemetec:top">
+            <hasModel rdf:resource="info:fedora/epistemetec:collectionCModel" xmlns="info:fedora/fedora-system:def/model#"/>
+          </rdf:Description>
+        </rdf:RDF>
+      </foxml:xmlContent>
+    </foxml:datastreamVersion>
+    <foxml:datastreamVersion CREATED="2010-06-16T14:35:44.464Z" FORMAT_URI="info:fedora/fedora-system:FedoraRELSExt-1.0"
+      ID="RELS-EXT.3" LABEL="RDF Statements about this object" MIMETYPE="application/rdf+xml" SIZE="284">
+      <foxml:xmlContent>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+          <rdf:Description rdf:about="info:fedora/epistemetec:top">
+            <hasModel rdf:resource="info:fedora/islandora:collectionCModel" xmlns="info:fedora/fedora-system:def/model#"/>
+          </rdf:Description>
+        </rdf:RDF>
+      </foxml:xmlContent>
+    </foxml:datastreamVersion>
+  </foxml:datastream>
+  <foxml:datastream CONTROL_GROUP="M" ID="COLLECTION_POLICY" STATE="A" VERSIONABLE="true">
+    <foxml:datastreamVersion CREATED="2010-06-15T16:07:07.326Z" ID="COLLECTION_POLICY.0" LABEL="Collection Policy.xml" MIMETYPE="text/xml">
+      <foxml:contentLocation
+        REF="http://www.e-pistemetec.local:8080/fedora/get/epistemetec:top/COLLECTION_POLICY/2010-06-15T16:07:07.326Z" TYPE="INTERNAL_ID"/>
+    </foxml:datastreamVersion>
+    <foxml:datastreamVersion CREATED="2010-06-15T16:09:55.455Z" ID="COLLECTION_POLICY.1" LABEL="Collection Policy.xml" MIMETYPE="text/xml">
+      <foxml:contentLocation
+        REF="http://www.e-pistemetec.local:8080/fedora/get/epistemetec:top/COLLECTION_POLICY/2010-06-15T16:09:55.455Z" TYPE="INTERNAL_ID"/>
+    </foxml:datastreamVersion>
+    <foxml:datastreamVersion CREATED="2010-06-16T13:52:39.333Z" ID="COLLECTION_POLICY.2" LABEL="Collection Policy.xml" MIMETYPE="text/xml">
+      <foxml:contentLocation
+        REF="http://www.e-pistemetec.local:8080/fedora/get/epistemetec:top/COLLECTION_POLICY/2010-06-16T13:52:39.333Z" TYPE="INTERNAL_ID"/>
+    </foxml:datastreamVersion>
+    <foxml:datastreamVersion CREATED="2010-06-16T14:35:27.925Z" ID="COLLECTION_POLICY.3" LABEL="Collection Policy.xml" MIMETYPE="text/xml">
+      <foxml:contentLocation
+        REF="http://www.e-pistemetec.local:8080/fedora/get/epistemetec:top/COLLECTION_POLICY/2010-06-16T14:35:27.925Z" TYPE="INTERNAL_ID"/>
+    </foxml:datastreamVersion>
+    <foxml:datastreamVersion CREATED="2010-07-01T09:28:09.202Z" ID="COLLECTION_POLICY.4" LABEL="Collection Policy.xml" MIMETYPE="text/xml">
+      <foxml:contentLocation
+        REF="http://www.e-pistemetec.local:8080/fedora/get/epistemetec:top/COLLECTION_POLICY/2010-07-01T09:28:09.202Z" TYPE="INTERNAL_ID"/>
+    </foxml:datastreamVersion>
+    <foxml:datastreamVersion CREATED="2010-07-01T09:40:17.624Z" ID="COLLECTION_POLICY.5" LABEL="Collection Policy.xml" MIMETYPE="text/xml">
+      <foxml:contentLocation
+        REF="http://www.e-pistemetec.local:8080/fedora/get/epistemetec:top/COLLECTION_POLICY/2010-07-01T09:40:17.624Z" TYPE="INTERNAL_ID"/>
+    </foxml:datastreamVersion>
+    <foxml:datastreamVersion CREATED="2010-07-01T13:49:26.661Z" ID="COLLECTION_POLICY.6" LABEL="Collection Policy.xml" MIMETYPE="text/xml">
+      <foxml:contentLocation
+        REF="http://www.e-pistemetec.local:8080/fedora/get/epistemetec:top/COLLECTION_POLICY/2010-07-01T13:49:26.661Z" TYPE="INTERNAL_ID"/>
+    </foxml:datastreamVersion>
+    <foxml:datastreamVersion CREATED="2010-07-16T09:56:24.547Z" ID="COLLECTION_POLICY.7" LABEL="Collection Policy.xml" MIMETYPE="text/xml">
+      <foxml:contentLocation
+        REF="http://www.e-pistemetec.local:8080/fedora/get/epistemetec:top/COLLECTION_POLICY/2010-07-16T09:56:24.547Z" TYPE="INTERNAL_ID"/>
+    </foxml:datastreamVersion>
+    <foxml:datastreamVersion CREATED="2010-07-16T13:56:48.838Z" ID="COLLECTION_POLICY.8" LABEL="Collection Policy.xml" MIMETYPE="text/xml">
+      <foxml:contentLocation
+        REF="http://www.e-pistemetec.local:8080/fedora/get/epistemetec:top/COLLECTION_POLICY/2010-07-16T13:56:48.838Z" TYPE="INTERNAL_ID"/>
+    </foxml:datastreamVersion>
+    <foxml:datastreamVersion CREATED="2010-07-16T13:57:38.678Z" ID="COLLECTION_POLICY.9" LABEL="Collection Policy.xml" MIMETYPE="text/xml">
+      <foxml:contentLocation
+        REF="http://www.e-pistemetec.local:8080/fedora/get/epistemetec:top/COLLECTION_POLICY/2010-07-16T13:57:38.678Z" TYPE="INTERNAL_ID"/>
+    </foxml:datastreamVersion>
+    <foxml:datastreamVersion CREATED="2010-07-16T13:58:15.419Z" ID="COLLECTION_POLICY.10" LABEL="Collection Policy.xml" MIMETYPE="text/xml">
+      <foxml:contentLocation
+        REF="http://www.e-pistemetec.local:8080/fedora/get/epistemetec:top/COLLECTION_POLICY/2010-07-16T13:58:15.419Z" TYPE="INTERNAL_ID"/>
+    </foxml:datastreamVersion>
+    <foxml:datastreamVersion CREATED="2010-07-16T14:06:40.085Z" ID="COLLECTION_POLICY.11" LABEL="Collection Policy.xml" MIMETYPE="text/xml">
+      <foxml:contentLocation
+        REF="http://www.e-pistemetec.local:8080/fedora/get/epistemetec:top/COLLECTION_POLICY/2010-07-16T14:06:40.085Z" TYPE="INTERNAL_ID"/>
+    </foxml:datastreamVersion>
+    <foxml:datastreamVersion CREATED="2010-07-21T16:05:06.741Z" ID="COLLECTION_POLICY.12" LABEL="Collection Policy.xml" MIMETYPE="text/xml">
+      <foxml:contentLocation
+        REF="http://www.e-pistemetec.local:8080/fedora/get/epistemetec:top/COLLECTION_POLICY/2010-07-21T16:05:06.741Z" TYPE="INTERNAL_ID"/>
+    </foxml:datastreamVersion>
+    <foxml:datastreamVersion CREATED="2010-09-03T16:15:20.133Z" ID="COLLECTION_POLICY.13" LABEL="Collection Policy.xml" MIMETYPE="text/xml">
+      <foxml:contentLocation
+        REF="http://www.e-pistemetec.local:8080/fedora/get/epistemetec:top/COLLECTION_POLICY/2010-09-03T16:15:20.133Z" TYPE="INTERNAL_ID"/>
+    </foxml:datastreamVersion>
+    <foxml:datastreamVersion CREATED="2010-09-03T16:19:35.252Z" ID="COLLECTION_POLICY.14" LABEL="Collection Policy.xml" MIMETYPE="text/xml">
+      <foxml:contentLocation
+        REF="http://www.e-pistemetec.local:8080/fedora/get/epistemetec:top/COLLECTION_POLICY/2010-09-03T16:19:35.252Z" TYPE="INTERNAL_ID"/>
+    </foxml:datastreamVersion>
+    <foxml:datastreamVersion CREATED="2010-09-06T09:04:29.483Z" ID="COLLECTION_POLICY.15" LABEL="Collection Policy.xml" MIMETYPE="text/xml">
+      <foxml:contentLocation
+        REF="http://www.e-pistemetec.local:8080/fedora/get/epistemetec:top/COLLECTION_POLICY/2010-09-06T09:04:29.483Z" TYPE="INTERNAL_ID"/>
+    </foxml:datastreamVersion>
+    <foxml:datastreamVersion CREATED="2010-09-06T09:08:39.706Z" ID="COLLECTION_POLICY.16" LABEL="Collection Policy.xml" MIMETYPE="text/xml">
+      <foxml:contentLocation
+        REF="http://www.e-pistemetec.local:8080/fedora/get/epistemetec:top/COLLECTION_POLICY/2010-09-06T09:08:39.706Z" TYPE="INTERNAL_ID"/>
+    </foxml:datastreamVersion>
+    <foxml:datastreamVersion CREATED="2010-09-14T15:41:44.458Z" ID="COLLECTION_POLICY.17" LABEL="Collection Policy.xml" MIMETYPE="text/xml">
+      <foxml:contentLocation
+        REF="http://www.e-pistemetec.local:8080/fedora/get/epistemetec:top/COLLECTION_POLICY/2010-09-14T15:41:44.458Z" TYPE="INTERNAL_ID"/>
+    </foxml:datastreamVersion>
+    <foxml:datastreamVersion CREATED="2010-09-15T08:23:11.613Z" ID="COLLECTION_POLICY.18" LABEL="Collection Policy.xml" MIMETYPE="text/xml">
+      <foxml:contentLocation
+        REF="http://www.e-pistemetec.local:8080/fedora/get/epistemetec:top/COLLECTION_POLICY/2010-09-15T08:23:11.613Z" TYPE="INTERNAL_ID"/>
+    </foxml:datastreamVersion>
+    <foxml:datastreamVersion CREATED="2010-09-16T10:15:47.498Z" ID="COLLECTION_POLICY.19" LABEL="Collection Policy.xml" MIMETYPE="text/xml">
+      <foxml:contentLocation
+        REF="http://www.e-pistemetec.local:8080/fedora/get/epistemetec:top/COLLECTION_POLICY/2010-09-16T10:15:47.498Z" TYPE="INTERNAL_ID"/>
+    </foxml:datastreamVersion>
+    <foxml:datastreamVersion CREATED="2010-10-11T08:40:52.281Z" ID="COLLECTION_POLICY.20" LABEL="Collection Policy.xml" MIMETYPE="text/xml">
+      <foxml:contentLocation
+        REF="http://www.e-pistemetec.local:8080/fedora/get/epistemetec:top/COLLECTION_POLICY/2010-10-11T08:40:52.281Z" TYPE="INTERNAL_ID"/>
+    </foxml:datastreamVersion>
+  </foxml:datastream>
+</foxml:digitalObject>

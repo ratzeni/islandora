@@ -1,0 +1,5 @@
+;$Id$
+name = "Epistemetec"
+description = "Epistemec Module"
+core = 6.x
+php = 5.1  

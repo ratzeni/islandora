@@ -1,0 +1,46 @@
+<content_model name="Album">
+  <mimetypes>
+    <type>text/xml</type>
+    <type>text/plain</type>
+    <type>application/xml</type>
+  </mimetypes>
+  <ingest_rules>
+    <rule>
+      <applies_to>
+                text/xml
+            </applies_to>
+      <applies_to>
+                text/plain
+            </applies_to>
+      <applies_to>
+                application/xml
+            </applies_to>
+      <methods/>
+    </rule>
+  </ingest_rules>
+  <ingest_form dsid="QDC" page="2">
+    <form_builder_method>
+      <file>epistemetec/plugins/CollectionFormBuilder.php</file>
+      <class_name>EpistemetecCollectionFormBuilder</class_name>
+      <method_name>buildQDCForm</method_name>
+      <form_handler>handleImageCollectionForm</form_handler>
+    </form_builder_method>
+    <form_elements>
+      <element>
+        <label>Title/Caption/Object Name</label>
+        <name>dc:title</name>
+        <type>textfield</type>
+        <description>The name given to the resource</description>
+        <required>true</required>
+      </element>
+      <element>
+        <label>Creator/Photographer/Author</label>
+        <name>dc:creator</name>
+        <type>textfield</type>
+        <description>An entity primarily responsible for making the content of the resource such as a person, organization or service.</description>
+        <required>false</required>
+      </element>
+    </form_elements>
+  </ingest_form>
+</content_model>
+

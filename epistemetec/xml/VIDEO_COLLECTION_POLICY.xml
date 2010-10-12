@@ -1,0 +1,22 @@
+<collection_policy> 
+  <contentmodels> 
+    <contentmodel name="epistemetec_flv"> 
+      <pid_namespace>epistemetec-video:</pid_namespace> 
+      <pid>epistemetec:videoCModel</pid> 
+      <dsid>ISLANDORACM</dsid> 
+    </contentmodel> 
+  </contentmodels> 
+  <relationship>isMemberOfCollection</relationship> 
+  <search_terms> 
+    <default>dc.description</default> 
+    <term> 
+      <field>dc.title</field> 
+      <value>dc.title</value> 
+    </term> 
+    <term> 
+      <field>dc.creator</field> 
+      <value>dc.creator</value> 
+    </term> 
+  </search_terms> 
+</collection_policy> 
+

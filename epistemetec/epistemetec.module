@@ -1,0 +1,148 @@
+<?php
+
+
+//$Id$
+/**
+ * Epistemetec Module
+ */
+
+function epistemetec_block($op = 'list', $delta = 0, $edit = array ()) {
+	switch ($op) {
+		case 'list' :
+			$blocks[0]['info'] = t('Epistemetec');
+			return $blocks;
+
+		case 'view' :
+		default :
+			$block['subject'] = t('Epistemetec Form');
+			$block['content'] = drupal_get_form('epistemetec_home_search_form');
+
+			return $block;
+	}
+}
+
+function epistemetec_theme() {
+	return array (
+		'epistemetec_home_search_form' => array (
+			'arguments' => array (
+				'form' => NULL
+			)
+		)
+	);
+}
+function epistemetec_home_search_form() {
+	module_load_include('php', 'Fedora_Repository', 'epistemetec/SearchingClass');
+	$searchClass = new SearchingClass();
+	return $searchClass->build_home_search_form();
+}
+
+function theme_epistemetec_home_search_form($form) {
+	module_load_include('php', 'Fedora_Repository', 'epistemetec/SearchingClass');
+	$home_search_form = new SearchingClass();
+	return $home_search_form->theme_home_search_form($form);
+
+}
+
+function epistemetec_home_search_form_submit($form, & $form_state) {
+	module_load_include('php', 'Fedora_Repository', 'epistemetec/SearchingClass');
+	$searchClass = new SearchingClass();
+	$searchClass->submit_home_search_form($form, & $form_state);
+
+}
+
+function epistemetec_home_search($query, $startPage = 1) {
+	module_load_include('php', 'Fedora_Repository', 'epistemetec/SearchingClass');
+	$searchClass = new SearchingClass();
+	return $searchClass->custom_search($query, $startPage,'/epistemetec/xsl/advanced_search_results.xsl');
+}
+
+function epistemetec_nodeapi(& $node, $op, $a3 = NULL, $a4 = NULL) {
+
+	// define node type that a user will only be allowed to create one instance of 
+	$singleNodeType = 'fedora_obj';
+
+	// test for node/add/NODETYPE page
+	if ($node->type == $singleNodeType && $op == 'update') {
+
+		// set a message
+		//drupal_set_message("NODO AGGIORNATO");
+
+		//watchdog(t("Fedora_Repository"), t("NODE UPDATED!"), NULL, WATCHDOG_INFO);
+
+		$pid = $node->field_fedora_pid[0]['value'];
+		$terms = taxonomy_node_get_terms_by_vocabulary($node, 1);
+		module_load_include('php', 'Fedora_Repository', 'epistemetec/plugins/FormBuilder');
+		//		foreach ($terms as $term) 	
+		//				drupal_set_message($term->name."\n");
+		$form = new EpistemetecFormBuilder();
+		$form->updateTags($pid, $terms);
+
+	}
+
+}
+
+function epistemetec_form_alter(& $form, $form_state, $form_id) {
+	switch ($form_id) {
+
+		case 'fedora_repository_purge_object_form' :
+
+
+			$form['#submit'][] = 'epistemetec_purge_submit';
+
+			break;
+
+			case 'fedora_repository_edit_qdc_form' :
+				$form['#submit'][] = 'epistemetec_edit_qdc_submit';
+			break;
+	}
+	return $form;
+}
+
+function epistemetec_purge_submit($form, & $form_state) {
+
+			$pid = $form_state['values']['pid'];
+
+			module_load_include('php', 'Fedora_Repository', 'epistemetec/plugins/Node');
+			$node = new EpistemetecNode();
+
+			$node->deleteNode($pid);
+
+			module_load_include('php', 'Fedora_Repository', 'ConnectionHelper');
+			//$client = getSoapClient(variable_get('fedora_soap_manage_url', 'http://localhost:8080/fedora/services/management?wsdl'));
+
+			$params = array (
+				"pid" => $pid,
+				"logMessage" => "Purged",
+				"force" => ""
+			);
+
+			try {
+
+				$soapHelper = new ConnectionHelper();
+				$client = $soapHelper->getSoapClient(variable_get('fedora_soap_manage_url', 'http://localhost:8080/fedora/services/management?wsdl'));
+				$object = $client->__soapCall('purgeObject', array (
+					$params
+				));
+				//echo "HERE ".$pid; exit;
+				// purge NODE
+
+			} catch (exception $e) {
+				drupal_set_message(t($e->getMessage()), 'error');
+				return;
+			}
+			if (empty ($collectionPid)) {
+				$collectionPid = $_SESSION['fedora_collection'];
+			}
+			$form_state['redirect'] = "fedora/repository/$collectionPid/";
+
+}
+
+function epistemetec_edit_qdc_submit($form, & $form_state) {
+	$ccks = array ();
+		module_load_include('php', 'Fedora_Repository', 'epistemetec/plugins/Node');
+		$node = new EpistemetecNode();
+		$ccks = $node->hashCCK($form_state['values'],COLLECTION_DL,TRUE);
+		//echo "<br><pre>";print_r($form_values);echo "</pre>";exit;
+		$node->editNode($ccks);
+
+}
