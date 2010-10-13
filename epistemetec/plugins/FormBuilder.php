@@ -569,8 +569,9 @@ class EpistemetecFormBuilder extends FormBuilder {
 			module_load_include('php', 'Fedora_Repository', 'epistemetec/plugins/Node');
 			$node = new EpistemetecNode();
 			$ccks = $node->hashCCK($form_values, IMAGE_DL);
-			$form_values['dru_nid'] = $base_url . '/node/' . $node->createNode($ccks, ITEM_DL);
-
+			$nid = $node->createNode($ccks, ITEM_DL);
+			$form_values['dru_nurl'] = $base_url . '/node/' . $nid;
+			$form_values['dru_nid'] =  $nid;
 		}
 
 		$this->createMAGStream($form_values, $dom, $rootElement, 'image');
@@ -634,7 +635,10 @@ class EpistemetecFormBuilder extends FormBuilder {
 		module_load_include('php', 'Fedora_Repository', 'epistemetec/plugins/Node');
 		$node = new EpistemetecNode();
 		$ccks = $node->hashCCK($form_values, AUDIO_DL);
-		$form_values['dru_nid'] = $base_url . '/node/' . $node->createNode($ccks, ITEM_DL);
+		$nid = $node->createNode($ccks, ITEM_DL);
+			$form_values['dru_nurl'] = $base_url . '/node/' . $nid;
+			$form_values['dru_nid'] =  $nid;
+		//$form_values['dru_nid'] = $base_url . '/node/' . $node->createNode($ccks, ITEM_DL);
 		$this->createMAGStream($form_values, $dom, $rootElement, 'audio');
 		if (!empty ($form_values['ingest-file-location'])) {
 			$this->createFedoraDataStreams($form_values, $dom, $rootElement);
@@ -696,7 +700,10 @@ class EpistemetecFormBuilder extends FormBuilder {
 		module_load_include('php', 'Fedora_Repository', 'epistemetec/plugins/Node');
 		$node = new EpistemetecNode();
 		$ccks = $node->hashCCK($form_values, VIDEO_DL);
-		$form_values['dru_nid'] = $base_url . '/node/' . $node->createNode($ccks, ITEM_DL);
+		$nid = $node->createNode($ccks, ITEM_DL);
+			$form_values['dru_nurl'] = $base_url . '/node/' . $nid;
+			$form_values['dru_nid'] =  $nid;
+		//$form_values['dru_nid'] = $base_url . '/node/' . $node->createNode($ccks, ITEM_DL);
 		$this->createMAGStream($form_values, $dom, $rootElement, 'video');
 		if (!empty ($form_values['ingest-file-location'])) {
 			$this->createFedoraDataStreams($form_values, $dom, $rootElement);

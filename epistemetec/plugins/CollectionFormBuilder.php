@@ -21,11 +21,12 @@ class EpistemetecCollectionFormBuilder extends CollectionFormBuilder {
 		module_load_include('php', 'Fedora_Repository', 'epistemetec/plugins/Node');
 		$node = new EpistemetecNode();
 		$ccks = $node->hashCCK($form_values, COLLECTION_DL);
-		$dru_nid = $base_url . '/node/' . $node->createNode($ccks, COLLECTION_DL);
-		
+		$nid = $node->createNode($ccks, COLLECTION_DL);
+		$dru_nurl = $base_url . '/node/' . $nid;
+		$dru_nid = $nid;
 		$pid = $form_values["pid"];
 		$object = new Fedora_Item($pid);
-		$stream = "<mag><dru><nid>".$dru_nid."</nid></dru></mag>";
+		$stream = "<mag><dru><nid>".$dru_nid."</nid><nurl>".$dru_nurl."</nurl></dru></mag>";
 		$object->add_datastream_from_string($stream, "MAG", "Mag Metadata");
 		
 	}

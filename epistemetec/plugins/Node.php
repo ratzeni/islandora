@@ -17,9 +17,10 @@ class EpistemetecNode {
 		$spec = $object->getStream($pid, 'MAG',0);
 		
 		$xml = new SimpleXMLElement($spec);
-		$urlNid = implode($xml->xpath('//nid'));
-		$strNid = explode('node/', $urlNid);
-		$nid = $strNid[1];
+		$nid = implode($xml->xpath('//nid'));
+//		$urlNid = implode($xml->xpath('//nurl'));
+//		$strNid = explode('node/', $urlNid);
+//		$nid = $strNid[1];
 
 		return $nid;
 	}
@@ -75,8 +76,8 @@ class EpistemetecNode {
 		// save node
 		
 		node_save($newNode);
-	
-		return $newNode->nid;
+		$nid = trim($newNode->nid);
+		return $nid;
 	}
 
 	function editNode($ccks) {

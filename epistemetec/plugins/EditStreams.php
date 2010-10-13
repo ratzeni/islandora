@@ -771,6 +771,7 @@ class EditStreams {
 
 		$dis->appendChild($dom->createElement('item', implode($xml->xpath('//item'))));
 		$drup->appendChild($dom->createElement('nid', implode($xml->xpath('//nid'))));
+		$drup->appendChild($dom->createElement('nurl', implode($xml->xpath('//nurl'))));
 
 		$previousElement = null; //used in case we have to nest elements for qualified dublin core
 		foreach ($form_values as $key => $value) {
@@ -922,6 +923,7 @@ class EditStreams {
 
 		$dis->appendChild($dom->createElement('item', implode($xml->xpath('//item'))));
 		$drup->appendChild($dom->createElement('nid', implode($xml->xpath('//nid'))));
+		$drup->appendChild($dom->createElement('nurl', implode($xml->xpath('//nurl'))));
 
 		$previousElement = null; //used in case we have to nest elements for qualified dublin core
 		foreach ($form_values as $key => $value) {
@@ -1095,6 +1097,7 @@ class EditStreams {
 
 		$dis->appendChild($dom->createElement('item', implode($xml->xpath('//item'))));
 		$drup->appendChild($dom->createElement('nid', implode($xml->xpath('//nid'))));
+		$drup->appendChild($dom->createElement('nurl', implode($xml->xpath('//nurl'))));
 
 		$previousElement = null; //used in case we have to nest elements for qualified dublin core
 		foreach ($form_values as $key => $value) {
