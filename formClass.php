@@ -121,12 +121,12 @@ class formClass {
             'access arguments' => array('view fedora collection')
     );
 
-	 $items['fedora/repository/epistemetec_search'] = array (
-          'title' => t('Repository Advanced Search'),
-           'page callback' => 'fedora_repository_mnpl_advanced_search',
-            'type'=> MENU_CALLBACK,
-            'access arguments' => array('view fedora collection')
-    ); 
+//	 $items['fedora/repository/epistemetec_search'] = array (
+//          'title' => t('Repository Advanced Search'),
+//           'page callback' => 'epistemetec_home_search',
+//            'type'=> MENU_CALLBACK,
+//            'access arguments' => array('view fedora collection')
+//    ); 
     $items['fedora/ingestObject'] = array (
         'title' => t('Ingest Object'),
       'page callback' => 'fedora_repository_ingest_object',

@@ -57,7 +57,7 @@
 
 		Total Hits = <strong><xsl:value-of select="@hitTotal"/>,</strong>
 		 Number of Hits/page = <xsl:value-of select="$HITPAGESIZE"/>
-		 <!--  <br />You may not have sufficient privileges to view any or all of the items found.  The objects you have rights to view will be shown below. -->
+		 <br />You may not have sufficient privileges to view any or all of the items found.  The objects you have rights to view will be shown below.
 		<!-- Current page = <xsl:value-of select="@hitPageStart"/>-->
 		 <br/>
      <xsl:if test="$HITTOTAL > $HITPAGESIZE">
@@ -131,10 +131,8 @@
 
 
 
-    <div class="search-results">
-    
+    <table><div class="search-results">
     <xsl:for-each select="object">
-    	   <xsl:variable name="COUNT" select="@no"/>
 			<xsl:variable name="PIDVALUE">
                     <xsl:choose>
                         <xsl:when test="@PID">
@@ -148,23 +146,22 @@
                         </xsl:otherwise>
                     </xsl:choose>
 			</xsl:variable>
-	
+
 
     	<xsl:call-template name="splitBySpace">
-    		<xsl:with-param name="COUNT" select="$COUNT"/>
     		<xsl:with-param name="PIDVALUE" select="$PIDVALUE"></xsl:with-param>
     		<xsl:with-param name="str" select="$ALLOWEDNAMESPACES"/>	
     	</xsl:call-template>
 
 
     </xsl:for-each>
-        </div>
+        </div></table>
 
 </xsl:template>
 	<xsl:template name="splitBySpace">
 		<xsl:param name="str"/>
 		<xsl:param name="PIDVALUE"/>
-		<xsl:param name="COUNT"/>
+		
 		
 		<xsl:choose>
 			<xsl:when test="contains($str,' ')">
@@ -206,7 +203,6 @@
 
 <xsl:template name="showResult">
 	<xsl:param name="PIDVALUE"/>
-	<xsl:param name="COUNT"/>
     <xsl:variable name="DCTITLE">
         <xsl:value-of select="field[@name='dc.title']/node()"/>
     </xsl:variable>
@@ -214,8 +210,7 @@
     <xsl:variable name="CLEANTITLE">
          <xsl:value-of select="php:functionString('fedora_repository_urlencode_string', $DCTITLE)"/>
         </xsl:variable>
-	<div class='div-container'>
-	<div class='div-item'>
+	<tr><td valign="top">
 		<a>
 			<xsl:attribute name="href"><xsl:copy-of select="$OBJECTSPAGE"/>fedora/repository/<xsl:copy-of select="$PIDVALUE"/>/-/<xsl:value-of select="$CLEANTITLE"/>
 			</xsl:attribute>
@@ -228,24 +223,42 @@
               <xsl:attribute name="src">
       http://islandlives.ca:8080/adore-djatoka/resolver?url_ver=Z39.88-2004&amp;rft_id=http://islandlives.ca/fedora/repository/<xsl:copy-of select="$PIDVALUE"/>/JPG/jpg.jpg&amp;svc_id=info:lanl-repo/svc/getRegion&amp;svc_val_fmt=info:ofi/fmt:kev:mtx:jpeg&amp;svc.format=image/jpeg&amp;svc.level=0&amp;svc.rotate=0&amp;svc.region=0,0,100,100</xsl:attribute>
             </img>-->
-            <div class='div-img'>
-			<img class='thumb-img'>
+
+			<img>
 				<xsl:attribute name="src"><xsl:copy-of select="$OBJECTSPAGE"/>fedora/repository/<xsl:copy-of select="$PIDVALUE"/>/TN
 				</xsl:attribute>
 			</img>
-			</div>
 		</a>
-		</div>
+
+	</td  >
+
+		<td width="80%" valign="top">
+			<table  valign="top">
 
 
-						
-						
+				<tr valign="top">
+					<td  valign="top" class="search-results" colspan="2">
 
-						<div class="searchtitle" >
-						<div class='div-searchtitle'>
-							<xsl:value-of select="@no"/>
+
+						<xsl:value-of select="@no"/>
 						<xsl:value-of select="'. '"/>
-							<span class="div-title">
+
+
+
+
+						<a>
+							<!--<xsl:attribute name="href"><![CDATA[http://localhost/drupal-5.1/?q=node/7&pid=]]><xsl:value-of select="$PIDVALUE"/><![CDATA[&collection=object]]>-->
+							<!--<xsl:attribute name="href"><xsl:copy-of select="$OBJECTSPAGE"/><![CDATA[&pid=]]><xsl:value-of select="$PIDVALUE"/><![CDATA[&collection=object]]>-->
+							<xsl:attribute name="href"><xsl:copy-of select="$OBJECTSPAGE"/>fedora/repository/<xsl:value-of select="$PIDVALUE"/>/-/<xsl:value-of select="$CLEANTITLE"/>
+
+							</xsl:attribute>
+
+							<xsl:value-of select="$PIDVALUE"/><br />
+						</a>
+						<span class="searchtitle">
+							<span >
+								Score:(<xsl:value-of select="@score"/>)
+							</span><br />
 							<a>
 								<!--<xsl:attribute name="href"><xsl:copy-of select="$OBJECTSPAGE"/><![CDATA[&pid=]]><xsl:value-of select="$PIDVALUE"/><![CDATA[&collection=object]]>-->
                                 
@@ -253,15 +266,57 @@
 
 								</xsl:attribute>
 								<xsl:value-of select="field[@name='dc.title']/node()" disable-output-escaping="yes"/>
-							</a></span>
-							<span class="div-desc">
-							<xsl:value-of select="field[@name='dc.description']/node()" disable-output-escaping="yes"/>
-							</span>
-						</div>
-						</div>
-						
- </div>
+							</a>
+						</span>
 
+
+					</td>
+
+
+				</tr>
+
+
+
+				<xsl:for-each select="field[@snippet='yes']">
+					<xsl:choose>
+						<xsl:when test="(@name='fgs.DS.first.text')">
+
+							<tr>
+								<td  valign="top">
+									<span class="searchtitle">
+										Text Stream<!--<xsl:value-of select="@name"/>-->
+									</span>
+								</td>
+								<td>
+									<span class="text">
+										<xsl:copy-of select="node()"/>
+									</span>
+								</td>
+							</tr>
+						</xsl:when>
+						<xsl:when test="(@name='dc.title')">
+
+						</xsl:when>
+						<xsl:otherwise>
+							<tr>
+								<td  valign="top">
+									<span class="searchtitle">
+										<xsl:value-of select="@name"/>
+									</span>
+								</td>
+								<td>
+									<span class="text">
+										<xsl:copy-of select="node()"/>
+									</span>
+								</td>
+							</tr>
+						</xsl:otherwise>
+					</xsl:choose>
+				</xsl:for-each>
+
+			</table>
+
+		</td></tr>
 </xsl:template>
 
 </xsl:stylesheet>

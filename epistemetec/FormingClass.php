@@ -5,8 +5,14 @@ class FormingClass extends formClass {
 	 /*
    * create the paths for urls and map them to php functions
    */
-  function createEpistemetecMenu(){
-    $items = array ();
+    function ForminClass() {
+    module_load_include('nc', 'formClass', '');
+    drupal_bootstrap(DRUPAL_BOOTSTRAP_FULL);
+
+  }
+  function createMenu($flag=null){
+  	if (!is_null($flag)) {
+  		$items = array ();
 
   
    
@@ -19,6 +25,9 @@ class FormingClass extends formClass {
 
    
     return $items;
+  	}
+    
   }
+  
 }
 ?>

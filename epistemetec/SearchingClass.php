@@ -45,7 +45,7 @@ class SearchingClass extends SearchClass {
 
 		$form['submit'] = array (
 			'#type' => 'submit',
-			'#value' => t('search it')
+			'#value' => t('search')
 		);
 		return $form;
 	}
@@ -71,7 +71,7 @@ class SearchingClass extends SearchClass {
 			}
 		}
 		
-		drupal_goto("fedora/repository/mnpl_advanced_search/$searchString");
+		drupal_goto("fedora/repository/epistemetec_search/$searchString");
 	}
 }
 ?>

@@ -5,7 +5,18 @@
 /**
  * Epistemetec Module
  */
+ 
+ 
+/**
+ * drupal hook
+ * calls the epistemetec_admin form
+ */
+function epistemetec_menu() {
+  module_load_include('php', 'Fedora_Repository', 'epistemetec/FormingClass');
+  $adminMenu = new FormingClass();
+  return $adminMenu->createMenu(TRUE);
 
+}
 function epistemetec_block($op = 'list', $delta = 0, $edit = array ()) {
 	switch ($op) {
 		case 'list' :
