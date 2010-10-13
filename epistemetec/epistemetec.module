@@ -12,6 +12,32 @@ function epistemetec_block($op = 'list', $delta = 0, $edit = array ()) {
 			$blocks[0]['info'] = t('Epistemetec');
 			return $blocks;
 
+		 case 'configure':
+      // If $op is "configure", we need to provide the administrator with a
+      // configuration form. The $delta parameter tells us which block is being
+      // configured. In this example, we'll allow the administrator to customize
+      // the text of the first block.
+      $form = array();
+      if ($delta == 0) {
+        // All we need to provide is a text field, Drupal will take care of
+        // the other block configuration options and the save button.
+//       $form['epistemetec_block_repeat'] = array(
+//          '#type' => 'textfield',
+//          '#title' => t('Number of times to repeat search fields'),
+//          '#size' => 5,
+//          '#description' => t('The number of times you would like the search blocks to be repeated'),
+//          '#default_value' => variable_get('fedora_repository_advanced_block_repeat', t('3')),
+//        );
+//        $form['fepistemetec_block_hist'] = array(
+//          '#type' => 'textfield',
+//          '#title' => t('Number of hits per page'),
+//          '#size' => 5,
+//          '#description' => t('The number of hits you would like the search blocks shows'),
+//          '#default_value' => variable_get('fedora_repository_advanced_block_hist', t('10')),
+//        );
+      }
+      return $form;
+      
 		case 'view' :
 		default :
 			$block['subject'] = t('Epistemetec Form');
