@@ -23,10 +23,10 @@
 	<xsl:for-each select="*">
 		<xsl:if test="name() != 'proxies'">
 		<div>
-		 <xsl:if test="name() != 'nid'">
+		 <xsl:if test="name() != 'nurl'">
 		 <xsl:value-of select="name()"/> =  <xsl:value-of select="text()"/>
 		 </xsl:if>
-		  <xsl:if test="name() = 'nid'">
+		  <xsl:if test="name() = 'nurl'">
 		 <xsl:value-of select="name()"/> =  <a href="{text()}"> <xsl:value-of select="text()"/></a>
 		 </xsl:if>
 		</div>
@@ -35,10 +35,10 @@
 	<xsl:for-each select="*/*">
 		<xsl:if test="name() != 'format'"><xsl:if test="name() != 'audio_metrics'">
 		<div>
-		 <xsl:if test="name() != 'nid'">
+		 <xsl:if test="name() != 'nurl'">
 		 <xsl:value-of select="name()"/> =  <xsl:value-of select="text()"/>
 		 </xsl:if>
-		  <xsl:if test="name() = 'nid'">
+		  <xsl:if test="name() = 'nurl'">
 		 <xsl:value-of select="name()"/> =  <a href="{text()}"> <xsl:value-of select="text()"/></a>
 		 </xsl:if>
 		</div>
@@ -47,10 +47,10 @@
 	<xsl:for-each select="*/*/*">
 		<xsl:if test="name() != 'format'"><xsl:if test="name() != 'audio_metrics'">
 		<div>
-		 <xsl:if test="name() != 'nid'">
+		 <xsl:if test="name() != 'nurl'">
 		 <xsl:value-of select="name()"/> =  <xsl:value-of select="text()"/>
 		 </xsl:if>
-		  <xsl:if test="name() = 'nid'">
+		  <xsl:if test="name() = 'nurl'">
 		 <xsl:value-of select="name()"/> =  <a href="{text()}"> <xsl:value-of select="text()"/></a>
 		 </xsl:if>
 		</div>
@@ -65,10 +65,10 @@
 	<xsl:for-each select="*">
 		<xsl:if test="name() != 'proxies'">
 		<div>
-		 <xsl:if test="name() != 'nid'">
+		 <xsl:if test="name() != 'nurl'">
 		 <xsl:value-of select="name()"/> =  <xsl:value-of select="text()"/>
 		 </xsl:if>
-		  <xsl:if test="name() = 'nid'">
+		  <xsl:if test="name() = 'nurl'">
 		 <xsl:value-of select="name()"/> =  <a href="{text()}"> <xsl:value-of select="text()"/></a>
 		 </xsl:if>
 		</div>
@@ -77,10 +77,10 @@
 	<xsl:for-each select="*/*">
 		<xsl:if test="name() != 'format'"><xsl:if test="name() != 'video_metrics'"><xsl:if test="name() != 'video_dimensions'">
 		<div>
-		 <xsl:if test="name() != 'nid'">
+		 <xsl:if test="name() != 'nurl'">
 		 <xsl:value-of select="name()"/> =  <xsl:value-of select="text()"/>
 		 </xsl:if>
-		  <xsl:if test="name() = 'nid'">
+		  <xsl:if test="name() = 'nurl'">
 		 <xsl:value-of select="name()"/> =  <a href="{text()}"> <xsl:value-of select="text()"/></a>
 		 </xsl:if>
 		</div>
@@ -89,10 +89,10 @@
 	<xsl:for-each select="*/*/*">
 		<xsl:if test="name() != 'format'"><xsl:if test="name() != 'audio_metrics'">
 		<div>
-		 <xsl:if test="name() != 'nid'">
+		 <xsl:if test="name() != 'nurl'">
 		 <xsl:value-of select="name()"/> =  <xsl:value-of select="text()"/>
 		 </xsl:if>
-		  <xsl:if test="name() = 'nid'">
+		  <xsl:if test="name() = 'nurl'">
 		 <xsl:value-of select="name()"/> =  <a href="{text()}"> <xsl:value-of select="text()"/></a>
 		 </xsl:if>
 		</div>
@@ -106,10 +106,10 @@
 	<td colspan="3">
 	<xsl:for-each select="*">
 		<div>
-		 <xsl:if test="name() != 'nid'">
+		 <xsl:if test="name() != 'nurl'">
 		 <xsl:value-of select="name()"/> =  <xsl:value-of select="text()"/>
 		 </xsl:if>
-		  <xsl:if test="name() = 'nid'">
+		  <xsl:if test="name() = 'nurl'">
 		 <xsl:value-of select="name()"/> =  <a href="{text()}"> <xsl:value-of select="text()"/></a>
 		 </xsl:if>
 		 
@@ -123,10 +123,10 @@
 	<td colspan="3">
 	<xsl:for-each select="*">
 		<div>
-		 <xsl:if test="name() != 'nid'">
+		 <xsl:if test="name() != 'nurl'">
 		 <xsl:value-of select="name()"/> =  <xsl:value-of select="text()"/>
 		 </xsl:if>
-		  <xsl:if test="name() = 'nid'">
+		  <xsl:if test="name() = 'nurl'">
 		 <xsl:value-of select="name()"/> =  <a href="{text()}"> <xsl:value-of select="text()"/></a>
 		 </xsl:if>
 		 
@@ -140,10 +140,10 @@
 	<td colspan="3">
 	<xsl:for-each select="*">
 		<div>
-		 <xsl:if test="name() != 'nid'">
+		 <xsl:if test="name() != 'nurl'">
 		 <xsl:value-of select="name()"/> =  <xsl:value-of select="text()"/>
 		 </xsl:if>
-		  <xsl:if test="name() = 'nid'">
+		  <xsl:if test="name() = 'nurl'">
 		 <xsl:value-of select="name()"/> =  <a href="{text()}"> <xsl:value-of select="text()"/></a>
 		 </xsl:if>
 		 
@@ -157,10 +157,10 @@
 	<td colspan="3">
 	<xsl:for-each select="*">
 		<div>
-		 <xsl:if test="name() != 'nid'">
+		 <xsl:if test="name() != 'nurl'">
 		 <xsl:value-of select="name()"/> =  <xsl:value-of select="text()"/>
 		 </xsl:if>
-		  <xsl:if test="name() = 'nid'">
+		  <xsl:if test="name() = 'nurl'">
 		 <xsl:value-of select="name()"/> =  <a href="{text()}"> <xsl:value-of select="text()"/></a>
 		 </xsl:if>
 		 
@@ -174,10 +174,10 @@
 	<td colspan="3">
 	<xsl:for-each select="*">
 		<div>
-		 <xsl:if test="name() != 'nid'">
+		 <xsl:if test="name() != 'nurl'">
 		 <xsl:value-of select="name()"/> =  <xsl:value-of select="text()"/>
 		 </xsl:if>
-		  <xsl:if test="name() = 'nid'">
+		  <xsl:if test="name() = 'nurl'">
 		 <xsl:value-of select="name()"/> =  <a href="{text()}"> <xsl:value-of select="text()"/></a>
 		 </xsl:if>
 		 
