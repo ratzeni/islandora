@@ -53,11 +53,11 @@
 		{
 		font-weight: bold
 		}
-</style>
+</style><!--
 
 		Total Hits = <strong><xsl:value-of select="@hitTotal"/>,</strong>
 		 Number of Hits/page = <xsl:value-of select="$HITPAGESIZE"/>
-		 <!--  <br />You may not have sufficient privileges to view any or all of the items found.  The objects you have rights to view will be shown below. -->
+		 --><!--  <br />You may not have sufficient privileges to view any or all of the items found.  The objects you have rights to view will be shown below. -->
 		<!-- Current page = <xsl:value-of select="@hitPageStart"/>-->
 		 <br/>
      <xsl:if test="$HITTOTAL > $HITPAGESIZE">
@@ -193,13 +193,6 @@
 				</xsl:call-template>
 			</xsl:when>
 			<xsl:otherwise>
-                <!-- <xsl:if test="substring-before($str, ':') = substring-before($PIDVALUE, ':')">
-
-                     <xsl:call-template name="showResult">
-                         <xsl:with-param name="PIDVALUE" select="$PIDVALUE"/>
-                     </xsl:call-template>
-
-                 </xsl:if>-->
 			</xsl:otherwise>
 		</xsl:choose>
 	</xsl:template>
@@ -210,24 +203,18 @@
     <xsl:variable name="DCTITLE">
         <xsl:value-of select="field[@name='dc.title']/node()"/>
     </xsl:variable>
-
+	 <xsl:variable name="MAGNID">
+        <xsl:value-of select="field[@name='mag.nid']/node()"/>
+    </xsl:variable>
     <xsl:variable name="CLEANTITLE">
          <xsl:value-of select="php:functionString('fedora_repository_urlencode_string', $DCTITLE)"/>
         </xsl:variable>
 	<div class='div-container'>
 	<div class='div-item'>
 		<a>
-			<xsl:attribute name="href"><xsl:copy-of select="$OBJECTSPAGE"/>fedora/repository/<xsl:copy-of select="$PIDVALUE"/>/-/<xsl:value-of select="$CLEANTITLE"/>
+			<xsl:attribute name="href"><xsl:copy-of select="$OBJECTSPAGE"/>node/<xsl:copy-of select="$MAGNID"/>
 			</xsl:attribute>
-			<!--<xsl:attribute name="href"><xsl:copy-of select="$OBJECTSPAGE"/><![CDATA[&pid=]]><xsl:value-of select="$PIDVALUE"/><![CDATA[&collection=object]]>
-
-				</xsl:attribute>-->
-
-      <!-- an example hitting j2k for the thumbnail  <img>
-              <xsl:attribute name="alt">Thumbnail created for djatoka from object <xsl:copy-of select="$PIDVALUE"/></xsl:attribute>
-              <xsl:attribute name="src">
-      http://islandlives.ca:8080/adore-djatoka/resolver?url_ver=Z39.88-2004&amp;rft_id=http://islandlives.ca/fedora/repository/<xsl:copy-of select="$PIDVALUE"/>/JPG/jpg.jpg&amp;svc_id=info:lanl-repo/svc/getRegion&amp;svc_val_fmt=info:ofi/fmt:kev:mtx:jpeg&amp;svc.format=image/jpeg&amp;svc.level=0&amp;svc.rotate=0&amp;svc.region=0,0,100,100</xsl:attribute>
-            </img>-->
+			
             <div class='div-img'>
 			<img class='thumb-img'>
 				<xsl:attribute name="src"><xsl:copy-of select="$OBJECTSPAGE"/>fedora/repository/<xsl:copy-of select="$PIDVALUE"/>/TN
@@ -242,14 +229,14 @@
 						
 
 						<div class="searchtitle" >
-						<div class='div-searchtitle'>
+						<div class='div-searchtitle'><!--
 							<xsl:value-of select="@no"/>
 						<xsl:value-of select="'. '"/>
-							<span class="div-title">
+							--><span class="div-title">
 							<a>
 								<!--<xsl:attribute name="href"><xsl:copy-of select="$OBJECTSPAGE"/><![CDATA[&pid=]]><xsl:value-of select="$PIDVALUE"/><![CDATA[&collection=object]]>-->
                                 
-								<xsl:attribute name="href"><xsl:copy-of select="$OBJECTSPAGE"/>fedora/repository/<xsl:value-of select="$PIDVALUE"/>/-/<xsl:value-of select="$CLEANTITLE"/>
+								<xsl:attribute name="href"><xsl:copy-of select="$OBJECTSPAGE"/>node/<xsl:copy-of select="$MAGNID"/>
 
 								</xsl:attribute>
 								<xsl:value-of select="field[@name='dc.title']/node()" disable-output-escaping="yes"/>

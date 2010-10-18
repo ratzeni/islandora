@@ -1,80 +1,0 @@
-10
-
-dir
-2837
-https://fedora-commons.org/svn/root/islandora/islandora-module/Islandora-dru6-fed3/trunk/fedora_repository/mnpl
-https://fedora-commons.org/svn/root
-
-
-
-2009-11-30T17:08:29.436973Z
-2813
-ppound
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-977c6705-db0e-4349-9309-589e43f0bd41
-
-plugins
-dir
-
-collection_policies
-dir
-
-xml_schemas
-dir
-
-mnpl_forms.css
-file
-
-
-
-
-2010-04-29T13:38:54.108647Z
-7b1e1a177a282f407b18785debaf8219
-2009-04-06T14:41:44.238480Z
-2638
-ppound
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-155
-
-xsl
-dir
-
-collection_views
-dir
-
-content_models
-dir
-

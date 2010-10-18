@@ -139,7 +139,7 @@ class SearchClass {
       //var_dump($resultData);exit(0);
       //	$doc = new DOMDocument();
       //	$doc->loadXML($resultData);
-
+     
       $output.=$this->applyLuceneXSLT($resultData,$startPage,$xslt,$query);
       return $output;
 
@@ -307,7 +307,7 @@ class SearchClass {
 
     $input = new DomDocument();
     $didLoadOk = $input->loadXML($resultData);
-
+  
     if (!isset($didLoadOk)) {
       drupal_set_message(t('Error loading search results!'));
       return t('Error loading search results! ');
