@@ -624,7 +624,7 @@
           </ingest_rules>
           <ingest_form dsid="QDC" page="2">
             <form_builder_method>
-              <file>epistemtec/plugins/CollectionFormBuilder.php</file>
+              <file>epistemetec/plugins/CollectionFormBuilder.php</file>
               <class_name>EpistemetecCollectionFormBuilder</class_name>
               <method_name>buildQDCForm</method_name>
               <form_handler>handleImageCollectionForm</form_handler>

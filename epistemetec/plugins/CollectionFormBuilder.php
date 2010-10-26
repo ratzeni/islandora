@@ -350,7 +350,8 @@ class EpistemetecCollectionFormBuilder extends CollectionFormBuilder {
 		}
 
 		$object = new Fedora_Item($pid);
-		$stream = file_get_contents("/var/www/drupal/sites/default/modules/fedora_repository/epistemetec/xml/BOOK_COLLECTION_VIEW.xml");
+		$path = drupal_get_path('module', 'Fedora_Repository'); 
+		$stream = file_get_contents($path."/epistemetec/xml/BOOK_COLLECTION_VIEW.xml");
 		$object->add_datastream_from_string($stream, "COLLECTION_VIEW", "Collection View");
 
 		$temp = explode(" ", $list[0]);
@@ -373,10 +374,11 @@ class EpistemetecCollectionFormBuilder extends CollectionFormBuilder {
 
 		$pid = $form_values["pid"];
 		$object = new Fedora_Item($pid);
-		$stream = file_get_contents("/var/www/drupal/sites/default/modules/fedora_repository/epistemetec/xml/IMAGE_COLLECTION_POLICY.xml");
+		$path = drupal_get_path('module', 'Fedora_Repository'); 
+		$stream = file_get_contents($path."/epistemetec/xml/IMAGE_COLLECTION_POLICY.xml");
 		$object->add_datastream_from_string($stream, "COLLECTION_POLICY", "Collection Policy");
 
-		$file = "/var/www/drupal/sites/default/modules/fedora_repository/epistemetec/files/cover-img.png";
+		$file = $path."/epistemetec/files/cover-img.png";
 		$object->add_datastream_from_file($file, "TN", "Thumbnail");
 		
 		$this->createNode($form_values);
@@ -387,10 +389,11 @@ class EpistemetecCollectionFormBuilder extends CollectionFormBuilder {
 		$this->handleQDCForm($form_values);
 		$pid = $form_values["pid"];
 		$object = new Fedora_Item($pid);
-		$stream = file_get_contents("/var/www/drupal/sites/default/modules/fedora_repository/epistemetec/xml/AUDIO_COLLECTION_POLICY.xml");
+		$path = drupal_get_path('module', 'Fedora_Repository'); 
+		$stream = file_get_contents($path."/epistemetec/xml/AUDIO_COLLECTION_POLICY.xml");
 		$object->add_datastream_from_string($stream, "COLLECTION_POLICY", "Collection Policy");
 
-		$file = "/var/www/drupal/sites/default/modules/fedora_repository/epistemetec/files/cover-audio.png";
+		$file = $path."/epistemetec/files/cover-audio.png";
 		$object->add_datastream_from_file($file, "TN", "Thumbnail");
 		
 		$this->createNode($form_values);
@@ -403,10 +406,11 @@ class EpistemetecCollectionFormBuilder extends CollectionFormBuilder {
 
 		$pid = $form_values["pid"];
 		$object = new Fedora_Item($pid);
-		$stream = file_get_contents("/var/www/drupal/sites/default/modules/fedora_repository/epistemetec/xml/VIDEO_COLLECTION_POLICY.xml");
+		$path = drupal_get_path('module', 'Fedora_Repository'); 
+		$stream = file_get_contents($path."/epistemetec/xml/VIDEO_COLLECTION_POLICY.xml");
 		$object->add_datastream_from_string($stream, "COLLECTION_POLICY", "Collection Policy");
 
-		$file = "/var/www/drupal/sites/default/modules/fedora_repository/epistemetec/files/cover-video.png";
+		$file = $path."/epistemetec/files/cover-video.png";
 		$object->add_datastream_from_file($file, "TN", "Thumbnail");
 		
 		$this->createNode($form_values);

@@ -6,7 +6,7 @@
     <foxml:property NAME="info:fedora/fedora-system:def/model#label" VALUE="Epistemetec Top-Level Collection"/>
     <foxml:property NAME="info:fedora/fedora-system:def/model#ownerId" VALUE="fedoraAdmin"/>
     <foxml:property NAME="info:fedora/fedora-system:def/model#createdDate" VALUE="2010-06-15T14:54:33.631Z"/>
-    <foxml:property NAME="info:fedora/fedora-system:def/view#lastModifiedDate" VALUE="2010-10-11T08:40:52.281Z"/>
+    <foxml:property NAME="info:fedora/fedora-system:def/view#lastModifiedDate" VALUE="2010-10-25T15:03:54.743Z"/>
   </foxml:objectProperties>
   <foxml:datastream CONTROL_GROUP="X" ID="AUDIT" STATE="A" VERSIONABLE="false">
     <foxml:datastreamVersion CREATED="2010-06-15T14:54:33.631Z"
@@ -261,13 +261,45 @@
             <audit:date>2010-10-11T08:40:52.281Z</audit:date>
             <audit:justification/>
           </audit:record>
+          <audit:record ID="AUDREC32">
+            <audit:process type="Fedora API-M"/>
+            <audit:action>ingest</audit:action>
+            <audit:componentID/>
+            <audit:responsibility>fedoraAdmin</audit:responsibility>
+            <audit:date>2010-10-20T16:36:22.600Z</audit:date>
+            <audit:justification>Ingested from local file /tmp/epistemetec_top.xml</audit:justification>
+          </audit:record>
+          <audit:record ID="AUDREC33">
+            <audit:process type="Fedora API-M"/>
+            <audit:action>modifyDatastreamByValue</audit:action>
+            <audit:componentID>RELS-EXT</audit:componentID>
+            <audit:responsibility>fedoraAdmin</audit:responsibility>
+            <audit:date>2010-10-25T14:56:21.031Z</audit:date>
+            <audit:justification/>
+          </audit:record>
+          <audit:record ID="AUDREC34">
+            <audit:process type="Fedora API-M"/>
+            <audit:action>modifyDatastreamByValue</audit:action>
+            <audit:componentID>RELS-EXT</audit:componentID>
+            <audit:responsibility>fedoraAdmin</audit:responsibility>
+            <audit:date>2010-10-25T14:59:34.631Z</audit:date>
+            <audit:justification/>
+          </audit:record>
+          <audit:record ID="AUDREC35">
+            <audit:process type="Fedora API-M"/>
+            <audit:action>modifyDatastreamByValue</audit:action>
+            <audit:componentID>RELS-EXT</audit:componentID>
+            <audit:responsibility>fedoraAdmin</audit:responsibility>
+            <audit:date>2010-10-25T15:03:54.743Z</audit:date>
+            <audit:justification/>
+          </audit:record>
         </audit:auditTrail>
       </foxml:xmlContent>
     </foxml:datastreamVersion>
   </foxml:datastream>
   <foxml:datastream CONTROL_GROUP="X" ID="DC" STATE="A" VERSIONABLE="true">
     <foxml:datastreamVersion CREATED="2010-06-15T14:54:33.631Z" FORMAT_URI="http://www.openarchives.org/OAI/2.0/oai_dc/"
-      ID="DC1.0" LABEL="Dublin Core Record for this object" MIMETYPE="text/xml" SIZE="400">
+      ID="DC1.0" LABEL="Dublin Core Record for this object" MIMETYPE="text/xml" SIZE="424">
       <foxml:xmlContent>
         <oai_dc:dc xmlns:dc="http://purl.org/dc/elements/1.1/"
           xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
@@ -278,7 +310,7 @@
       </foxml:xmlContent>
     </foxml:datastreamVersion>
     <foxml:datastreamVersion CREATED="2010-06-16T16:28:07.571Z" FORMAT_URI="http://www.openarchives.org/OAI/2.0/oai_dc/"
-      ID="DC.1" LABEL="Dublin Core Record for this object" MIMETYPE="text/xml" SIZE="437">
+      ID="DC.1" LABEL="Dublin Core Record for this object" MIMETYPE="text/xml" SIZE="469">
       <foxml:xmlContent>
         <oai_dc:dc xmlns:dc="http://purl.org/dc/elements/1.1/"
           xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
@@ -290,12 +322,12 @@
       </foxml:xmlContent>
     </foxml:datastreamVersion>
     <foxml:datastreamVersion CREATED="2010-09-10T15:59:28.183Z" FORMAT_URI="URL" ID="DC.2" LABEL="Qualified Dublin Core"
-      MIMETYPE="text/xml" SIZE="350">
+      MIMETYPE="text/xml" SIZE="383">
       <foxml:xmlContent>
-        <oai_dc:dc xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/"
-          xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <oai_dc:dc xmlns:dc="http://purl.org/dc/elements/1.1/"
+          xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
           <dc:title>Epistemetec Top</dc:title>
-          <dc:author>Epistemetec</dc:author>
           <dc:identifier>epistemetec:top</dc:identifier>
         </oai_dc:dc>
       </foxml:xmlContent>
@@ -303,7 +335,7 @@
   </foxml:datastream>
   <foxml:datastream CONTROL_GROUP="X" ID="RELS-EXT" STATE="A" VERSIONABLE="true">
     <foxml:datastreamVersion CREATED="2010-06-15T14:57:29.129Z" FORMAT_URI="info:fedora/fedora-system:FedoraRELSExt-1.0"
-      ID="RELS-EXT.0" LABEL="RDF Statements about this object" MIMETYPE="application/rdf+xml" SIZE="286">
+      ID="RELS-EXT.0" LABEL="RDF Statements about this object" MIMETYPE="application/rdf+xml" SIZE="318">
       <foxml:xmlContent>
         <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           <rdf:Description rdf:about="info:fedora/epistemetec:top">
@@ -313,7 +345,7 @@
       </foxml:xmlContent>
     </foxml:datastreamVersion>
     <foxml:datastreamVersion CREATED="2010-06-15T16:09:51.324Z" FORMAT_URI="info:fedora/fedora-system:FedoraRELSExt-1.0"
-      ID="RELS-EXT.1" LABEL="RDF Statements about this object" MIMETYPE="application/rdf+xml" SIZE="284">
+      ID="RELS-EXT.1" LABEL="RDF Statements about this object" MIMETYPE="application/rdf+xml" SIZE="316">
       <foxml:xmlContent>
         <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           <rdf:Description rdf:about="info:fedora/epistemetec:top">
@@ -323,7 +355,7 @@
       </foxml:xmlContent>
     </foxml:datastreamVersion>
     <foxml:datastreamVersion CREATED="2010-06-16T13:51:53.459Z" FORMAT_URI="info:fedora/fedora-system:FedoraRELSExt-1.0"
-      ID="RELS-EXT.2" LABEL="RDF Statements about this object" MIMETYPE="application/rdf+xml" SIZE="286">
+      ID="RELS-EXT.2" LABEL="RDF Statements about this object" MIMETYPE="application/rdf+xml" SIZE="318">
       <foxml:xmlContent>
         <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           <rdf:Description rdf:about="info:fedora/epistemetec:top">
@@ -333,7 +365,7 @@
       </foxml:xmlContent>
     </foxml:datastreamVersion>
     <foxml:datastreamVersion CREATED="2010-06-16T14:35:44.464Z" FORMAT_URI="info:fedora/fedora-system:FedoraRELSExt-1.0"
-      ID="RELS-EXT.3" LABEL="RDF Statements about this object" MIMETYPE="application/rdf+xml" SIZE="284">
+      ID="RELS-EXT.3" LABEL="RDF Statements about this object" MIMETYPE="application/rdf+xml" SIZE="316">
       <foxml:xmlContent>
         <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           <rdf:Description rdf:about="info:fedora/epistemetec:top">
@@ -342,91 +374,576 @@
         </rdf:RDF>
       </foxml:xmlContent>
     </foxml:datastreamVersion>
+    <foxml:datastreamVersion CREATED="2010-10-25T14:56:21.031Z" FORMAT_URI="info:fedora/fedora-system:FedoraRELSExt-1.0"
+      ID="RELS-EXT.4" LABEL="RDF Statements about this object" MIMETYPE="application/rdf+xml" SIZE="77">
+      <foxml:xmlContent>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+      </foxml:xmlContent>
+    </foxml:datastreamVersion>
+    <foxml:datastreamVersion CREATED="2010-10-25T14:59:34.631Z" FORMAT_URI="info:fedora/fedora-system:FedoraRELSExt-1.0"
+      ID="RELS-EXT.5" LABEL="RDF Statements about this object" MIMETYPE="application/rdf+xml" SIZE="284">
+      <foxml:xmlContent>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+          <rdf:Description rdf:about="info:fedora/epistemetec:top">
+            <hasModel rdf:resource="info:fedora/islandora:collectionCModel" xmlns="info:fedora/fedora-system:def/model#"/>
+          </rdf:Description>
+        </rdf:RDF>
+      </foxml:xmlContent>
+    </foxml:datastreamVersion>
+    <foxml:datastreamVersion CREATED="2010-10-25T15:03:54.743Z" FORMAT_URI="info:fedora/fedora-system:FedoraRELSExt-1.0"
+      ID="RELS-EXT.6" LABEL="RDF Statements about this object" MIMETYPE="application/rdf+xml" SIZE="286">
+      <foxml:xmlContent>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+          <rdf:Description rdf:about="info:fedora/epistemetec:top">
+            <hasModel rdf:resource="info:fedora/epistemetec:collectionCModel" xmlns="info:fedora/fedora-system:def/model#"/>
+          </rdf:Description>
+        </rdf:RDF>
+      </foxml:xmlContent>
+    </foxml:datastreamVersion>
   </foxml:datastream>
   <foxml:datastream CONTROL_GROUP="M" ID="COLLECTION_POLICY" STATE="A" VERSIONABLE="true">
     <foxml:datastreamVersion CREATED="2010-06-15T16:07:07.326Z" ID="COLLECTION_POLICY.0" LABEL="Collection Policy.xml" MIMETYPE="text/xml">
-      <foxml:contentLocation
-        REF="http://www.e-pistemetec.local:8080/fedora/get/epistemetec:top/COLLECTION_POLICY/2010-06-15T16:07:07.326Z" TYPE="INTERNAL_ID"/>
+      <foxml:binaryContent> 
+              PGNvbGxlY3Rpb25fcG9saWN5PgogIDwhLS0td2Ugd2lsbCBkZWZpbmUgYWxsb3dlZCBtaW1ldHlwZXMg
+              YW5kIHdoYXQgdG8gZG8gd2l0aCB2YXJpb3VzIHR5cGVzIGFzIHBhcnQgb2YgdGhlIGNvbnRlbnQgbW9k
+              ZWwtLT4KICA8Y29udGVudG1vZGVscz4KICAgIDxjb250ZW50bW9kZWwgbmFtZT0iRXBpQ29sbGVjdGlv
+              biI+CiAgICAgIDxwaWRfbmFtZXNwYWNlPmVwaXN0ZW1ldGVjOmNvbGxlY3Rpb248L3BpZF9uYW1lc3Bh
+              Y2U+CiAgICAgIDxwaWQ+ZXBpc3RlbWV0ZWM6Y29sbGVjdGlvbkNNb2RlbDwvcGlkPgogICAgICA8ZHNp
+              ZD5JU0xBTkRPUkFDTTwvZHNpZD4KICAgIDwvY29udGVudG1vZGVsPgogIDwvY29udGVudG1vZGVscz4K
+              ICA8IS0taWYgd2UgZGVmaW5lIGEgcXVlcnkgZm9yIGFuIG9iamVjdCB0aGUgcmVsYXRpb25zaGlwIHdl
+              IGFzayBmb3IgbWF5IG5vdCBiZSBpc01lbWJlck9mQ29sbGVjdGlvbi4gIFNvIHdoZW4gd2UgaW5nZXN0
+              IGluIHRoCiAgICBDb2xsZWN0aW9uIHdlIHdpbGwgd2FudCB0aGUgcmVsYXRpb25zaGlwIHRvIG1hdGNo
+              IHRoZSBxdWVyeS4gSWYgdGhpcyBlbGVtZW50IGlzIG51bGwgd2Ugd2lsbCB1c2UgdGhlIGlzTWVtYmVy
+              T2ZDb2xsZWN0aW9uIHJlbGF0aW9uc2hpcC0tPgogIDxyZWxhdGlvbnNoaXA+aXNNZW1iZXJPZkNvbGxl
+              Y3Rpb248L3JlbGF0aW9uc2hpcD4KICA8IS0tIE1hbmNhbm8gaSBTRUFSQ0hURVJNUyAtLT4gCjwvY29s
+              bGVjdGlvbl9wb2xpY3k+Cg==
+</foxml:binaryContent>
     </foxml:datastreamVersion>
     <foxml:datastreamVersion CREATED="2010-06-15T16:09:55.455Z" ID="COLLECTION_POLICY.1" LABEL="Collection Policy.xml" MIMETYPE="text/xml">
-      <foxml:contentLocation
-        REF="http://www.e-pistemetec.local:8080/fedora/get/epistemetec:top/COLLECTION_POLICY/2010-06-15T16:09:55.455Z" TYPE="INTERNAL_ID"/>
+      <foxml:binaryContent> 
+              PGNvbGxlY3Rpb25fcG9saWN5PgogIDwhLS0td2Ugd2lsbCBkZWZpbmUgYWxsb3dlZCBtaW1ldHlwZXMg
+              YW5kIHdoYXQgdG8gZG8gd2l0aCB2YXJpb3VzIHR5cGVzIGFzIHBhcnQgb2YgdGhlIGNvbnRlbnQgbW9k
+              ZWwtLT4KICA8Y29udGVudG1vZGVscz4KICAgIDxjb250ZW50bW9kZWwgbmFtZT0iQ29sbGVjdGlvbiI+
+              CiAgICAgIDxwaWRfbmFtZXNwYWNlPmlzbGFuZG9yYTpjb2xsZWN0aW9uPC9waWRfbmFtZXNwYWNlPgog
+              ICAgICA8cGlkPmlzbGFuZG9yYTpjb2xsZWN0aW9uQ01vZGVsPC9waWQ+CiAgICAgIDxkc2lkPklTTEFO
+              RE9SQUNNPC9kc2lkPgogICAgPC9jb250ZW50bW9kZWw+CiAgPC9jb250ZW50bW9kZWxzPgogIDwhLS1p
+              ZiB3ZSBkZWZpbmUgYSBxdWVyeSBmb3IgYW4gb2JqZWN0IHRoZSByZWxhdGlvbnNoaXAgd2UgYXNrIGZv
+              ciBtYXkgbm90IGJlIGlzTWVtYmVyT2ZDb2xsZWN0aW9uLiAgU28gd2hlbiB3ZSBpbmdlc3QgaW4gdGgK
+              ICAgIENvbGxlY3Rpb24gd2Ugd2lsbCB3YW50IHRoZSByZWxhdGlvbnNoaXAgdG8gbWF0Y2ggdGhlIHF1
+              ZXJ5LiBJZiB0aGlzIGVsZW1lbnQgaXMgbnVsbCB3ZSB3aWxsIHVzZSB0aGUgaXNNZW1iZXJPZkNvbGxl
+              Y3Rpb24gcmVsYXRpb25zaGlwLS0+CiAgPHJlbGF0aW9uc2hpcD5pc01lbWJlck9mQ29sbGVjdGlvbjwv
+              cmVsYXRpb25zaGlwPgogIDxzZWFyY2hfdGVybXM+CiAgICA8IS0tZGVmaW5lIHdoYXQgZmllbGRzIHdl
+              IGNhbiBxdWVyeSBhcyBwYXJ0IG9mIHRoZSBhZHZhbmNlZCBzZWFyY2ggZm9yIHRoaXMgY29sbGVjdGlv
+              bi0tPgogICAgPGRlZmF1bHQ+ZGMuZGVzY3JpcHRpb248L2RlZmF1bHQ+CiAgICA8dGVybT4KICAgICAg
+              PGZpZWxkPmRjLnRpdGxlPC9maWVsZD4KICAgICAgPHZhbHVlPmRjLnRpdGxlPC92YWx1ZT4KICAgIDwv
+              dGVybT4KICAgIDx0ZXJtPgogICAgICA8ZmllbGQ+ZGMuY3JlYXRvcjwvZmllbGQ+CiAgICAgIDx2YWx1
+              ZT5kYy5jcmVhdG9yPC92YWx1ZT4KICAgIDwvdGVybT4KICAgIDx0ZXJtPgogICAgICA8ZmllbGQ+ZGMu
+              ZGVzY3JpcHRpb248L2ZpZWxkPgogICAgICA8dmFsdWU+ZGMuZGVzY3JpcHRpb248L3ZhbHVlPgogICAg
+              PC90ZXJtPgogICAgPHRlcm0+CiAgICAgIDxmaWVsZD5kYy5kYXRlPC9maWVsZD4KICAgICAgPHZhbHVl
+              PmRjLmRhdGU8L3ZhbHVlPgogICAgPC90ZXJtPgogICAgPHRlcm0+CiAgICAgIDxmaWVsZD5kYy5pZGVu
+              dGlmaWVyPC9maWVsZD4KICAgICAgPHZhbHVlPmRjLmlkZW50aWZpZXI8L3ZhbHVlPgogICAgPC90ZXJt
+              PgogICAgPHRlcm0+CiAgICAgIDxmaWVsZD5kYy5sYW5ndWFnZTwvZmllbGQ+CiAgICAgIDx2YWx1ZT5k
+              Yy5sYW5ndWFnZTwvdmFsdWU+CiAgICA8L3Rlcm0+CiAgICA8dGVybT4KICAgICAgPGZpZWxkPmRjLnB1
+              Ymxpc2hlcjwvZmllbGQ+CiAgICAgIDx2YWx1ZT5kYy5wdWJsaXNoZXI8L3ZhbHVlPgogICAgPC90ZXJt
+              PgogICAgPHRlcm0+CiAgICAgIDxmaWVsZD5kYy5yaWdodHM8L2ZpZWxkPgogICAgICA8dmFsdWU+ZGMu
+              cmlnaHRzPC92YWx1ZT4KICAgIDwvdGVybT4KICAgIDx0ZXJtPgogICAgICA8ZmllbGQ+ZGMuc3ViamVj
+              dDwvZmllbGQ+CiAgICAgIDx2YWx1ZT5kYy5zdWJqZWN0PC92YWx1ZT4KICAgIDwvdGVybT4KICAgIDx0
+              ZXJtPgogICAgICA8ZmllbGQ+ZGMucmVsYXRpb248L2ZpZWxkPgogICAgICA8dmFsdWU+ZGMucmVsYXRp
+              b248L3ZhbHVlPgogICAgPC90ZXJtPgogICAgPHRlcm0+CiAgICAgIDxmaWVsZD5kY3Rlcm1zLnRlbXBv
+              cmFsPC9maWVsZD4KICAgICAgPHZhbHVlPmRjdGVybXMudGVtcG9yYWw8L3ZhbHVlPgogICAgPC90ZXJt
+              PgogICAgPHRlcm0+CiAgICAgIDxmaWVsZD5kY3Rlcm1zLnNwYXRpYWw8L2ZpZWxkPgogICAgICA8dmFs
+              dWU+ZGN0ZXJtcy5zcGF0aWFsPC92YWx1ZT4KICAgIDwvdGVybT4KICAgIDx0ZXJtPgogICAgICA8Zmll
+              bGQ+ZmdzLkRTLmZpcnN0LnRleHQ8L2ZpZWxkPgogICAgICA8dmFsdWU+RnVsbCBUZXh0PC92YWx1ZT4K
+              ICAgIDwvdGVybT4KICA8L3NlYXJjaF90ZXJtcz4KPC9jb2xsZWN0aW9uX3BvbGljeT4K
+</foxml:binaryContent>
     </foxml:datastreamVersion>
     <foxml:datastreamVersion CREATED="2010-06-16T13:52:39.333Z" ID="COLLECTION_POLICY.2" LABEL="Collection Policy.xml" MIMETYPE="text/xml">
-      <foxml:contentLocation
-        REF="http://www.e-pistemetec.local:8080/fedora/get/epistemetec:top/COLLECTION_POLICY/2010-06-16T13:52:39.333Z" TYPE="INTERNAL_ID"/>
+      <foxml:binaryContent> 
+              PGNvbGxlY3Rpb25fcG9saWN5PgogIDwhLS0td2Ugd2lsbCBkZWZpbmUgYWxsb3dlZCBtaW1ldHlwZXMg
+              YW5kIHdoYXQgdG8gZG8gd2l0aCB2YXJpb3VzIHR5cGVzIGFzIHBhcnQgb2YgdGhlIGNvbnRlbnQgbW9k
+              ZWwtLT4KICA8Y29udGVudG1vZGVscz4KICAgIDxjb250ZW50bW9kZWwgbmFtZT0iQ29sbGVjdGlvbiI+
+              CiAgICAgIDxwaWRfbmFtZXNwYWNlPmlzbGFuZG9yYTpjb2xsZWN0aW9uPC9waWRfbmFtZXNwYWNlPgog
+              ICAgICA8cGlkPmVwaXN0ZW1ldGVjOmNvbGxlY3Rpb25DTW9kZWw8L3BpZD4KICAgICAgPGRzaWQ+SVNM
+              QU5ET1JBQ008L2RzaWQ+CiAgICA8L2NvbnRlbnRtb2RlbD4KICA8L2NvbnRlbnRtb2RlbHM+CiAgPCEt
+              LWlmIHdlIGRlZmluZSBhIHF1ZXJ5IGZvciBhbiBvYmplY3QgdGhlIHJlbGF0aW9uc2hpcCB3ZSBhc2sg
+              Zm9yIG1heSBub3QgYmUgaXNNZW1iZXJPZkNvbGxlY3Rpb24uICBTbyB3aGVuIHdlIGluZ2VzdCBpbiB0
+              aAogICAgQ29sbGVjdGlvbiB3ZSB3aWxsIHdhbnQgdGhlIHJlbGF0aW9uc2hpcCB0byBtYXRjaCB0aGUg
+              cXVlcnkuIElmIHRoaXMgZWxlbWVudCBpcyBudWxsIHdlIHdpbGwgdXNlIHRoZSBpc01lbWJlck9mQ29s
+              bGVjdGlvbiByZWxhdGlvbnNoaXAtLT4KICA8cmVsYXRpb25zaGlwPmlzTWVtYmVyT2ZDb2xsZWN0aW9u
+              PC9yZWxhdGlvbnNoaXA+CiAgPHNlYXJjaF90ZXJtcz4KICAgIDwhLS1kZWZpbmUgd2hhdCBmaWVsZHMg
+              d2UgY2FuIHF1ZXJ5IGFzIHBhcnQgb2YgdGhlIGFkdmFuY2VkIHNlYXJjaCBmb3IgdGhpcyBjb2xsZWN0
+              aW9uLS0+CiAgICA8ZGVmYXVsdD5kYy5kZXNjcmlwdGlvbjwvZGVmYXVsdD4KICAgIDx0ZXJtPgogICAg
+              ICA8ZmllbGQ+ZGMudGl0bGU8L2ZpZWxkPgogICAgICA8dmFsdWU+ZGMudGl0bGU8L3ZhbHVlPgogICAg
+              PC90ZXJtPgogICAgPHRlcm0+CiAgICAgIDxmaWVsZD5kYy5jcmVhdG9yPC9maWVsZD4KICAgICAgPHZh
+              bHVlPmRjLmNyZWF0b3I8L3ZhbHVlPgogICAgPC90ZXJtPgogICAgPHRlcm0+CiAgICAgIDxmaWVsZD5k
+              Yy5kZXNjcmlwdGlvbjwvZmllbGQ+CiAgICAgIDx2YWx1ZT5kYy5kZXNjcmlwdGlvbjwvdmFsdWU+CiAg
+              ICA8L3Rlcm0+CiAgICA8dGVybT4KICAgICAgPGZpZWxkPmRjLmRhdGU8L2ZpZWxkPgogICAgICA8dmFs
+              dWU+ZGMuZGF0ZTwvdmFsdWU+CiAgICA8L3Rlcm0+CiAgICA8dGVybT4KICAgICAgPGZpZWxkPmRjLmlk
+              ZW50aWZpZXI8L2ZpZWxkPgogICAgICA8dmFsdWU+ZGMuaWRlbnRpZmllcjwvdmFsdWU+CiAgICA8L3Rl
+              cm0+CiAgICA8dGVybT4KICAgICAgPGZpZWxkPmRjLmxhbmd1YWdlPC9maWVsZD4KICAgICAgPHZhbHVl
+              PmRjLmxhbmd1YWdlPC92YWx1ZT4KICAgIDwvdGVybT4KICAgIDx0ZXJtPgogICAgICA8ZmllbGQ+ZGMu
+              cHVibGlzaGVyPC9maWVsZD4KICAgICAgPHZhbHVlPmRjLnB1Ymxpc2hlcjwvdmFsdWU+CiAgICA8L3Rl
+              cm0+CiAgICA8dGVybT4KICAgICAgPGZpZWxkPmRjLnJpZ2h0czwvZmllbGQ+CiAgICAgIDx2YWx1ZT5k
+              Yy5yaWdodHM8L3ZhbHVlPgogICAgPC90ZXJtPgogICAgPHRlcm0+CiAgICAgIDxmaWVsZD5kYy5zdWJq
+              ZWN0PC9maWVsZD4KICAgICAgPHZhbHVlPmRjLnN1YmplY3Q8L3ZhbHVlPgogICAgPC90ZXJtPgogICAg
+              PHRlcm0+CiAgICAgIDxmaWVsZD5kYy5yZWxhdGlvbjwvZmllbGQ+CiAgICAgIDx2YWx1ZT5kYy5yZWxh
+              dGlvbjwvdmFsdWU+CiAgICA8L3Rlcm0+CiAgICA8dGVybT4KICAgICAgPGZpZWxkPmRjdGVybXMudGVt
+              cG9yYWw8L2ZpZWxkPgogICAgICA8dmFsdWU+ZGN0ZXJtcy50ZW1wb3JhbDwvdmFsdWU+CiAgICA8L3Rl
+              cm0+CiAgICA8dGVybT4KICAgICAgPGZpZWxkPmRjdGVybXMuc3BhdGlhbDwvZmllbGQ+CiAgICAgIDx2
+              YWx1ZT5kY3Rlcm1zLnNwYXRpYWw8L3ZhbHVlPgogICAgPC90ZXJtPgogICAgPHRlcm0+CiAgICAgIDxm
+              aWVsZD5mZ3MuRFMuZmlyc3QudGV4dDwvZmllbGQ+CiAgICAgIDx2YWx1ZT5GdWxsIFRleHQ8L3ZhbHVl
+              PgogICAgPC90ZXJtPgogIDwvc2VhcmNoX3Rlcm1zPgo8L2NvbGxlY3Rpb25fcG9saWN5Pgo=
+</foxml:binaryContent>
     </foxml:datastreamVersion>
     <foxml:datastreamVersion CREATED="2010-06-16T14:35:27.925Z" ID="COLLECTION_POLICY.3" LABEL="Collection Policy.xml" MIMETYPE="text/xml">
-      <foxml:contentLocation
-        REF="http://www.e-pistemetec.local:8080/fedora/get/epistemetec:top/COLLECTION_POLICY/2010-06-16T14:35:27.925Z" TYPE="INTERNAL_ID"/>
+      <foxml:binaryContent> 
+              PGNvbGxlY3Rpb25fcG9saWN5PgogIDwhLS0td2Ugd2lsbCBkZWZpbmUgYWxsb3dlZCBtaW1ldHlwZXMg
+              YW5kIHdoYXQgdG8gZG8gd2l0aCB2YXJpb3VzIHR5cGVzIGFzIHBhcnQgb2YgdGhlIGNvbnRlbnQgbW9k
+              ZWwtLT4KICA8Y29udGVudG1vZGVscz4KICAgIDxjb250ZW50bW9kZWwgbmFtZT0iQ29sbGVjdGlvbiI+
+              CiAgICAgIDxwaWRfbmFtZXNwYWNlPmVwaXN0ZW1ldGVjOmNvbGxlY3Rpb248L3BpZF9uYW1lc3BhY2U+
+              CiAgICAgIDxwaWQ+aXNsYW5kb3JhOmNvbGxlY3Rpb25DTW9kZWw8L3BpZD4KICAgICAgPGRzaWQ+SVNM
+              QU5ET1JBQ008L2RzaWQ+CiAgICA8L2NvbnRlbnRtb2RlbD4KICA8L2NvbnRlbnRtb2RlbHM+CiAgPCEt
+              LWlmIHdlIGRlZmluZSBhIHF1ZXJ5IGZvciBhbiBvYmplY3QgdGhlIHJlbGF0aW9uc2hpcCB3ZSBhc2sg
+              Zm9yIG1heSBub3QgYmUgaXNNZW1iZXJPZkNvbGxlY3Rpb24uICBTbyB3aGVuIHdlIGluZ2VzdCBpbiB0
+              aAogICAgQ29sbGVjdGlvbiB3ZSB3aWxsIHdhbnQgdGhlIHJlbGF0aW9uc2hpcCB0byBtYXRjaCB0aGUg
+              cXVlcnkuIElmIHRoaXMgZWxlbWVudCBpcyBudWxsIHdlIHdpbGwgdXNlIHRoZSBpc01lbWJlck9mQ29s
+              bGVjdGlvbiByZWxhdGlvbnNoaXAtLT4KICA8cmVsYXRpb25zaGlwPmlzTWVtYmVyT2ZDb2xsZWN0aW9u
+              PC9yZWxhdGlvbnNoaXA+CiAgPHNlYXJjaF90ZXJtcz4KICAgIDwhLS1kZWZpbmUgd2hhdCBmaWVsZHMg
+              d2UgY2FuIHF1ZXJ5IGFzIHBhcnQgb2YgdGhlIGFkdmFuY2VkIHNlYXJjaCBmb3IgdGhpcyBjb2xsZWN0
+              aW9uLS0+CiAgICA8ZGVmYXVsdD5kYy5kZXNjcmlwdGlvbjwvZGVmYXVsdD4KICAgIDx0ZXJtPgogICAg
+              ICA8ZmllbGQ+ZGMudGl0bGU8L2ZpZWxkPgogICAgICA8dmFsdWU+ZGMudGl0bGU8L3ZhbHVlPgogICAg
+              PC90ZXJtPgogICAgPHRlcm0+CiAgICAgIDxmaWVsZD5kYy5jcmVhdG9yPC9maWVsZD4KICAgICAgPHZh
+              bHVlPmRjLmNyZWF0b3I8L3ZhbHVlPgogICAgPC90ZXJtPgogICAKICA8L3NlYXJjaF90ZXJtcz4KPC9j
+              b2xsZWN0aW9uX3BvbGljeT4K
+</foxml:binaryContent>
     </foxml:datastreamVersion>
     <foxml:datastreamVersion CREATED="2010-07-01T09:28:09.202Z" ID="COLLECTION_POLICY.4" LABEL="Collection Policy.xml" MIMETYPE="text/xml">
-      <foxml:contentLocation
-        REF="http://www.e-pistemetec.local:8080/fedora/get/epistemetec:top/COLLECTION_POLICY/2010-07-01T09:28:09.202Z" TYPE="INTERNAL_ID"/>
+      <foxml:binaryContent> 
+              PGNvbGxlY3Rpb25fcG9saWN5PgogIDwhLS0td2Ugd2lsbCBkZWZpbmUgYWxsb3dlZCBtaW1ldHlwZXMg
+              YW5kIHdoYXQgdG8gZG8gd2l0aCB2YXJpb3VzIHR5cGVzIGFzIHBhcnQgb2YgdGhlIGNvbnRlbnQgbW9k
+              ZWwtLT4KICA8Y29udGVudG1vZGVscz4KICAgIDxjb250ZW50bW9kZWwgbmFtZT0iQ29sbGVjdGlvbiI+
+              CiAgICAgIDxwaWRfbmFtZXNwYWNlPmVwaXN0ZW1ldGVjOmNvbGxlY3Rpb248L3BpZF9uYW1lc3BhY2U+
+              CiAgICAgIDxwaWQ+aXNsYW5kb3JhOmNvbGxlY3Rpb25DTW9kZWw8L3BpZD4KICAgICAgPGRzaWQ+SVNM
+              QU5ET1JBQ008L2RzaWQ+CiAgICA8L2NvbnRlbnRtb2RlbD4KICA8L2NvbnRlbnRtb2RlbHM+CiAgPCEt
+              LWlmIHdlIGRlZmluZSBhIHF1ZXJ5IGZvciBhbiBvYmplY3QgdGhlIHJlbGF0aW9uc2hpcCB3ZSBhc2sg
+              Zm9yIG1heSBub3QgYmUgaXNNZW1iZXJPZkNvbGxlY3Rpb24uICBTbyB3aGVuIHdlIGluZ2VzdCBpbiB0
+              aAogICAgQ29sbGVjdGlvbiB3ZSB3aWxsIHdhbnQgdGhlIHJlbGF0aW9uc2hpcCB0byBtYXRjaCB0aGUg
+              cXVlcnkuIElmIHRoaXMgZWxlbWVudCBpcyBudWxsIHdlIHdpbGwgdXNlIHRoZSBpc01lbWJlck9mQ29s
+              bGVjdGlvbiByZWxhdGlvbnNoaXAtLT4KICA8cmVsYXRpb25zaGlwPmlzTWVtYmVyT2Y8L3JlbGF0aW9u
+              c2hpcD4KICA8c2VhcmNoX3Rlcm1zPgogICAgPCEtLWRlZmluZSB3aGF0IGZpZWxkcyB3ZSBjYW4gcXVl
+              cnkgYXMgcGFydCBvZiB0aGUgYWR2YW5jZWQgc2VhcmNoIGZvciB0aGlzIGNvbGxlY3Rpb24tLT4KICAg
+              IDxkZWZhdWx0PmRjLmRlc2NyaXB0aW9uPC9kZWZhdWx0PgogICAgPHRlcm0+CiAgICAgIDxmaWVsZD5k
+              Yy50aXRsZTwvZmllbGQ+CiAgICAgIDx2YWx1ZT5kYy50aXRsZTwvdmFsdWU+CiAgICA8L3Rlcm0+CiAg
+              ICA8dGVybT4KICAgICAgPGZpZWxkPmRjLmNyZWF0b3I8L2ZpZWxkPgogICAgICA8dmFsdWU+ZGMuY3Jl
+              YXRvcjwvdmFsdWU+CiAgICA8L3Rlcm0+CiAgPC9zZWFyY2hfdGVybXM+CjwvY29sbGVjdGlvbl9wb2xp
+              Y3k+Cg==
+</foxml:binaryContent>
     </foxml:datastreamVersion>
     <foxml:datastreamVersion CREATED="2010-07-01T09:40:17.624Z" ID="COLLECTION_POLICY.5" LABEL="Collection Policy.xml" MIMETYPE="text/xml">
-      <foxml:contentLocation
-        REF="http://www.e-pistemetec.local:8080/fedora/get/epistemetec:top/COLLECTION_POLICY/2010-07-01T09:40:17.624Z" TYPE="INTERNAL_ID"/>
+      <foxml:binaryContent> 
+              PGNvbGxlY3Rpb25fcG9saWN5PgogIDwhLS0td2Ugd2lsbCBkZWZpbmUgYWxsb3dlZCBtaW1ldHlwZXMg
+              YW5kIHdoYXQgdG8gZG8gd2l0aCB2YXJpb3VzIHR5cGVzIGFzIHBhcnQgb2YgdGhlIGNvbnRlbnQgbW9k
+              ZWwtLT4KICA8Y29udGVudG1vZGVscz4KICAgIDxjb250ZW50bW9kZWwgbmFtZT0iQ29sbGVjdGlvbiI+
+              CiAgICAgIDxwaWRfbmFtZXNwYWNlPmVwaXN0ZW1ldGVjOmNvbGxlY3Rpb248L3BpZF9uYW1lc3BhY2U+
+              CiAgICAgIDxwaWQ+aXNsYW5kb3JhOmNvbGxlY3Rpb25DTW9kZWw8L3BpZD4KICAgICAgPGRzaWQ+SVNM
+              QU5ET1JBQ008L2RzaWQ+CiAgICA8L2NvbnRlbnRtb2RlbD4KICA8L2NvbnRlbnRtb2RlbHM+CiAgPCEt
+              LWlmIHdlIGRlZmluZSBhIHF1ZXJ5IGZvciBhbiBvYmplY3QgdGhlIHJlbGF0aW9uc2hpcCB3ZSBhc2sg
+              Zm9yIG1heSBub3QgYmUgaXNNZW1iZXJPZkNvbGxlY3Rpb24uICBTbyB3aGVuIHdlIGluZ2VzdCBpbiB0
+              aAogICAgQ29sbGVjdGlvbiB3ZSB3aWxsIHdhbnQgdGhlIHJlbGF0aW9uc2hpcCB0byBtYXRjaCB0aGUg
+              cXVlcnkuIElmIHRoaXMgZWxlbWVudCBpcyBudWxsIHdlIHdpbGwgdXNlIHRoZSBpc01lbWJlck9mQ29s
+              bGVjdGlvbiByZWxhdGlvbnNoaXAtLT4KICA8cmVsYXRpb25zaGlwPmlzTWVtYmVyT2ZDb2xsZWN0aW9u
+              PC9yZWxhdGlvbnNoaXA+CiAgPHNlYXJjaF90ZXJtcz4KICAgIDwhLS1kZWZpbmUgd2hhdCBmaWVsZHMg
+              d2UgY2FuIHF1ZXJ5IGFzIHBhcnQgb2YgdGhlIGFkdmFuY2VkIHNlYXJjaCBmb3IgdGhpcyBjb2xsZWN0
+              aW9uLS0+CiAgICA8ZGVmYXVsdD5kYy5kZXNjcmlwdGlvbjwvZGVmYXVsdD4KICAgIDx0ZXJtPgogICAg
+              ICA8ZmllbGQ+ZGMudGl0bGU8L2ZpZWxkPgogICAgICA8dmFsdWU+ZGMudGl0bGU8L3ZhbHVlPgogICAg
+              PC90ZXJtPgogICAgPHRlcm0+CiAgICAgIDxmaWVsZD5kYy5jcmVhdG9yPC9maWVsZD4KICAgICAgPHZh
+              bHVlPmRjLmNyZWF0b3I8L3ZhbHVlPgogICAgPC90ZXJtPgogIDwvc2VhcmNoX3Rlcm1zPgo8L2NvbGxl
+              Y3Rpb25fcG9saWN5Pgo=
+</foxml:binaryContent>
     </foxml:datastreamVersion>
     <foxml:datastreamVersion CREATED="2010-07-01T13:49:26.661Z" ID="COLLECTION_POLICY.6" LABEL="Collection Policy.xml" MIMETYPE="text/xml">
-      <foxml:contentLocation
-        REF="http://www.e-pistemetec.local:8080/fedora/get/epistemetec:top/COLLECTION_POLICY/2010-07-01T13:49:26.661Z" TYPE="INTERNAL_ID"/>
+      <foxml:binaryContent> 
+              PGNvbGxlY3Rpb25fcG9saWN5PgogIDwhLS0td2Ugd2lsbCBkZWZpbmUgYWxsb3dlZCBtaW1ldHlwZXMg
+              YW5kIHdoYXQgdG8gZG8gd2l0aCB2YXJpb3VzIHR5cGVzIGFzIHBhcnQgb2YgdGhlIGNvbnRlbnQgbW9k
+              ZWwtLT4KICA8Y29udGVudG1vZGVscz4KICAgIDxjb250ZW50bW9kZWwgbmFtZT0iQ29sbGVjdGlvbiI+
+              CiAgICAgIDxwaWRfbmFtZXNwYWNlPmlzbGFuZG9yYTpjb2xsZWN0aW9uPC9waWRfbmFtZXNwYWNlPgog
+              ICAgICA8cGlkPmlzbGFuZG9yYTpjb2xsZWN0aW9uQ01vZGVsPC9waWQ+CiAgICAgIDxkc2lkPklTTEFO
+              RE9SQUNNPC9kc2lkPgogICAgPC9jb250ZW50bW9kZWw+CiAgPC9jb250ZW50bW9kZWxzPgogIDwhLS1p
+              ZiB3ZSBkZWZpbmUgYSBxdWVyeSBmb3IgYW4gb2JqZWN0IHRoZSByZWxhdGlvbnNoaXAgd2UgYXNrIGZv
+              ciBtYXkgbm90IGJlIGlzTWVtYmVyT2ZDb2xsZWN0aW9uLiAgU28gd2hlbiB3ZSBpbmdlc3QgaW4gdGgK
+              ICAgIENvbGxlY3Rpb24gd2Ugd2lsbCB3YW50IHRoZSByZWxhdGlvbnNoaXAgdG8gbWF0Y2ggdGhlIHF1
+              ZXJ5LiBJZiB0aGlzIGVsZW1lbnQgaXMgbnVsbCB3ZSB3aWxsIHVzZSB0aGUgaXNNZW1iZXJPZkNvbGxl
+              Y3Rpb24gcmVsYXRpb25zaGlwLS0+CiAgPHJlbGF0aW9uc2hpcD5pc01lbWJlck9mQ29sbGVjdGlvbjwv
+              cmVsYXRpb25zaGlwPgogIDxzZWFyY2hfdGVybXM+CiAgICA8IS0tZGVmaW5lIHdoYXQgZmllbGRzIHdl
+              IGNhbiBxdWVyeSBhcyBwYXJ0IG9mIHRoZSBhZHZhbmNlZCBzZWFyY2ggZm9yIHRoaXMgY29sbGVjdGlv
+              bi0tPgogICAgPGRlZmF1bHQ+ZGMuZGVzY3JpcHRpb248L2RlZmF1bHQ+CiAgICA8dGVybT4KICAgICAg
+              PGZpZWxkPmRjLnRpdGxlPC9maWVsZD4KICAgICAgPHZhbHVlPmRjLnRpdGxlPC92YWx1ZT4KICAgIDwv
+              dGVybT4KICAgIDx0ZXJtPgogICAgICA8ZmllbGQ+ZGMuY3JlYXRvcjwvZmllbGQ+CiAgICAgIDx2YWx1
+              ZT5kYy5jcmVhdG9yPC92YWx1ZT4KICAgIDwvdGVybT4KICA8L3NlYXJjaF90ZXJtcz4KPC9jb2xsZWN0
+              aW9uX3BvbGljeT4K
+</foxml:binaryContent>
     </foxml:datastreamVersion>
     <foxml:datastreamVersion CREATED="2010-07-16T09:56:24.547Z" ID="COLLECTION_POLICY.7" LABEL="Collection Policy.xml" MIMETYPE="text/xml">
-      <foxml:contentLocation
-        REF="http://www.e-pistemetec.local:8080/fedora/get/epistemetec:top/COLLECTION_POLICY/2010-07-16T09:56:24.547Z" TYPE="INTERNAL_ID"/>
+      <foxml:binaryContent> 
+              PGNvbGxlY3Rpb25fcG9saWN5PgogIDwhLS0td2Ugd2lsbCBkZWZpbmUgYWxsb3dlZCBtaW1ldHlwZXMg
+              YW5kIHdoYXQgdG8gZG8gd2l0aCB2YXJpb3VzIHR5cGVzIGFzIHBhcnQgb2YgdGhlIGNvbnRlbnQgbW9k
+              ZWwtLT4KICA8Y29udGVudG1vZGVscz4KICAgIDxjb250ZW50bW9kZWwgbmFtZT0iQ29sbGVjdGlvbiI+
+              CiAgICAgIDxwaWRfbmFtZXNwYWNlPmVwaXN0ZXRlbWV0ZWM6Y29sbGVjdGlvbjwvcGlkX25hbWVzcGFj
+              ZT4KICAgICAgPHBpZD5pc2xhbmRvcmE6Y29sbGVjdGlvbkNNb2RlbDwvcGlkPgogICAgICA8ZHNpZD5J
+              U0xBTkRPUkFDTTwvZHNpZD4KICAgIDwvY29udGVudG1vZGVsPgoJPGNvbnRlbnRtb2RlbCBuYW1lPSJC
+              b29rIj4KICAgICAgPHBpZF9uYW1lc3BhY2U+ZXBpc3RlbWV0ZWM6Y29sbGVjdGlvbjwvcGlkX25hbWVz
+              cGFjZT4KICAgICAgPHBpZD5lcGlzdGVtZXRlYzpib29rQ01vZGVsPC9waWQ+CiAgICAgIDxkc2lkPklT
+              TEFORE9SQUNNPC9kc2lkPgogICAgPC9jb250ZW50bW9kZWw+CiAgPC9jb250ZW50bW9kZWxzPgogIDwh
+              LS1pZiB3ZSBkZWZpbmUgYSBxdWVyeSBmb3IgYW4gb2JqZWN0IHRoZSByZWxhdGlvbnNoaXAgd2UgYXNr
+              IGZvciBtYXkgbm90IGJlIGlzTWVtYmVyT2ZDb2xsZWN0aW9uLiAgU28gd2hlbiB3ZSBpbmdlc3QgaW4g
+              dGgKICAgIENvbGxlY3Rpb24gd2Ugd2lsbCB3YW50IHRoZSByZWxhdGlvbnNoaXAgdG8gbWF0Y2ggdGhl
+              IHF1ZXJ5LiBJZiB0aGlzIGVsZW1lbnQgaXMgbnVsbCB3ZSB3aWxsIHVzZSB0aGUgaXNNZW1iZXJPZkNv
+              bGxlY3Rpb24gcmVsYXRpb25zaGlwLS0+CiAgPHJlbGF0aW9uc2hpcD5pc01lbWJlck9mQ29sbGVjdGlv
+              bjwvcmVsYXRpb25zaGlwPgogIDxzZWFyY2hfdGVybXM+CiAgICA8IS0tZGVmaW5lIHdoYXQgZmllbGRz
+              IHdlIGNhbiBxdWVyeSBhcyBwYXJ0IG9mIHRoZSBhZHZhbmNlZCBzZWFyY2ggZm9yIHRoaXMgY29sbGVj
+              dGlvbi0tPgogICAgPGRlZmF1bHQ+ZGMuZGVzY3JpcHRpb248L2RlZmF1bHQ+CiAgICA8dGVybT4KICAg
+              ICAgPGZpZWxkPmRjLnRpdGxlPC9maWVsZD4KICAgICAgPHZhbHVlPmRjLnRpdGxlPC92YWx1ZT4KICAg
+              IDwvdGVybT4KICAgIDx0ZXJtPgogICAgICA8ZmllbGQ+ZGMuY3JlYXRvcjwvZmllbGQ+CiAgICAgIDx2
+              YWx1ZT5kYy5jcmVhdG9yPC92YWx1ZT4KICAgIDwvdGVybT4KICA8L3NlYXJjaF90ZXJtcz4KPC9jb2xs
+              ZWN0aW9uX3BvbGljeT4K
+</foxml:binaryContent>
     </foxml:datastreamVersion>
     <foxml:datastreamVersion CREATED="2010-07-16T13:56:48.838Z" ID="COLLECTION_POLICY.8" LABEL="Collection Policy.xml" MIMETYPE="text/xml">
-      <foxml:contentLocation
-        REF="http://www.e-pistemetec.local:8080/fedora/get/epistemetec:top/COLLECTION_POLICY/2010-07-16T13:56:48.838Z" TYPE="INTERNAL_ID"/>
+      <foxml:binaryContent> 
+              PGNvbGxlY3Rpb25fcG9saWN5PgogIDwhLS0td2Ugd2lsbCBkZWZpbmUgYWxsb3dlZCBtaW1ldHlwZXMg
+              YW5kIHdoYXQgdG8gZG8gd2l0aCB2YXJpb3VzIHR5cGVzIGFzIHBhcnQgb2YgdGhlIGNvbnRlbnQgbW9k
+              ZWwtLT4KICA8Y29udGVudG1vZGVscz4KICAgIDxjb250ZW50bW9kZWwgbmFtZT0iQ29sbGVjdGlvbiI+
+              CiAgICAgIDxwaWRfbmFtZXNwYWNlPmVwaXN0ZXRlbWV0ZWM6Y29sbGVjdGlvbjwvcGlkX25hbWVzcGFj
+              ZT4KICAgICAgPHBpZD5pc2xhbmRvcmE6Y29sbGVjdGlvbkNNb2RlbDwvcGlkPgogICAgICA8ZHNpZD5J
+              U0xBTkRPUkFDTTwvZHNpZD4KICAgIDwvY29udGVudG1vZGVsPgoJCiAgPC9jb250ZW50bW9kZWxzPgog
+              IDwhLS1pZiB3ZSBkZWZpbmUgYSBxdWVyeSBmb3IgYW4gb2JqZWN0IHRoZSByZWxhdGlvbnNoaXAgd2Ug
+              YXNrIGZvciBtYXkgbm90IGJlIGlzTWVtYmVyT2ZDb2xsZWN0aW9uLiAgU28gd2hlbiB3ZSBpbmdlc3Qg
+              aW4gdGgKICAgIENvbGxlY3Rpb24gd2Ugd2lsbCB3YW50IHRoZSByZWxhdGlvbnNoaXAgdG8gbWF0Y2gg
+              dGhlIHF1ZXJ5LiBJZiB0aGlzIGVsZW1lbnQgaXMgbnVsbCB3ZSB3aWxsIHVzZSB0aGUgaXNNZW1iZXJP
+              ZkNvbGxlY3Rpb24gcmVsYXRpb25zaGlwLS0+CiAgPHJlbGF0aW9uc2hpcD5pc01lbWJlck9mQ29sbGVj
+              dGlvbjwvcmVsYXRpb25zaGlwPgogIDxzZWFyY2hfdGVybXM+CiAgICA8IS0tZGVmaW5lIHdoYXQgZmll
+              bGRzIHdlIGNhbiBxdWVyeSBhcyBwYXJ0IG9mIHRoZSBhZHZhbmNlZCBzZWFyY2ggZm9yIHRoaXMgY29s
+              bGVjdGlvbi0tPgogICAgPGRlZmF1bHQ+ZGMuZGVzY3JpcHRpb248L2RlZmF1bHQ+CiAgICA8dGVybT4K
+              ICAgICAgPGZpZWxkPmRjLnRpdGxlPC9maWVsZD4KICAgICAgPHZhbHVlPmRjLnRpdGxlPC92YWx1ZT4K
+              ICAgIDwvdGVybT4KICAgIDx0ZXJtPgogICAgICA8ZmllbGQ+ZGMuY3JlYXRvcjwvZmllbGQ+CiAgICAg
+              IDx2YWx1ZT5kYy5jcmVhdG9yPC92YWx1ZT4KICAgIDwvdGVybT4KICA8L3NlYXJjaF90ZXJtcz4KPC9j
+              b2xsZWN0aW9uX3BvbGljeT4=
+</foxml:binaryContent>
     </foxml:datastreamVersion>
     <foxml:datastreamVersion CREATED="2010-07-16T13:57:38.678Z" ID="COLLECTION_POLICY.9" LABEL="Collection Policy.xml" MIMETYPE="text/xml">
-      <foxml:contentLocation
-        REF="http://www.e-pistemetec.local:8080/fedora/get/epistemetec:top/COLLECTION_POLICY/2010-07-16T13:57:38.678Z" TYPE="INTERNAL_ID"/>
+      <foxml:binaryContent> 
+              PGNvbGxlY3Rpb25fcG9saWN5PgogIDwhLS0td2Ugd2lsbCBkZWZpbmUgYWxsb3dlZCBtaW1ldHlwZXMg
+              YW5kIHdoYXQgdG8gZG8gd2l0aCB2YXJpb3VzIHR5cGVzIGFzIHBhcnQgb2YgdGhlIGNvbnRlbnQgbW9k
+              ZWwtLT4KICA8Y29udGVudG1vZGVscz4KICAgIDxjb250ZW50bW9kZWwgbmFtZT0iQ29sbGVjdGlvbiI+
+              CiAgICAgIDxwaWRfbmFtZXNwYWNlPmVwaXN0ZW1ldGVjOmNvbGxlY3Rpb248L3BpZF9uYW1lc3BhY2U+
+              CiAgICAgIDxwaWQ+aXNsYW5kb3JhOmNvbGxlY3Rpb25DTW9kZWw8L3BpZD4KICAgICAgPGRzaWQ+SVNM
+              QU5ET1JBQ008L2RzaWQ+CiAgICA8L2NvbnRlbnRtb2RlbD4KCTxjb250ZW50bW9kZWwgbmFtZT0iQm9v
+              ayI+CiAgICAgIDxwaWRfbmFtZXNwYWNlPmVwaXN0ZW1ldGVjOmNvbGxlY3Rpb248L3BpZF9uYW1lc3Bh
+              Y2U+CiAgICAgIDxwaWQ+ZXBpc3RlbWV0ZWM6Ym9va0NNb2RlbDwvcGlkPgogICAgICA8ZHNpZD5JU0xB
+              TkRPUkFDTTwvZHNpZD4KICAgIDwvY29udGVudG1vZGVsPgogIDwvY29udGVudG1vZGVscz4KICA8IS0t
+              aWYgd2UgZGVmaW5lIGEgcXVlcnkgZm9yIGFuIG9iamVjdCB0aGUgcmVsYXRpb25zaGlwIHdlIGFzayBm
+              b3IgbWF5IG5vdCBiZSBpc01lbWJlck9mQ29sbGVjdGlvbi4gIFNvIHdoZW4gd2UgaW5nZXN0IGluIHRo
+              CiAgICBDb2xsZWN0aW9uIHdlIHdpbGwgd2FudCB0aGUgcmVsYXRpb25zaGlwIHRvIG1hdGNoIHRoZSBx
+              dWVyeS4gSWYgdGhpcyBlbGVtZW50IGlzIG51bGwgd2Ugd2lsbCB1c2UgdGhlIGlzTWVtYmVyT2ZDb2xs
+              ZWN0aW9uIHJlbGF0aW9uc2hpcC0tPgogIDxyZWxhdGlvbnNoaXA+aXNNZW1iZXJPZkNvbGxlY3Rpb248
+              L3JlbGF0aW9uc2hpcD4KICA8c2VhcmNoX3Rlcm1zPgogICAgPCEtLWRlZmluZSB3aGF0IGZpZWxkcyB3
+              ZSBjYW4gcXVlcnkgYXMgcGFydCBvZiB0aGUgYWR2YW5jZWQgc2VhcmNoIGZvciB0aGlzIGNvbGxlY3Rp
+              b24tLT4KICAgIDxkZWZhdWx0PmRjLmRlc2NyaXB0aW9uPC9kZWZhdWx0PgogICAgPHRlcm0+CiAgICAg
+              IDxmaWVsZD5kYy50aXRsZTwvZmllbGQ+CiAgICAgIDx2YWx1ZT5kYy50aXRsZTwvdmFsdWU+CiAgICA8
+              L3Rlcm0+CiAgICA8dGVybT4KICAgICAgPGZpZWxkPmRjLmNyZWF0b3I8L2ZpZWxkPgogICAgICA8dmFs
+              dWU+ZGMuY3JlYXRvcjwvdmFsdWU+CiAgICA8L3Rlcm0+CiAgPC9zZWFyY2hfdGVybXM+CjwvY29sbGVj
+              dGlvbl9wb2xpY3k+Cg==
+</foxml:binaryContent>
     </foxml:datastreamVersion>
     <foxml:datastreamVersion CREATED="2010-07-16T13:58:15.419Z" ID="COLLECTION_POLICY.10" LABEL="Collection Policy.xml" MIMETYPE="text/xml">
-      <foxml:contentLocation
-        REF="http://www.e-pistemetec.local:8080/fedora/get/epistemetec:top/COLLECTION_POLICY/2010-07-16T13:58:15.419Z" TYPE="INTERNAL_ID"/>
+      <foxml:binaryContent> 
+              PGNvbGxlY3Rpb25fcG9saWN5PgogIDwhLS0td2Ugd2lsbCBkZWZpbmUgYWxsb3dlZCBtaW1ldHlwZXMg
+              YW5kIHdoYXQgdG8gZG8gd2l0aCB2YXJpb3VzIHR5cGVzIGFzIHBhcnQgb2YgdGhlIGNvbnRlbnQgbW9k
+              ZWwtLT4KICA8Y29udGVudG1vZGVscz4KICAgIDxjb250ZW50bW9kZWwgbmFtZT0iQ29sbGVjdGlvbiI+
+              CiAgICAgIDxwaWRfbmFtZXNwYWNlPmlzbGFuZG9yYTpjb2xsZWN0aW9uPC9waWRfbmFtZXNwYWNlPgog
+              ICAgICA8cGlkPmlzbGFuZG9yYTpjb2xsZWN0aW9uQ01vZGVsPC9waWQ+CiAgICAgIDxkc2lkPklTTEFO
+              RE9SQUNNPC9kc2lkPgogICAgPC9jb250ZW50bW9kZWw+CgkKICA8L2NvbnRlbnRtb2RlbHM+CiAgPCEt
+              LWlmIHdlIGRlZmluZSBhIHF1ZXJ5IGZvciBhbiBvYmplY3QgdGhlIHJlbGF0aW9uc2hpcCB3ZSBhc2sg
+              Zm9yIG1heSBub3QgYmUgaXNNZW1iZXJPZkNvbGxlY3Rpb24uICBTbyB3aGVuIHdlIGluZ2VzdCBpbiB0
+              aAogICAgQ29sbGVjdGlvbiB3ZSB3aWxsIHdhbnQgdGhlIHJlbGF0aW9uc2hpcCB0byBtYXRjaCB0aGUg
+              cXVlcnkuIElmIHRoaXMgZWxlbWVudCBpcyBudWxsIHdlIHdpbGwgdXNlIHRoZSBpc01lbWJlck9mQ29s
+              bGVjdGlvbiByZWxhdGlvbnNoaXAtLT4KICA8cmVsYXRpb25zaGlwPmlzTWVtYmVyT2ZDb2xsZWN0aW9u
+              PC9yZWxhdGlvbnNoaXA+CiAgPHNlYXJjaF90ZXJtcz4KICAgIDwhLS1kZWZpbmUgd2hhdCBmaWVsZHMg
+              d2UgY2FuIHF1ZXJ5IGFzIHBhcnQgb2YgdGhlIGFkdmFuY2VkIHNlYXJjaCBmb3IgdGhpcyBjb2xsZWN0
+              aW9uLS0+CiAgICA8ZGVmYXVsdD5kYy5kZXNjcmlwdGlvbjwvZGVmYXVsdD4KICAgIDx0ZXJtPgogICAg
+              ICA8ZmllbGQ+ZGMudGl0bGU8L2ZpZWxkPgogICAgICA8dmFsdWU+ZGMudGl0bGU8L3ZhbHVlPgogICAg
+              PC90ZXJtPgogICAgPHRlcm0+CiAgICAgIDxmaWVsZD5kYy5jcmVhdG9yPC9maWVsZD4KICAgICAgPHZh
+              bHVlPmRjLmNyZWF0b3I8L3ZhbHVlPgogICAgPC90ZXJtPgogIDwvc2VhcmNoX3Rlcm1zPgo8L2NvbGxl
+              Y3Rpb25fcG9saWN5Pgo=
+</foxml:binaryContent>
     </foxml:datastreamVersion>
     <foxml:datastreamVersion CREATED="2010-07-16T14:06:40.085Z" ID="COLLECTION_POLICY.11" LABEL="Collection Policy.xml" MIMETYPE="text/xml">
-      <foxml:contentLocation
-        REF="http://www.e-pistemetec.local:8080/fedora/get/epistemetec:top/COLLECTION_POLICY/2010-07-16T14:06:40.085Z" TYPE="INTERNAL_ID"/>
+      <foxml:binaryContent> 
+              PGNvbGxlY3Rpb25fcG9saWN5PgogIDwhLS0td2Ugd2lsbCBkZWZpbmUgYWxsb3dlZCBtaW1ldHlwZXMg
+              YW5kIHdoYXQgdG8gZG8gd2l0aCB2YXJpb3VzIHR5cGVzIGFzIHBhcnQgb2YgdGhlIGNvbnRlbnQgbW9k
+              ZWwtLT4KICA8Y29udGVudG1vZGVscz4KICAgIDxjb250ZW50bW9kZWwgbmFtZT0iQ29sbGVjdGlvbiI+
+              CiAgICAgIDxwaWRfbmFtZXNwYWNlPmlzbGFuZG9yYTpjb2xsZWN0aW9uPC9waWRfbmFtZXNwYWNlPgog
+              ICAgICA8cGlkPmlzbGFuZG9yYTpjb2xsZWN0aW9uQ01vZGVsPC9waWQ+CiAgICAgIDxkc2lkPklTTEFO
+              RE9SQUNNPC9kc2lkPgogICAgPC9jb250ZW50bW9kZWw+Cgk8Y29udGVudG1vZGVsIG5hbWU9IkJvb2si
+              PgogICAgICA8cGlkX25hbWVzcGFjZT5lcGlzdGVtZXRlYzpjb2xsZWN0aW9uPC9waWRfbmFtZXNwYWNl
+              PgogICAgICA8cGlkPmVwaXN0ZW1ldGVjOmJvb2tDTW9kZWw8L3BpZD4KICAgICAgPGRzaWQ+SVNMQU5E
+              T1JBQ008L2RzaWQ+CiAgICA8L2NvbnRlbnRtb2RlbD4KICA8L2NvbnRlbnRtb2RlbHM+CiAgPCEtLWlm
+              IHdlIGRlZmluZSBhIHF1ZXJ5IGZvciBhbiBvYmplY3QgdGhlIHJlbGF0aW9uc2hpcCB3ZSBhc2sgZm9y
+              IG1heSBub3QgYmUgaXNNZW1iZXJPZkNvbGxlY3Rpb24uICBTbyB3aGVuIHdlIGluZ2VzdCBpbiB0aAog
+              ICAgQ29sbGVjdGlvbiB3ZSB3aWxsIHdhbnQgdGhlIHJlbGF0aW9uc2hpcCB0byBtYXRjaCB0aGUgcXVl
+              cnkuIElmIHRoaXMgZWxlbWVudCBpcyBudWxsIHdlIHdpbGwgdXNlIHRoZSBpc01lbWJlck9mQ29sbGVj
+              dGlvbiByZWxhdGlvbnNoaXAtLT4KICA8cmVsYXRpb25zaGlwPmlzTWVtYmVyT2ZDb2xsZWN0aW9uPC9y
+              ZWxhdGlvbnNoaXA+CiAgPHNlYXJjaF90ZXJtcz4KICAgIDwhLS1kZWZpbmUgd2hhdCBmaWVsZHMgd2Ug
+              Y2FuIHF1ZXJ5IGFzIHBhcnQgb2YgdGhlIGFkdmFuY2VkIHNlYXJjaCBmb3IgdGhpcyBjb2xsZWN0aW9u
+              LS0+CiAgICA8ZGVmYXVsdD5kYy5kZXNjcmlwdGlvbjwvZGVmYXVsdD4KICAgIDx0ZXJtPgogICAgICA8
+              ZmllbGQ+ZGMudGl0bGU8L2ZpZWxkPgogICAgICA8dmFsdWU+ZGMudGl0bGU8L3ZhbHVlPgogICAgPC90
+              ZXJtPgogICAgPHRlcm0+CiAgICAgIDxmaWVsZD5kYy5jcmVhdG9yPC9maWVsZD4KICAgICAgPHZhbHVl
+              PmRjLmNyZWF0b3I8L3ZhbHVlPgogICAgPC90ZXJtPgogIDwvc2VhcmNoX3Rlcm1zPgo8L2NvbGxlY3Rp
+              b25fcG9saWN5Pgo=
+</foxml:binaryContent>
     </foxml:datastreamVersion>
     <foxml:datastreamVersion CREATED="2010-07-21T16:05:06.741Z" ID="COLLECTION_POLICY.12" LABEL="Collection Policy.xml" MIMETYPE="text/xml">
-      <foxml:contentLocation
-        REF="http://www.e-pistemetec.local:8080/fedora/get/epistemetec:top/COLLECTION_POLICY/2010-07-21T16:05:06.741Z" TYPE="INTERNAL_ID"/>
+      <foxml:binaryContent> 
+              PGNvbGxlY3Rpb25fcG9saWN5PgogIDwhLS0td2Ugd2lsbCBkZWZpbmUgYWxsb3dlZCBtaW1ldHlwZXMg
+              YW5kIHdoYXQgdG8gZG8gd2l0aCB2YXJpb3VzIHR5cGVzIGFzIHBhcnQgb2YgdGhlIGNvbnRlbnQgbW9k
+              ZWwtLT4KICA8Y29udGVudG1vZGVscz4KICAgIDxjb250ZW50bW9kZWwgbmFtZT0iQ29sbGVjdGlvbiI+
+              CiAgICAgIDxwaWRfbmFtZXNwYWNlPmVwaXN0ZW1ldGVjOmNvbGxlY3Rpb248L3BpZF9uYW1lc3BhY2U+
+              CiAgICAgIDxwaWQ+aXNsYW5kb3JhOmNvbGxlY3Rpb25DTW9kZWw8L3BpZD4KICAgICAgPGRzaWQ+SVNM
+              QU5ET1JBQ008L2RzaWQ+CiAgICA8L2NvbnRlbnRtb2RlbD4KICAgIDxjb250ZW50bW9kZWwgbmFtZT0i
+              Qm9vayI+CiAgICAgIDxwaWRfbmFtZXNwYWNlPmVwaXN0ZW1ldGVjOmNvbGxlY3Rpb248L3BpZF9uYW1l
+              c3BhY2U+CiAgICAgIDxwaWQ+ZXBpc3RlbWV0ZWM6Ym9va0NNb2RlbDwvcGlkPgogICAgICA8ZHNpZD5J
+              U0xBTkRPUkFDTTwvZHNpZD4KICAgIDwvY29udGVudG1vZGVsPgogIDwvY29udGVudG1vZGVscz4KICA8
+              IS0taWYgd2UgZGVmaW5lIGEgcXVlcnkgZm9yIGFuIG9iamVjdCB0aGUgcmVsYXRpb25zaGlwIHdlIGFz
+              ayBmb3IgbWF5IG5vdCBiZSBpc01lbWJlck9mQ29sbGVjdGlvbi4gIFNvIHdoZW4gd2UgaW5nZXN0IGlu
+              IHRoCiAgICBDb2xsZWN0aW9uIHdlIHdpbGwgd2FudCB0aGUgcmVsYXRpb25zaGlwIHRvIG1hdGNoIHRo
+              ZSBxdWVyeS4gSWYgdGhpcyBlbGVtZW50IGlzIG51bGwgd2Ugd2lsbCB1c2UgdGhlIGlzTWVtYmVyT2ZD
+              b2xsZWN0aW9uIHJlbGF0aW9uc2hpcC0tPgogIDxyZWxhdGlvbnNoaXA+aXNNZW1iZXJPZkNvbGxlY3Rp
+              b248L3JlbGF0aW9uc2hpcD4KICA8c2VhcmNoX3Rlcm1zPgogICAgPCEtLWRlZmluZSB3aGF0IGZpZWxk
+              cyB3ZSBjYW4gcXVlcnkgYXMgcGFydCBvZiB0aGUgYWR2YW5jZWQgc2VhcmNoIGZvciB0aGlzIGNvbGxl
+              Y3Rpb24tLT4KICAgIDxkZWZhdWx0PmRjLmRlc2NyaXB0aW9uPC9kZWZhdWx0PgogICAgPHRlcm0+CiAg
+              ICAgIDxmaWVsZD5kYy50aXRsZTwvZmllbGQ+CiAgICAgIDx2YWx1ZT5kYy50aXRsZTwvdmFsdWU+CiAg
+              ICA8L3Rlcm0+CiAgICA8dGVybT4KICAgICAgPGZpZWxkPmRjLmNyZWF0b3I8L2ZpZWxkPgogICAgICA8
+              dmFsdWU+ZGMuY3JlYXRvcjwvdmFsdWU+CiAgICA8L3Rlcm0+CiAgPC9zZWFyY2hfdGVybXM+CjwvY29s
+              bGVjdGlvbl9wb2xpY3k+Cg==
+</foxml:binaryContent>
     </foxml:datastreamVersion>
     <foxml:datastreamVersion CREATED="2010-09-03T16:15:20.133Z" ID="COLLECTION_POLICY.13" LABEL="Collection Policy.xml" MIMETYPE="text/xml">
-      <foxml:contentLocation
-        REF="http://www.e-pistemetec.local:8080/fedora/get/epistemetec:top/COLLECTION_POLICY/2010-09-03T16:15:20.133Z" TYPE="INTERNAL_ID"/>
+      <foxml:binaryContent> 
+              PGNvbGxlY3Rpb25fcG9saWN5PgogIDwhLS0td2Ugd2lsbCBkZWZpbmUgYWxsb3dlZCBtaW1ldHlwZXMg
+              YW5kIHdoYXQgdG8gZG8gd2l0aCB2YXJpb3VzIHR5cGVzIGFzIHBhcnQgb2YgdGhlIGNvbnRlbnQgbW9k
+              ZWwtLT4KICA8Y29udGVudG1vZGVscz4KICAgIDxjb250ZW50bW9kZWwgbmFtZT0iQWxidW0iPgogICAg
+              ICA8cGlkX25hbWVzcGFjZT5lcGlzdGVtZXRlY19hbGJ1bTo8L3BpZF9uYW1lc3BhY2U+CiAgICAgIDxw
+              aWQ+aXNsYW5kb3JhOmNvbGxlY3Rpb25DTW9kZWw8L3BpZD4KICAgICAgPGRzaWQ+SVNMQU5ET1JBQ008
+              L2RzaWQ+CiAgICA8L2NvbnRlbnRtb2RlbD4KICAgIDxjb250ZW50bW9kZWwgbmFtZT0iQm9vayI+CiAg
+              ICAgIDxwaWRfbmFtZXNwYWNlPmVwaXN0ZW1ldGVjX2Jvb2s6PC9waWRfbmFtZXNwYWNlPgogICAgICA8
+              cGlkPmVwaXN0ZW1ldGVjOmJvb2tDTW9kZWw8L3BpZD4KICAgICAgPGRzaWQ+SVNMQU5ET1JBQ008L2Rz
+              aWQ+CiAgICA8L2NvbnRlbnRtb2RlbD4KICA8L2NvbnRlbnRtb2RlbHM+CiAgPCEtLWlmIHdlIGRlZmlu
+              ZSBhIHF1ZXJ5IGZvciBhbiBvYmplY3QgdGhlIHJlbGF0aW9uc2hpcCB3ZSBhc2sgZm9yIG1heSBub3Qg
+              YmUgaXNNZW1iZXJPZkNvbGxlY3Rpb24uICBTbyB3aGVuIHdlIGluZ2VzdCBpbiB0aAogICAgQ29sbGVj
+              dGlvbiB3ZSB3aWxsIHdhbnQgdGhlIHJlbGF0aW9uc2hpcCB0byBtYXRjaCB0aGUgcXVlcnkuIElmIHRo
+              aXMgZWxlbWVudCBpcyBudWxsIHdlIHdpbGwgdXNlIHRoZSBpc01lbWJlck9mQ29sbGVjdGlvbiByZWxh
+              dGlvbnNoaXAtLT4KICA8cmVsYXRpb25zaGlwPmlzTWVtYmVyT2ZDb2xsZWN0aW9uPC9yZWxhdGlvbnNo
+              aXA+CiAgPHNlYXJjaF90ZXJtcz4KICAgIDwhLS1kZWZpbmUgd2hhdCBmaWVsZHMgd2UgY2FuIHF1ZXJ5
+              IGFzIHBhcnQgb2YgdGhlIGFkdmFuY2VkIHNlYXJjaCBmb3IgdGhpcyBjb2xsZWN0aW9uLS0+CiAgICA8
+              ZGVmYXVsdD5kYy5kZXNjcmlwdGlvbjwvZGVmYXVsdD4KICAgIDx0ZXJtPgogICAgICA8ZmllbGQ+ZGMu
+              dGl0bGU8L2ZpZWxkPgogICAgICA8dmFsdWU+ZGMudGl0bGU8L3ZhbHVlPgogICAgPC90ZXJtPgogICAg
+              PHRlcm0+CiAgICAgIDxmaWVsZD5kYy5jcmVhdG9yPC9maWVsZD4KICAgICAgPHZhbHVlPmRjLmNyZWF0
+              b3I8L3ZhbHVlPgogICAgPC90ZXJtPgogIDwvc2VhcmNoX3Rlcm1zPgo8L2NvbGxlY3Rpb25fcG9saWN5
+              Pgo=
+</foxml:binaryContent>
     </foxml:datastreamVersion>
     <foxml:datastreamVersion CREATED="2010-09-03T16:19:35.252Z" ID="COLLECTION_POLICY.14" LABEL="Collection Policy.xml" MIMETYPE="text/xml">
-      <foxml:contentLocation
-        REF="http://www.e-pistemetec.local:8080/fedora/get/epistemetec:top/COLLECTION_POLICY/2010-09-03T16:19:35.252Z" TYPE="INTERNAL_ID"/>
+      <foxml:binaryContent> 
+              PGNvbGxlY3Rpb25fcG9saWN5PgogIDwhLS0td2Ugd2lsbCBkZWZpbmUgYWxsb3dlZCBtaW1ldHlwZXMg
+              YW5kIHdoYXQgdG8gZG8gd2l0aCB2YXJpb3VzIHR5cGVzIGFzIHBhcnQgb2YgdGhlIGNvbnRlbnQgbW9k
+              ZWwtLT4KICA8Y29udGVudG1vZGVscz4KICAgIDxjb250ZW50bW9kZWwgbmFtZT0iQWxidW0iPgogICAg
+              ICA8cGlkX25hbWVzcGFjZT5lcGlzdGVtZXRlYy1hbGJ1bTo8L3BpZF9uYW1lc3BhY2U+CiAgICAgIDxw
+              aWQ+aXNsYW5kb3JhOmNvbGxlY3Rpb25DTW9kZWw8L3BpZD4KICAgICAgPGRzaWQ+SVNMQU5ET1JBQ008
+              L2RzaWQ+CiAgICA8L2NvbnRlbnRtb2RlbD4KICAgIDxjb250ZW50bW9kZWwgbmFtZT0iQm9vayI+CiAg
+              ICAgIDxwaWRfbmFtZXNwYWNlPmVwaXN0ZW1ldGVjLWJvb2s6PC9waWRfbmFtZXNwYWNlPgogICAgICA8
+              cGlkPmVwaXN0ZW1ldGVjOmJvb2tDTW9kZWw8L3BpZD4KICAgICAgPGRzaWQ+SVNMQU5ET1JBQ008L2Rz
+              aWQ+CiAgICA8L2NvbnRlbnRtb2RlbD4KICA8L2NvbnRlbnRtb2RlbHM+CiAgPCEtLWlmIHdlIGRlZmlu
+              ZSBhIHF1ZXJ5IGZvciBhbiBvYmplY3QgdGhlIHJlbGF0aW9uc2hpcCB3ZSBhc2sgZm9yIG1heSBub3Qg
+              YmUgaXNNZW1iZXJPZkNvbGxlY3Rpb24uICBTbyB3aGVuIHdlIGluZ2VzdCBpbiB0aAogICAgQ29sbGVj
+              dGlvbiB3ZSB3aWxsIHdhbnQgdGhlIHJlbGF0aW9uc2hpcCB0byBtYXRjaCB0aGUgcXVlcnkuIElmIHRo
+              aXMgZWxlbWVudCBpcyBudWxsIHdlIHdpbGwgdXNlIHRoZSBpc01lbWJlck9mQ29sbGVjdGlvbiByZWxh
+              dGlvbnNoaXAtLT4KICA8cmVsYXRpb25zaGlwPmlzTWVtYmVyT2ZDb2xsZWN0aW9uPC9yZWxhdGlvbnNo
+              aXA+CiAgPHNlYXJjaF90ZXJtcz4KICAgIDwhLS1kZWZpbmUgd2hhdCBmaWVsZHMgd2UgY2FuIHF1ZXJ5
+              IGFzIHBhcnQgb2YgdGhlIGFkdmFuY2VkIHNlYXJjaCBmb3IgdGhpcyBjb2xsZWN0aW9uLS0+CiAgICA8
+              ZGVmYXVsdD5kYy5kZXNjcmlwdGlvbjwvZGVmYXVsdD4KICAgIDx0ZXJtPgogICAgICA8ZmllbGQ+ZGMu
+              dGl0bGU8L2ZpZWxkPgogICAgICA8dmFsdWU+ZGMudGl0bGU8L3ZhbHVlPgogICAgPC90ZXJtPgogICAg
+              PHRlcm0+CiAgICAgIDxmaWVsZD5kYy5jcmVhdG9yPC9maWVsZD4KICAgICAgPHZhbHVlPmRjLmNyZWF0
+              b3I8L3ZhbHVlPgogICAgPC90ZXJtPgogIDwvc2VhcmNoX3Rlcm1zPgo8L2NvbGxlY3Rpb25fcG9saWN5
+              Pgo=
+</foxml:binaryContent>
     </foxml:datastreamVersion>
     <foxml:datastreamVersion CREATED="2010-09-06T09:04:29.483Z" ID="COLLECTION_POLICY.15" LABEL="Collection Policy.xml" MIMETYPE="text/xml">
-      <foxml:contentLocation
-        REF="http://www.e-pistemetec.local:8080/fedora/get/epistemetec:top/COLLECTION_POLICY/2010-09-06T09:04:29.483Z" TYPE="INTERNAL_ID"/>
+      <foxml:binaryContent> 
+              PGNvbGxlY3Rpb25fcG9saWN5PgogIDwhLS0td2Ugd2lsbCBkZWZpbmUgYWxsb3dlZCBtaW1ldHlwZXMg
+              YW5kIHdoYXQgdG8gZG8gd2l0aCB2YXJpb3VzIHR5cGVzIGFzIHBhcnQgb2YgdGhlIGNvbnRlbnQgbW9k
+              ZWwtLT4KICA8Y29udGVudG1vZGVscz4KICAgICA8Y29udGVudG1vZGVsIG5hbWU9IkJvb2siPgogICAg
+              ICA8cGlkX25hbWVzcGFjZT5lcGlzdGVtZXRlYy1ib29rOjwvcGlkX25hbWVzcGFjZT4KICAgICAgPHBp
+              ZD5lcGlzdGVtZXRlYzpib29rQ01vZGVsPC9waWQ+CiAgICAgIDxkc2lkPklTTEFORE9SQUNNPC9kc2lk
+              PgogICAgPC9jb250ZW50bW9kZWw+CiAgICA8Y29udGVudG1vZGVsIG5hbWU9IkFsYnVtIj4KICAgICAg
+              PHBpZF9uYW1lc3BhY2U+ZXBpc3RlbWV0ZWMtYWxidW06PC9waWRfbmFtZXNwYWNlPgogICAgICA8cGlk
+              PmlzbGFuZG9yYTpjb2xsZWN0aW9uQ01vZGVsPC9waWQ+CiAgICAgIDxkc2lkPklTTEFORE9SQUNNPC9k
+              c2lkPgogICAgPC9jb250ZW50bW9kZWw+CiAgCiAgPC9jb250ZW50bW9kZWxzPgogIDwhLS1pZiB3ZSBk
+              ZWZpbmUgYSBxdWVyeSBmb3IgYW4gb2JqZWN0IHRoZSByZWxhdGlvbnNoaXAgd2UgYXNrIGZvciBtYXkg
+              bm90IGJlIGlzTWVtYmVyT2ZDb2xsZWN0aW9uLiAgU28gd2hlbiB3ZSBpbmdlc3QgaW4gdGgKICAgIENv
+              bGxlY3Rpb24gd2Ugd2lsbCB3YW50IHRoZSByZWxhdGlvbnNoaXAgdG8gbWF0Y2ggdGhlIHF1ZXJ5LiBJ
+              ZiB0aGlzIGVsZW1lbnQgaXMgbnVsbCB3ZSB3aWxsIHVzZSB0aGUgaXNNZW1iZXJPZkNvbGxlY3Rpb24g
+              cmVsYXRpb25zaGlwLS0+CiAgPHJlbGF0aW9uc2hpcD5pc01lbWJlck9mQ29sbGVjdGlvbjwvcmVsYXRp
+              b25zaGlwPgogIDxzZWFyY2hfdGVybXM+CiAgICA8IS0tZGVmaW5lIHdoYXQgZmllbGRzIHdlIGNhbiBx
+              dWVyeSBhcyBwYXJ0IG9mIHRoZSBhZHZhbmNlZCBzZWFyY2ggZm9yIHRoaXMgY29sbGVjdGlvbi0tPgog
+              ICAgPGRlZmF1bHQ+ZGMuZGVzY3JpcHRpb248L2RlZmF1bHQ+CiAgICA8dGVybT4KICAgICAgPGZpZWxk
+              PmRjLnRpdGxlPC9maWVsZD4KICAgICAgPHZhbHVlPmRjLnRpdGxlPC92YWx1ZT4KICAgIDwvdGVybT4K
+              ICAgIDx0ZXJtPgogICAgICA8ZmllbGQ+ZGMuY3JlYXRvcjwvZmllbGQ+CiAgICAgIDx2YWx1ZT5kYy5j
+              cmVhdG9yPC92YWx1ZT4KICAgIDwvdGVybT4KICA8L3NlYXJjaF90ZXJtcz4KPC9jb2xsZWN0aW9uX3Bv
+              bGljeT4K
+</foxml:binaryContent>
     </foxml:datastreamVersion>
     <foxml:datastreamVersion CREATED="2010-09-06T09:08:39.706Z" ID="COLLECTION_POLICY.16" LABEL="Collection Policy.xml" MIMETYPE="text/xml">
-      <foxml:contentLocation
-        REF="http://www.e-pistemetec.local:8080/fedora/get/epistemetec:top/COLLECTION_POLICY/2010-09-06T09:08:39.706Z" TYPE="INTERNAL_ID"/>
+      <foxml:binaryContent> 
+              PGNvbGxlY3Rpb25fcG9saWN5PgogIDwhLS0td2Ugd2lsbCBkZWZpbmUgYWxsb3dlZCBtaW1ldHlwZXMg
+              YW5kIHdoYXQgdG8gZG8gd2l0aCB2YXJpb3VzIHR5cGVzIGFzIHBhcnQgb2YgdGhlIGNvbnRlbnQgbW9k
+              ZWwtLT4KICA8Y29udGVudG1vZGVscz4KICAgIDxjb250ZW50bW9kZWwgbmFtZT0iQm9vayI+CiAgICAg
+              IDxwaWRfbmFtZXNwYWNlPmVwaXN0ZW1ldGVjLWNvbGxlY3Rpb246PC9waWRfbmFtZXNwYWNlPgogICAg
+              ICA8cGlkPmVwaXN0ZW1ldGVjOmJvb2tDTW9kZWw8L3BpZD4KICAgICAgPGRzaWQ+SVNMQU5ET1JBQ008
+              L2RzaWQ+CiAgICA8L2NvbnRlbnRtb2RlbD4KICAgIDxjb250ZW50bW9kZWwgbmFtZT0iQWxidW0iPgog
+              ICAgICA8cGlkX25hbWVzcGFjZT5lcGlzdGVtZXRlYy1jb2xsZWN0aW9uOjwvcGlkX25hbWVzcGFjZT4K
+              ICAgICAgPHBpZD5pc2xhbmRvcmE6Y29sbGVjdGlvbkNNb2RlbDwvcGlkPgogICAgICA8ZHNpZD5JU0xB
+              TkRPUkFDTTwvZHNpZD4KICAgIDwvY29udGVudG1vZGVsPgogIDwvY29udGVudG1vZGVscz4KICA8IS0t
+              aWYgd2UgZGVmaW5lIGEgcXVlcnkgZm9yIGFuIG9iamVjdCB0aGUgcmVsYXRpb25zaGlwIHdlIGFzayBm
+              b3IgbWF5IG5vdCBiZSBpc01lbWJlck9mQ29sbGVjdGlvbi4gIFNvIHdoZW4gd2UgaW5nZXN0IGluIHRo
+              CiAgICBDb2xsZWN0aW9uIHdlIHdpbGwgd2FudCB0aGUgcmVsYXRpb25zaGlwIHRvIG1hdGNoIHRoZSBx
+              dWVyeS4gSWYgdGhpcyBlbGVtZW50IGlzIG51bGwgd2Ugd2lsbCB1c2UgdGhlIGlzTWVtYmVyT2ZDb2xs
+              ZWN0aW9uIHJlbGF0aW9uc2hpcC0tPgogIDxyZWxhdGlvbnNoaXA+aXNNZW1iZXJPZkNvbGxlY3Rpb248
+              L3JlbGF0aW9uc2hpcD4KICA8c2VhcmNoX3Rlcm1zPgogICAgPCEtLWRlZmluZSB3aGF0IGZpZWxkcyB3
+              ZSBjYW4gcXVlcnkgYXMgcGFydCBvZiB0aGUgYWR2YW5jZWQgc2VhcmNoIGZvciB0aGlzIGNvbGxlY3Rp
+              b24tLT4KICAgIDxkZWZhdWx0PmRjLmRlc2NyaXB0aW9uPC9kZWZhdWx0PgogICAgPHRlcm0+CiAgICAg
+              IDxmaWVsZD5kYy50aXRsZTwvZmllbGQ+CiAgICAgIDx2YWx1ZT5kYy50aXRsZTwvdmFsdWU+CiAgICA8
+              L3Rlcm0+CiAgICA8dGVybT4KICAgICAgPGZpZWxkPmRjLmNyZWF0b3I8L2ZpZWxkPgogICAgICA8dmFs
+              dWU+ZGMuY3JlYXRvcjwvdmFsdWU+CiAgICA8L3Rlcm0+CiAgPC9zZWFyY2hfdGVybXM+CjwvY29sbGVj
+              dGlvbl9wb2xpY3k+Cg==
+</foxml:binaryContent>
     </foxml:datastreamVersion>
     <foxml:datastreamVersion CREATED="2010-09-14T15:41:44.458Z" ID="COLLECTION_POLICY.17" LABEL="Collection Policy.xml" MIMETYPE="text/xml">
-      <foxml:contentLocation
-        REF="http://www.e-pistemetec.local:8080/fedora/get/epistemetec:top/COLLECTION_POLICY/2010-09-14T15:41:44.458Z" TYPE="INTERNAL_ID"/>
+      <foxml:binaryContent> 
+              PGNvbGxlY3Rpb25fcG9saWN5PgogIDwhLS0td2Ugd2lsbCBkZWZpbmUgYWxsb3dlZCBtaW1ldHlwZXMg
+              YW5kIHdoYXQgdG8gZG8gd2l0aCB2YXJpb3VzIHR5cGVzIGFzIHBhcnQgb2YgdGhlIGNvbnRlbnQgbW9k
+              ZWwtLT4KICA8Y29udGVudG1vZGVscz4KICAgIDxjb250ZW50bW9kZWwgbmFtZT0iQWxidW0iPgogICAg
+              ICA8cGlkX25hbWVzcGFjZT5lcGlzdGVtZXRlYy1jb2xsZWN0aW9uOjwvcGlkX25hbWVzcGFjZT4KICAg
+              ICAgPHBpZD5pc2xhbmRvcmE6Y29sbGVjdGlvbkNNb2RlbDwvcGlkPgogICAgICA8ZHNpZD5JU0xBTkRP
+              UkFDTTwvZHNpZD4KICAgIDwvY29udGVudG1vZGVsPgogICAgPGNvbnRlbnRtb2RlbCBuYW1lPSJCb29r
+              Ij4KICAgICAgPHBpZF9uYW1lc3BhY2U+ZXBpc3RlbWV0ZWMtY29sbGVjdGlvbjo8L3BpZF9uYW1lc3Bh
+              Y2U+CiAgICAgIDxwaWQ+ZXBpc3RlbWV0ZWM6Ym9va0NNb2RlbDwvcGlkPgogICAgICA8ZHNpZD5JU0xB
+              TkRPUkFDTTwvZHNpZD4KICAgIDwvY29udGVudG1vZGVsPgoJPGNvbnRlbnRtb2RlbCBuYW1lPSJDb21w
+              aWxhdGlvbiI+CiAgICAgIDxwaWRfbmFtZXNwYWNlPmVwaXN0ZW1ldGVjLWNvbGxlY3Rpb246PC9waWRf
+              bmFtZXNwYWNlPgogICAgICA8cGlkPmVwaXN0ZW1ldGVjOmF1ZGlvQ01vZGVsPC9waWQ+CiAgICAgIDxk
+              c2lkPklTTEFORE9SQUNNPC9kc2lkPgogICAgPC9jb250ZW50bW9kZWw+CiAgPC9jb250ZW50bW9kZWxz
+              PgogIDwhLS1pZiB3ZSBkZWZpbmUgYSBxdWVyeSBmb3IgYW4gb2JqZWN0IHRoZSByZWxhdGlvbnNoaXAg
+              d2UgYXNrIGZvciBtYXkgbm90IGJlIGlzTWVtYmVyT2ZDb2xsZWN0aW9uLiAgU28gd2hlbiB3ZSBpbmdl
+              c3QgaW4gdGgKICAgIENvbGxlY3Rpb24gd2Ugd2lsbCB3YW50IHRoZSByZWxhdGlvbnNoaXAgdG8gbWF0
+              Y2ggdGhlIHF1ZXJ5LiBJZiB0aGlzIGVsZW1lbnQgaXMgbnVsbCB3ZSB3aWxsIHVzZSB0aGUgaXNNZW1i
+              ZXJPZkNvbGxlY3Rpb24gcmVsYXRpb25zaGlwLS0+CiAgPHJlbGF0aW9uc2hpcD5pc01lbWJlck9mQ29s
+              bGVjdGlvbjwvcmVsYXRpb25zaGlwPgogIDxzZWFyY2hfdGVybXM+CiAgICA8IS0tZGVmaW5lIHdoYXQg
+              ZmllbGRzIHdlIGNhbiBxdWVyeSBhcyBwYXJ0IG9mIHRoZSBhZHZhbmNlZCBzZWFyY2ggZm9yIHRoaXMg
+              Y29sbGVjdGlvbi0tPgogICAgPGRlZmF1bHQ+ZGMuZGVzY3JpcHRpb248L2RlZmF1bHQ+CiAgICA8dGVy
+              bT4KICAgICAgPGZpZWxkPmRjLnRpdGxlPC9maWVsZD4KICAgICAgPHZhbHVlPmRjLnRpdGxlPC92YWx1
+              ZT4KICAgIDwvdGVybT4KICAgIDx0ZXJtPgogICAgICA8ZmllbGQ+ZGMuY3JlYXRvcjwvZmllbGQ+CiAg
+              ICAgIDx2YWx1ZT5kYy5jcmVhdG9yPC92YWx1ZT4KICAgIDwvdGVybT4KICA8L3NlYXJjaF90ZXJtcz4K
+              PC9jb2xsZWN0aW9uX3BvbGljeT4K
+</foxml:binaryContent>
     </foxml:datastreamVersion>
     <foxml:datastreamVersion CREATED="2010-09-15T08:23:11.613Z" ID="COLLECTION_POLICY.18" LABEL="Collection Policy.xml" MIMETYPE="text/xml">
-      <foxml:contentLocation
-        REF="http://www.e-pistemetec.local:8080/fedora/get/epistemetec:top/COLLECTION_POLICY/2010-09-15T08:23:11.613Z" TYPE="INTERNAL_ID"/>
+      <foxml:binaryContent> 
+              PGNvbGxlY3Rpb25fcG9saWN5PgogIDwhLS0td2Ugd2lsbCBkZWZpbmUgYWxsb3dlZCBtaW1ldHlwZXMg
+              YW5kIHdoYXQgdG8gZG8gd2l0aCB2YXJpb3VzIHR5cGVzIGFzIHBhcnQgb2YgdGhlIGNvbnRlbnQgbW9k
+              ZWwtLT4KICA8Y29udGVudG1vZGVscz4KICAgIDxjb250ZW50bW9kZWwgbmFtZT0iQWxidW0iPgogICAg
+              ICA8cGlkX25hbWVzcGFjZT5lcGlzdGVtZXRlYy1jb2xsZWN0aW9uOjwvcGlkX25hbWVzcGFjZT4KICAg
+              ICAgPHBpZD5pc2xhbmRvcmE6Y29sbGVjdGlvbkNNb2RlbDwvcGlkPgogICAgICA8ZHNpZD5JU0xBTkRP
+              UkFDTTwvZHNpZD4KICAgIDwvY29udGVudG1vZGVsPgogICAgPGNvbnRlbnRtb2RlbCBuYW1lPSJCb29r
+              Ij4KICAgICAgPHBpZF9uYW1lc3BhY2U+ZXBpc3RlbWV0ZWMtY29sbGVjdGlvbjo8L3BpZF9uYW1lc3Bh
+              Y2U+CiAgICAgIDxwaWQ+ZXBpc3RlbWV0ZWM6Ym9va0NNb2RlbDwvcGlkPgogICAgICA8ZHNpZD5JU0xB
+              TkRPUkFDTTwvZHNpZD4KICAgIDwvY29udGVudG1vZGVsPgogICAgPGNvbnRlbnRtb2RlbCBuYW1lPSJD
+              b21waWxhdGlvbiI+CiAgICAgIDxwaWRfbmFtZXNwYWNlPmVwaXN0ZW1ldGVjLWNvbGxlY3Rpb246PC9w
+              aWRfbmFtZXNwYWNlPgogICAgICA8cGlkPmVwaXN0ZW1ldGVjOmNvbXBpbGF0aW9uQ01vZGVsPC9waWQ+
+              CiAgICAgIDxkc2lkPklTTEFORE9SQUNNPC9kc2lkPgogICAgPC9jb250ZW50bW9kZWw+CiAgPC9jb250
+              ZW50bW9kZWxzPgogIDwhLS1pZiB3ZSBkZWZpbmUgYSBxdWVyeSBmb3IgYW4gb2JqZWN0IHRoZSByZWxh
+              dGlvbnNoaXAgd2UgYXNrIGZvciBtYXkgbm90IGJlIGlzTWVtYmVyT2ZDb2xsZWN0aW9uLiAgU28gd2hl
+              biB3ZSBpbmdlc3QgaW4gdGgKICAgIENvbGxlY3Rpb24gd2Ugd2lsbCB3YW50IHRoZSByZWxhdGlvbnNo
+              aXAgdG8gbWF0Y2ggdGhlIHF1ZXJ5LiBJZiB0aGlzIGVsZW1lbnQgaXMgbnVsbCB3ZSB3aWxsIHVzZSB0
+              aGUgaXNNZW1iZXJPZkNvbGxlY3Rpb24gcmVsYXRpb25zaGlwLS0+CiAgPHJlbGF0aW9uc2hpcD5pc01l
+              bWJlck9mQ29sbGVjdGlvbjwvcmVsYXRpb25zaGlwPgogIDxzZWFyY2hfdGVybXM+CiAgICA8IS0tZGVm
+              aW5lIHdoYXQgZmllbGRzIHdlIGNhbiBxdWVyeSBhcyBwYXJ0IG9mIHRoZSBhZHZhbmNlZCBzZWFyY2gg
+              Zm9yIHRoaXMgY29sbGVjdGlvbi0tPgogICAgPGRlZmF1bHQ+ZGMuZGVzY3JpcHRpb248L2RlZmF1bHQ+
+              CiAgICA8dGVybT4KICAgICAgPGZpZWxkPmRjLnRpdGxlPC9maWVsZD4KICAgICAgPHZhbHVlPmRjLnRp
+              dGxlPC92YWx1ZT4KICAgIDwvdGVybT4KICAgIDx0ZXJtPgogICAgICA8ZmllbGQ+ZGMuY3JlYXRvcjwv
+              ZmllbGQ+CiAgICAgIDx2YWx1ZT5kYy5jcmVhdG9yPC92YWx1ZT4KICAgIDwvdGVybT4KICA8L3NlYXJj
+              aF90ZXJtcz4KPC9jb2xsZWN0aW9uX3BvbGljeT4K
+</foxml:binaryContent>
     </foxml:datastreamVersion>
     <foxml:datastreamVersion CREATED="2010-09-16T10:15:47.498Z" ID="COLLECTION_POLICY.19" LABEL="Collection Policy.xml" MIMETYPE="text/xml">
-      <foxml:contentLocation
-        REF="http://www.e-pistemetec.local:8080/fedora/get/epistemetec:top/COLLECTION_POLICY/2010-09-16T10:15:47.498Z" TYPE="INTERNAL_ID"/>
+      <foxml:binaryContent> 
+              PGNvbGxlY3Rpb25fcG9saWN5PgogIDwhLS0td2Ugd2lsbCBkZWZpbmUgYWxsb3dlZCBtaW1ldHlwZXMg
+              YW5kIHdoYXQgdG8gZG8gd2l0aCB2YXJpb3VzIHR5cGVzIGFzIHBhcnQgb2YgdGhlIGNvbnRlbnQgbW9k
+              ZWwtLT4KICA8Y29udGVudG1vZGVscz4KICAgIDxjb250ZW50bW9kZWwgbmFtZT0iQWxidW0iPgogICAg
+              ICA8cGlkX25hbWVzcGFjZT5lcGlzdGVtZXRlYy1jb2xsZWN0aW9uOjwvcGlkX25hbWVzcGFjZT4KICAg
+              ICAgPHBpZD5pc2xhbmRvcmE6Y29sbGVjdGlvbkNNb2RlbDwvcGlkPgogICAgICA8ZHNpZD5JU0xBTkRP
+              UkFDTTwvZHNpZD4KICAgIDwvY29udGVudG1vZGVsPgogICAgPGNvbnRlbnRtb2RlbCBuYW1lPSJCb29r
+              Ij4KICAgICAgPHBpZF9uYW1lc3BhY2U+ZXBpc3RlbWV0ZWMtY29sbGVjdGlvbjo8L3BpZF9uYW1lc3Bh
+              Y2U+CiAgICAgIDxwaWQ+ZXBpc3RlbWV0ZWM6Ym9va0NNb2RlbDwvcGlkPgogICAgICA8ZHNpZD5JU0xB
+              TkRPUkFDTTwvZHNpZD4KICAgIDwvY29udGVudG1vZGVsPgogICAgPGNvbnRlbnRtb2RlbCBuYW1lPSJD
+              b21waWxhdGlvbiI+CiAgICAgIDxwaWRfbmFtZXNwYWNlPmVwaXN0ZW1ldGVjLWNvbGxlY3Rpb246PC9w
+              aWRfbmFtZXNwYWNlPgogICAgICA8cGlkPmVwaXN0ZW1ldGVjOmNvbXBpbGF0aW9uQ01vZGVsPC9waWQ+
+              CiAgICAgIDxkc2lkPklTTEFORE9SQUNNPC9kc2lkPgogICAgPC9jb250ZW50bW9kZWw+CiAgICAgPGNv
+              bnRlbnRtb2RlbCBuYW1lPSJWaWRlb3RlY2EiPgogICAgICA8cGlkX25hbWVzcGFjZT5lcGlzdGVtZXRl
+              Yy1jb2xsZWN0aW9uOjwvcGlkX25hbWVzcGFjZT4KICAgICAgPHBpZD5lcGlzdGVtZXRlYzp2aWRlb3Rl
+              Y2FDTW9kZWw8L3BpZD4KICAgICAgPGRzaWQ+SVNMQU5ET1JBQ008L2RzaWQ+CiAgICA8L2NvbnRlbnRt
+              b2RlbD4KICA8L2NvbnRlbnRtb2RlbHM+CiAgPCEtLWlmIHdlIGRlZmluZSBhIHF1ZXJ5IGZvciBhbiBv
+              YmplY3QgdGhlIHJlbGF0aW9uc2hpcCB3ZSBhc2sgZm9yIG1heSBub3QgYmUgaXNNZW1iZXJPZkNvbGxl
+              Y3Rpb24uICBTbyB3aGVuIHdlIGluZ2VzdCBpbiB0aAogICAgQ29sbGVjdGlvbiB3ZSB3aWxsIHdhbnQg
+              dGhlIHJlbGF0aW9uc2hpcCB0byBtYXRjaCB0aGUgcXVlcnkuIElmIHRoaXMgZWxlbWVudCBpcyBudWxs
+              IHdlIHdpbGwgdXNlIHRoZSBpc01lbWJlck9mQ29sbGVjdGlvbiByZWxhdGlvbnNoaXAtLT4KICA8cmVs
+              YXRpb25zaGlwPmlzTWVtYmVyT2ZDb2xsZWN0aW9uPC9yZWxhdGlvbnNoaXA+CiAgPHNlYXJjaF90ZXJt
+              cz4KICAgIDwhLS1kZWZpbmUgd2hhdCBmaWVsZHMgd2UgY2FuIHF1ZXJ5IGFzIHBhcnQgb2YgdGhlIGFk
+              dmFuY2VkIHNlYXJjaCBmb3IgdGhpcyBjb2xsZWN0aW9uLS0+CiAgICA8ZGVmYXVsdD5kYy5kZXNjcmlw
+              dGlvbjwvZGVmYXVsdD4KICAgIDx0ZXJtPgogICAgICA8ZmllbGQ+ZGMudGl0bGU8L2ZpZWxkPgogICAg
+              ICA8dmFsdWU+ZGMudGl0bGU8L3ZhbHVlPgogICAgPC90ZXJtPgogICAgPHRlcm0+CiAgICAgIDxmaWVs
+              ZD5kYy5jcmVhdG9yPC9maWVsZD4KICAgICAgPHZhbHVlPmRjLmNyZWF0b3I8L3ZhbHVlPgogICAgPC90
+              ZXJtPgogIDwvc2VhcmNoX3Rlcm1zPgo8L2NvbGxlY3Rpb25fcG9saWN5Pgo=
+</foxml:binaryContent>
     </foxml:datastreamVersion>
     <foxml:datastreamVersion CREATED="2010-10-11T08:40:52.281Z" ID="COLLECTION_POLICY.20" LABEL="Collection Policy.xml" MIMETYPE="text/xml">
-      <foxml:contentLocation
-        REF="http://www.e-pistemetec.local:8080/fedora/get/epistemetec:top/COLLECTION_POLICY/2010-10-11T08:40:52.281Z" TYPE="INTERNAL_ID"/>
+      <foxml:binaryContent> 
+              PGNvbGxlY3Rpb25fcG9saWN5PgogIDwhLS0td2Ugd2lsbCBkZWZpbmUgYWxsb3dlZCBtaW1ldHlwZXMg
+              YW5kIHdoYXQgdG8gZG8gd2l0aCB2YXJpb3VzIHR5cGVzIGFzIHBhcnQgb2YgdGhlIGNvbnRlbnQgbW9k
+              ZWwtLT4KICA8Y29udGVudG1vZGVscz4KICAgIDxjb250ZW50bW9kZWwgbmFtZT0iQWxidW0iPgogICAg
+              ICA8cGlkX25hbWVzcGFjZT5lcGlzdGVtZXRlYy1jb2xsZWN0aW9uOjwvcGlkX25hbWVzcGFjZT4KICAg
+              ICAgPHBpZD5lcGlzdGVtZXRlYzphbGJ1bUNNb2RlbDwvcGlkPgogICAgICA8ZHNpZD5JU0xBTkRPUkFD
+              TTwvZHNpZD4KICAgIDwvY29udGVudG1vZGVsPgogICAgPGNvbnRlbnRtb2RlbCBuYW1lPSJCb29rIj4K
+              ICAgICAgPHBpZF9uYW1lc3BhY2U+ZXBpc3RlbWV0ZWMtY29sbGVjdGlvbjo8L3BpZF9uYW1lc3BhY2U+
+              CiAgICAgIDxwaWQ+ZXBpc3RlbWV0ZWM6Ym9va0NNb2RlbDwvcGlkPgogICAgICA8ZHNpZD5JU0xBTkRP
+              UkFDTTwvZHNpZD4KICAgIDwvY29udGVudG1vZGVsPgogICAgPGNvbnRlbnRtb2RlbCBuYW1lPSJDb21w
+              aWxhdGlvbiI+CiAgICAgIDxwaWRfbmFtZXNwYWNlPmVwaXN0ZW1ldGVjLWNvbGxlY3Rpb246PC9waWRf
+              bmFtZXNwYWNlPgogICAgICA8cGlkPmVwaXN0ZW1ldGVjOmNvbXBpbGF0aW9uQ01vZGVsPC9waWQ+CiAg
+              ICAgIDxkc2lkPklTTEFORE9SQUNNPC9kc2lkPgogICAgPC9jb250ZW50bW9kZWw+CiAgICA8Y29udGVu
+              dG1vZGVsIG5hbWU9IlZpZGVvdGVjYSI+CiAgICAgIDxwaWRfbmFtZXNwYWNlPmVwaXN0ZW1ldGVjLWNv
+              bGxlY3Rpb246PC9waWRfbmFtZXNwYWNlPgogICAgICA8cGlkPmVwaXN0ZW1ldGVjOnZpZGVvdGVjYUNN
+              b2RlbDwvcGlkPgogICAgICA8ZHNpZD5JU0xBTkRPUkFDTTwvZHNpZD4KICAgIDwvY29udGVudG1vZGVs
+              PgogIDwvY29udGVudG1vZGVscz4KICA8IS0taWYgd2UgZGVmaW5lIGEgcXVlcnkgZm9yIGFuIG9iamVj
+              dCB0aGUgcmVsYXRpb25zaGlwIHdlIGFzayBmb3IgbWF5IG5vdCBiZSBpc01lbWJlck9mQ29sbGVjdGlv
+              bi4gIFNvIHdoZW4gd2UgaW5nZXN0IGluIHRoCiAgICBDb2xsZWN0aW9uIHdlIHdpbGwgd2FudCB0aGUg
+              cmVsYXRpb25zaGlwIHRvIG1hdGNoIHRoZSBxdWVyeS4gSWYgdGhpcyBlbGVtZW50IGlzIG51bGwgd2Ug
+              d2lsbCB1c2UgdGhlIGlzTWVtYmVyT2ZDb2xsZWN0aW9uIHJlbGF0aW9uc2hpcC0tPgogIDxyZWxhdGlv
+              bnNoaXA+aXNNZW1iZXJPZkNvbGxlY3Rpb248L3JlbGF0aW9uc2hpcD4KICA8c2VhcmNoX3Rlcm1zPgog
+              ICAgPCEtLWRlZmluZSB3aGF0IGZpZWxkcyB3ZSBjYW4gcXVlcnkgYXMgcGFydCBvZiB0aGUgYWR2YW5j
+              ZWQgc2VhcmNoIGZvciB0aGlzIGNvbGxlY3Rpb24tLT4KICAgIDxkZWZhdWx0PmRjLmRlc2NyaXB0aW9u
+              PC9kZWZhdWx0PgogICAgPHRlcm0+CiAgICAgIDxmaWVsZD5kYy50aXRsZTwvZmllbGQ+CiAgICAgIDx2
+              YWx1ZT5kYy50aXRsZTwvdmFsdWU+CiAgICA8L3Rlcm0+CiAgICA8dGVybT4KICAgICAgPGZpZWxkPmRj
+              LmNyZWF0b3I8L2ZpZWxkPgogICAgICA8dmFsdWU+ZGMuY3JlYXRvcjwvdmFsdWU+CiAgICA8L3Rlcm0+
+              CiAgPC9zZWFyY2hfdGVybXM+CjwvY29sbGVjdGlvbl9wb2xpY3k+Cg==
+</foxml:binaryContent>
     </foxml:datastreamVersion>
   </foxml:datastream>
 </foxml:digitalObject>

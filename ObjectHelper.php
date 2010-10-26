@@ -570,7 +570,7 @@ class ObjectHelper {
     if (!empty ( $contentModels ) ) {
       foreach($contentModels as $contentModel) {
         if ($contentModel == 'epistemetec:albumCModel' || $contentModel == 'epistemetec:compilationCModel'
-        || $contentModel == 'epistemetec:videotecaCModel') {
+        || $contentModel == 'epistemetec:videotecaCModel' || $contentModel == 'epistemetec:collectionCModel') {
           $_SESSION['fedora_collection'] = $pid;
           $isCollection=true;
         }
