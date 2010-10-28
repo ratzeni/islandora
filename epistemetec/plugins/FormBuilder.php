@@ -648,7 +648,8 @@ class EpistemetecFormBuilder extends FormBuilder {
 
 		try {
 			$object = Fedora_Item :: ingest_from_FOXML($dom);
-			$file = "/var/www/drupal/sites/default/modules/fedora_repository/epistemetec/files/cover-audio.png";
+			$path = drupal_get_path('module', 'Fedora_Repository'); 
+			$file = $path."/epistemetec/files/cover-audio.png";
 			$object->add_datastream_from_file($file, "TN", "Thumbnail");
 			if (!empty ($object->pid)) {
 				drupal_set_message("Item " . l($object->pid, 'fedora/repository/' . $object->pid) . " created successfully.", "status");
@@ -713,7 +714,8 @@ class EpistemetecFormBuilder extends FormBuilder {
 
 		try {
 			$object = Fedora_Item :: ingest_from_FOXML($dom);
-			$file = "/var/www/drupal/sites/default/modules/fedora_repository/epistemetec/files/cover-video.png";
+			$path = drupal_get_path('module', 'Fedora_Repository'); 
+			$file = $path."/epistemetec/files/cover-video.png";
 			$object->add_datastream_from_file($file, "TN", "Thumbnail");
 			if (!empty ($object->pid)) {
 				drupal_set_message("Item " . l($object->pid, 'fedora/repository/' . $object->pid) . " created successfully.", "status");
