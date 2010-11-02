@@ -6,7 +6,7 @@
     <foxml:property NAME="info:fedora/fedora-system:def/model#label" VALUE="Enter a one-line description of the object."/>
     <foxml:property NAME="info:fedora/fedora-system:def/model#ownerId" VALUE="fedoraAdmin"/>
     <foxml:property NAME="info:fedora/fedora-system:def/model#createdDate" VALUE="2010-09-15T08:23:28.926Z"/>
-    <foxml:property NAME="info:fedora/fedora-system:def/view#lastModifiedDate" VALUE="2010-10-11T14:41:31.305Z"/>
+    <foxml:property NAME="info:fedora/fedora-system:def/view#lastModifiedDate" VALUE="2010-10-25T14:24:04.892Z"/>
   </foxml:objectProperties>
   <foxml:datastream CONTROL_GROUP="X" ID="AUDIT" STATE="A" VERSIONABLE="false">
     <foxml:datastreamVersion CREATED="2010-09-15T08:23:28.926Z"
@@ -95,7 +95,7 @@
   </foxml:datastream>
   <foxml:datastream CONTROL_GROUP="X" ID="ISLANDORACM" STATE="A" VERSIONABLE="true">
     <foxml:datastreamVersion CREATED="2010-09-15T08:25:05.060Z" ID="ISLANDORACM.0"
-      LABEL="Audio Compilation Content Model" MIMETYPE="text/xml" SIZE="1428">
+      LABEL="Audio Compilation Content Model" MIMETYPE="text/xml" SIZE="1732">
       <foxml:xmlContent>
         <content_model name="Compilation">
           <mimetypes>
@@ -145,7 +145,7 @@
       </foxml:xmlContent>
     </foxml:datastreamVersion>
     <foxml:datastreamVersion CREATED="2010-10-11T14:41:31.305Z" ID="ISLANDORACM.1"
-      LABEL="Audio Compilation Content Model" MIMETYPE="text/xml" SIZE="1429">
+      LABEL="Audio Compilation Content Model" MIMETYPE="text/xml" SIZE="1733">
       <foxml:xmlContent>
         <content_model name="Compilation">
           <mimetypes>

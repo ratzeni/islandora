@@ -6,7 +6,7 @@
     <foxml:property NAME="info:fedora/fedora-system:def/model#label" VALUE="Epistemetec Book Content Model"/>
     <foxml:property NAME="info:fedora/fedora-system:def/model#ownerId" VALUE="fedoraAdmin"/>
     <foxml:property NAME="info:fedora/fedora-system:def/model#createdDate" VALUE="2010-07-16T10:01:23.786Z"/>
-    <foxml:property NAME="info:fedora/fedora-system:def/view#lastModifiedDate" VALUE="2010-10-11T15:26:08.343Z"/>
+    <foxml:property NAME="info:fedora/fedora-system:def/view#lastModifiedDate" VALUE="2010-10-25T14:24:18.804Z"/>
   </foxml:objectProperties>
   <foxml:datastream CONTROL_GROUP="X" ID="AUDIT" STATE="A" VERSIONABLE="false">
     <foxml:datastreamVersion CREATED="2010-07-16T10:01:23.786Z"
@@ -119,7 +119,7 @@
   </foxml:datastream>
   <foxml:datastream CONTROL_GROUP="X" ID="ISLANDORACM" STATE="A" VERSIONABLE="true">
     <foxml:datastreamVersion CREATED="2010-07-16T13:50:33.684Z" ID="ISLANDORACM.0" LABEL="Book Content Model"
-      MIMETYPE="text/xml" SIZE="7672">
+      MIMETYPE="text/xml" SIZE="9336">
       <foxml:xmlContent>
         <content_model name="Book">
           <mimetypes>
@@ -333,7 +333,7 @@
       </foxml:xmlContent>
     </foxml:datastreamVersion>
     <foxml:datastreamVersion CREATED="2010-07-16T15:06:48.991Z" ID="ISLANDORACM.1" LABEL="Book Content Model"
-      MIMETYPE="text/xml" SIZE="7674">
+      MIMETYPE="text/xml" SIZE="9338">
       <foxml:xmlContent>
         <content_model name="Book">
           <mimetypes>
@@ -547,7 +547,7 @@
       </foxml:xmlContent>
     </foxml:datastreamVersion>
     <foxml:datastreamVersion CREATED="2010-07-19T12:53:51.525Z" ID="ISLANDORACM.2" LABEL="Book Content Model"
-      MIMETYPE="text/xml" SIZE="7753">
+      MIMETYPE="text/xml" SIZE="9441">
       <foxml:xmlContent>
         <content_model name="Book">
           <mimetypes>
@@ -764,7 +764,7 @@
       </foxml:xmlContent>
     </foxml:datastreamVersion>
     <foxml:datastreamVersion CREATED="2010-07-19T13:13:30.331Z" ID="ISLANDORACM.3" LABEL="Book Content Model"
-      MIMETYPE="text/xml" SIZE="7674">
+      MIMETYPE="text/xml" SIZE="9338">
       <foxml:xmlContent>
         <content_model name="Book">
           <mimetypes>
@@ -978,7 +978,7 @@
       </foxml:xmlContent>
     </foxml:datastreamVersion>
     <foxml:datastreamVersion CREATED="2010-10-11T15:26:08.343Z" ID="ISLANDORACM.4" LABEL="Book Content Model"
-      MIMETYPE="text/xml" SIZE="7675">
+      MIMETYPE="text/xml" SIZE="9339">
       <foxml:xmlContent>
         <content_model name="Book">
           <mimetypes>

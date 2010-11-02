@@ -6,7 +6,7 @@
     <foxml:property NAME="info:fedora/fedora-system:def/model#label" VALUE="Enter a one-line description of the object."/>
     <foxml:property NAME="info:fedora/fedora-system:def/model#ownerId" VALUE="fedoraAdmin"/>
     <foxml:property NAME="info:fedora/fedora-system:def/model#createdDate" VALUE="2010-09-15T08:41:31.100Z"/>
-    <foxml:property NAME="info:fedora/fedora-system:def/view#lastModifiedDate" VALUE="2010-10-11T14:49:45.039Z"/>
+    <foxml:property NAME="info:fedora/fedora-system:def/view#lastModifiedDate" VALUE="2010-10-25T14:23:11.181Z"/>
   </foxml:objectProperties>
   <foxml:datastream CONTROL_GROUP="X" ID="AUDIT" STATE="A" VERSIONABLE="false">
     <foxml:datastreamVersion CREATED="2010-09-15T08:41:31.100Z"
@@ -303,7 +303,7 @@
   </foxml:datastream>
   <foxml:datastream CONTROL_GROUP="X" ID="ISLANDORACM" STATE="A" VERSIONABLE="true">
     <foxml:datastreamVersion CREATED="2010-09-15T08:42:15.315Z" ID="ISLANDORACM.0" LABEL="Enter a label here."
-      MIMETYPE="text/xml" SIZE="11208">
+      MIMETYPE="text/xml" SIZE="13624">
       <foxml:xmlContent>
         <content_model name="epistemetec_jpeg">
           <mimetypes>
@@ -611,7 +611,7 @@
       </foxml:xmlContent>
     </foxml:datastreamVersion>
     <foxml:datastreamVersion CREATED="2010-09-15T09:01:51.100Z" ID="ISLANDORACM.1" LABEL="Audio Content Model"
-      MIMETYPE="text/xml" SIZE="11208">
+      MIMETYPE="text/xml" SIZE="13624">
       <foxml:xmlContent>
         <content_model name="epistemetec_jpeg">
           <mimetypes>
@@ -919,7 +919,7 @@
       </foxml:xmlContent>
     </foxml:datastreamVersion>
     <foxml:datastreamVersion CREATED="2010-09-15T09:10:52.073Z" ID="ISLANDORACM.2" LABEL="Audio Content Model"
-      MIMETYPE="text/xml" SIZE="11207">
+      MIMETYPE="text/xml" SIZE="13623">
       <foxml:xmlContent>
         <content_model name="epistemetec_mp3">
           <mimetypes>
@@ -1227,7 +1227,7 @@
       </foxml:xmlContent>
     </foxml:datastreamVersion>
     <foxml:datastreamVersion CREATED="2010-09-15T10:44:40.404Z" ID="ISLANDORACM.3" LABEL="Audio Content Model"
-      MIMETYPE="text/xml" SIZE="8069">
+      MIMETYPE="text/xml" SIZE="9805">
       <foxml:xmlContent>
         <content_model name="epistemetec_mp3">
           <mimetypes>
@@ -1450,7 +1450,7 @@
       </foxml:xmlContent>
     </foxml:datastreamVersion>
     <foxml:datastreamVersion CREATED="2010-09-15T13:39:24.122Z" ID="ISLANDORACM.4" LABEL="Audio Content Model"
-      MIMETYPE="text/xml" SIZE="8070">
+      MIMETYPE="text/xml" SIZE="9806">
       <foxml:xmlContent>
         <content_model name="epistemetec_mp3">
           <mimetypes>
@@ -1673,7 +1673,7 @@
       </foxml:xmlContent>
     </foxml:datastreamVersion>
     <foxml:datastreamVersion CREATED="2010-09-15T14:06:06.291Z" ID="ISLANDORACM.5" LABEL="Audio Content Model"
-      MIMETYPE="text/xml" SIZE="8375">
+      MIMETYPE="text/xml" SIZE="10183">
       <foxml:xmlContent>
         <content_model name="epistemetec_mp3">
           <mimetypes>
@@ -1905,7 +1905,7 @@
       </foxml:xmlContent>
     </foxml:datastreamVersion>
     <foxml:datastreamVersion CREATED="2010-09-15T14:13:09.003Z" ID="ISLANDORACM.6" LABEL="Audio Content Model"
-      MIMETYPE="text/xml" SIZE="8734">
+      MIMETYPE="text/xml" SIZE="10630">
       <foxml:xmlContent>
         <content_model name="epistemetec_mp3">
           <mimetypes>
@@ -2148,7 +2148,7 @@
       </foxml:xmlContent>
     </foxml:datastreamVersion>
     <foxml:datastreamVersion CREATED="2010-09-15T14:15:39.154Z" ID="ISLANDORACM.7" LABEL="Audio Content Model"
-      MIMETYPE="text/xml" SIZE="8732">
+      MIMETYPE="text/xml" SIZE="10628">
       <foxml:xmlContent>
         <content_model name="epistemetec_mp3">
           <mimetypes>
@@ -2391,7 +2391,7 @@
       </foxml:xmlContent>
     </foxml:datastreamVersion>
     <foxml:datastreamVersion CREATED="2010-09-15T14:18:16.713Z" ID="ISLANDORACM.8" LABEL="Audio Content Model"
-      MIMETYPE="text/xml" SIZE="8732">
+      MIMETYPE="text/xml" SIZE="10628">
       <foxml:xmlContent>
         <content_model name="epistemetec_mp3">
           <mimetypes>
@@ -2634,7 +2634,7 @@
       </foxml:xmlContent>
     </foxml:datastreamVersion>
     <foxml:datastreamVersion CREATED="2010-09-15T14:19:53.950Z" ID="ISLANDORACM.9" LABEL="Audio Content Model"
-      MIMETYPE="text/xml" SIZE="8732">
+      MIMETYPE="text/xml" SIZE="10628">
       <foxml:xmlContent>
         <content_model name="epistemetec_mp3">
           <mimetypes>
@@ -2877,7 +2877,7 @@
       </foxml:xmlContent>
     </foxml:datastreamVersion>
     <foxml:datastreamVersion CREATED="2010-09-15T14:25:13.862Z" ID="ISLANDORACM.10" LABEL="Audio Content Model"
-      MIMETYPE="text/xml" SIZE="8733">
+      MIMETYPE="text/xml" SIZE="10629">
       <foxml:xmlContent>
         <content_model name="epistemetec_mp3">
           <mimetypes>
@@ -3120,7 +3120,7 @@
       </foxml:xmlContent>
     </foxml:datastreamVersion>
     <foxml:datastreamVersion CREATED="2010-09-15T15:29:32.288Z" ID="ISLANDORACM.11" LABEL="Audio Content Model"
-      MIMETYPE="text/xml" SIZE="8832">
+      MIMETYPE="text/xml" SIZE="10768">
       <foxml:xmlContent>
         <content_model name="epistemetec_mp3">
           <mimetypes>
@@ -3368,7 +3368,7 @@
       </foxml:xmlContent>
     </foxml:datastreamVersion>
     <foxml:datastreamVersion CREATED="2010-09-15T15:34:39.459Z" ID="ISLANDORACM.12" LABEL="Audio Content Model"
-      MIMETYPE="text/xml" SIZE="8938">
+      MIMETYPE="text/xml" SIZE="10898">
       <foxml:xmlContent>
         <content_model name="epistemetec_mp3">
           <mimetypes>
@@ -3619,7 +3619,7 @@
       </foxml:xmlContent>
     </foxml:datastreamVersion>
     <foxml:datastreamVersion CREATED="2010-09-15T15:50:40.517Z" ID="ISLANDORACM.13" LABEL="Audio Content Model"
-      MIMETYPE="text/xml" SIZE="9171">
+      MIMETYPE="text/xml" SIZE="11187">
       <foxml:xmlContent>
         <content_model name="epistemetec_mp3">
           <mimetypes>
@@ -3877,7 +3877,7 @@
       </foxml:xmlContent>
     </foxml:datastreamVersion>
     <foxml:datastreamVersion CREATED="2010-09-15T16:15:01.060Z" ID="ISLANDORACM.14" LABEL="Audio Content Model"
-      MIMETYPE="text/xml" SIZE="9171">
+      MIMETYPE="text/xml" SIZE="11187">
       <foxml:xmlContent>
         <content_model name="epistemetec_mp3">
           <mimetypes>
@@ -4135,7 +4135,7 @@
       </foxml:xmlContent>
     </foxml:datastreamVersion>
     <foxml:datastreamVersion CREATED="2010-09-15T16:36:38.975Z" ID="ISLANDORACM.15" LABEL="Audio Content Model"
-      MIMETYPE="text/xml" SIZE="9065">
+      MIMETYPE="text/xml" SIZE="11057">
       <foxml:xmlContent>
         <content_model name="epistemetec_mp3">
           <mimetypes>
@@ -4390,7 +4390,7 @@
       </foxml:xmlContent>
     </foxml:datastreamVersion>
     <foxml:datastreamVersion CREATED="2010-09-15T16:45:31.547Z" ID="ISLANDORACM.16" LABEL="Audio Content Model"
-      MIMETYPE="text/xml" SIZE="8833">
+      MIMETYPE="text/xml" SIZE="10769">
       <foxml:xmlContent>
         <content_model name="epistemetec_mp3">
           <mimetypes>
@@ -4638,7 +4638,7 @@
       </foxml:xmlContent>
     </foxml:datastreamVersion>
     <foxml:datastreamVersion CREATED="2010-09-16T08:45:05.235Z" ID="ISLANDORACM.17" LABEL="Audio Content Model"
-      MIMETYPE="text/xml" SIZE="8833">
+      MIMETYPE="text/xml" SIZE="10769">
       <foxml:xmlContent>
         <content_model name="epistemetec_mp3">
           <mimetypes>
@@ -4886,7 +4886,7 @@
       </foxml:xmlContent>
     </foxml:datastreamVersion>
     <foxml:datastreamVersion CREATED="2010-09-16T09:04:58.676Z" ID="ISLANDORACM.18" LABEL="Audio Content Model"
-      MIMETYPE="text/xml" SIZE="8859">
+      MIMETYPE="text/xml" SIZE="10803">
       <foxml:xmlContent>
         <content_model name="epistemetec_mp3">
           <mimetypes>
@@ -5135,7 +5135,7 @@
       </foxml:xmlContent>
     </foxml:datastreamVersion>
     <foxml:datastreamVersion CREATED="2010-09-16T09:06:08.793Z" ID="ISLANDORACM.19" LABEL="Audio Content Model"
-      MIMETYPE="text/xml" SIZE="9317">
+      MIMETYPE="text/xml" SIZE="11357">
       <foxml:xmlContent>
         <content_model name="epistemetec_mp3">
           <mimetypes>
@@ -5396,7 +5396,7 @@
       </foxml:xmlContent>
     </foxml:datastreamVersion>
     <foxml:datastreamVersion CREATED="2010-09-16T09:11:35.979Z" ID="ISLANDORACM.20" LABEL="Audio Content Model"
-      MIMETYPE="text/xml" SIZE="9318">
+      MIMETYPE="text/xml" SIZE="11358">
       <foxml:xmlContent>
         <content_model name="epistemetec_mp3">
           <mimetypes>
@@ -5657,7 +5657,7 @@
       </foxml:xmlContent>
     </foxml:datastreamVersion>
     <foxml:datastreamVersion CREATED="2010-09-16T09:28:22.395Z" ID="ISLANDORACM.21" LABEL="Audio Content Model"
-      MIMETYPE="text/xml" SIZE="9318">
+      MIMETYPE="text/xml" SIZE="11358">
       <foxml:xmlContent>
         <content_model name="epistemetec_mp3">
           <mimetypes>
@@ -5918,7 +5918,7 @@
       </foxml:xmlContent>
     </foxml:datastreamVersion>
     <foxml:datastreamVersion CREATED="2010-09-16T15:31:38.268Z" ID="ISLANDORACM.22" LABEL="Audio Content Model"
-      MIMETYPE="text/xml" SIZE="9574">
+      MIMETYPE="text/xml" SIZE="11670">
       <foxml:xmlContent>
         <content_model name="epistemetec_mp3">
           <mimetypes>
@@ -6186,7 +6186,7 @@
       </foxml:xmlContent>
     </foxml:datastreamVersion>
     <foxml:datastreamVersion CREATED="2010-09-16T15:32:52.935Z" ID="ISLANDORACM.23" LABEL="Audio Content Model"
-      MIMETYPE="text/xml" SIZE="9576">
+      MIMETYPE="text/xml" SIZE="11672">
       <foxml:xmlContent>
         <content_model name="epistemetec_mp3">
           <mimetypes>
@@ -6454,7 +6454,7 @@
       </foxml:xmlContent>
     </foxml:datastreamVersion>
     <foxml:datastreamVersion CREATED="2010-09-16T16:02:52.861Z" ID="ISLANDORACM.24" LABEL="Audio Content Model"
-      MIMETYPE="text/xml" SIZE="9554">
+      MIMETYPE="text/xml" SIZE="11650">
       <foxml:xmlContent>
         <content_model name="epistemetec_mp3">
           <mimetypes>
@@ -6722,7 +6722,7 @@
       </foxml:xmlContent>
     </foxml:datastreamVersion>
     <foxml:datastreamVersion CREATED="2010-09-16T16:03:41.295Z" ID="ISLANDORACM.25" LABEL="Audio Content Model"
-      MIMETYPE="text/xml" SIZE="9574">
+      MIMETYPE="text/xml" SIZE="11670">
       <foxml:xmlContent>
         <content_model name="epistemetec_mp3">
           <mimetypes>
@@ -6990,7 +6990,7 @@
       </foxml:xmlContent>
     </foxml:datastreamVersion>
     <foxml:datastreamVersion CREATED="2010-09-16T16:05:32.602Z" ID="ISLANDORACM.26" LABEL="Audio Content Model"
-      MIMETYPE="text/xml" SIZE="9576">
+      MIMETYPE="text/xml" SIZE="11672">
       <foxml:xmlContent>
         <content_model name="epistemetec_mp3">
           <mimetypes>
@@ -7258,7 +7258,7 @@
       </foxml:xmlContent>
     </foxml:datastreamVersion>
     <foxml:datastreamVersion CREATED="2010-10-11T14:49:45.039Z" ID="ISLANDORACM.27" LABEL="Audio Content Model"
-      MIMETYPE="text/xml" SIZE="9589">
+      MIMETYPE="text/xml" SIZE="11685">
       <foxml:xmlContent>
         <content_model name="epistemetec_mp3">
           <mimetypes>

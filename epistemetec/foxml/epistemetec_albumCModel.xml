@@ -6,7 +6,7 @@
     <foxml:property NAME="info:fedora/fedora-system:def/model#label" VALUE="Islandora Collection Content Model"/>
     <foxml:property NAME="info:fedora/fedora-system:def/model#ownerId" VALUE="fedoraAdmin"/>
     <foxml:property NAME="info:fedora/fedora-system:def/model#createdDate" VALUE="2009-02-24T14:23:47.169Z"/>
-    <foxml:property NAME="info:fedora/fedora-system:def/view#lastModifiedDate" VALUE="2010-10-11T09:42:03.275Z"/>
+    <foxml:property NAME="info:fedora/fedora-system:def/view#lastModifiedDate" VALUE="2010-10-25T14:23:23.057Z"/>
   </foxml:objectProperties>
   <foxml:datastream CONTROL_GROUP="X" ID="AUDIT" STATE="A" VERSIONABLE="false">
     <foxml:datastreamVersion CREATED="2009-02-24T14:23:47.169Z"
@@ -600,7 +600,7 @@
       </foxml:xmlContent>
     </foxml:datastreamVersion>
     <foxml:datastreamVersion CREATED="2010-10-11T09:41:23.670Z" ID="ISLANDORACM.5" LABEL="Islandora Content Model.xml"
-      MIMETYPE="application/xml" SIZE="1422">
+      MIMETYPE="application/xml" SIZE="1726">
       <foxml:xmlContent>
         <content_model name="Album">
           <mimetypes>
@@ -624,7 +624,7 @@
           </ingest_rules>
           <ingest_form dsid="QDC" page="2">
             <form_builder_method>
-              <file>epistemetec/plugins/CollectionFormBuilder.php</file>
+              <file>epistemtec/plugins/CollectionFormBuilder.php</file>
               <class_name>EpistemetecCollectionFormBuilder</class_name>
               <method_name>buildQDCForm</method_name>
               <form_handler>handleImageCollectionForm</form_handler>
@@ -650,7 +650,7 @@
       </foxml:xmlContent>
     </foxml:datastreamVersion>
     <foxml:datastreamVersion CREATED="2010-10-11T09:42:03.275Z" ID="ISLANDORACM.6" LABEL="Islandora Content Model.xml"
-      MIMETYPE="application/xml" SIZE="1423">
+      MIMETYPE="application/xml" SIZE="1727">
       <foxml:xmlContent>
         <content_model name="Album">
           <mimetypes>

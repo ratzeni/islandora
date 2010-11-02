@@ -6,7 +6,7 @@
     <foxml:property NAME="info:fedora/fedora-system:def/model#label" VALUE="Enter a one-line description of the object."/>
     <foxml:property NAME="info:fedora/fedora-system:def/model#ownerId" VALUE="fedoraAdmin"/>
     <foxml:property NAME="info:fedora/fedora-system:def/model#createdDate" VALUE="2010-09-16T14:01:27.677Z"/>
-    <foxml:property NAME="info:fedora/fedora-system:def/view#lastModifiedDate" VALUE="2010-10-11T13:46:45.307Z"/>
+    <foxml:property NAME="info:fedora/fedora-system:def/view#lastModifiedDate" VALUE="2010-10-25T14:22:38.169Z"/>
   </foxml:objectProperties>
   <foxml:datastream CONTROL_GROUP="X" ID="AUDIT" STATE="A" VERSIONABLE="false">
     <foxml:datastreamVersion CREATED="2010-09-16T14:01:27.677Z"
@@ -127,7 +127,7 @@
   </foxml:datastream>
   <foxml:datastream CONTROL_GROUP="X" ID="ISLANDORACM" STATE="A" VERSIONABLE="true">
     <foxml:datastreamVersion CREATED="2010-09-16T14:01:43.622Z" ID="ISLANDORACM.0" LABEL="Enter a label here."
-      MIMETYPE="text/xml" SIZE="9580">
+      MIMETYPE="text/xml" SIZE="11676">
       <foxml:xmlContent>
         <content_model name="epistemetec_flv">
           <mimetypes>
@@ -397,7 +397,7 @@
       </foxml:xmlContent>
     </foxml:datastreamVersion>
     <foxml:datastreamVersion CREATED="2010-09-16T14:19:42.639Z" ID="ISLANDORACM.1" LABEL="Enter a label here."
-      MIMETYPE="text/xml" SIZE="9586">
+      MIMETYPE="text/xml" SIZE="11682">
       <foxml:xmlContent>
         <content_model name="epistemetec_flv">
           <mimetypes>
@@ -667,7 +667,7 @@
       </foxml:xmlContent>
     </foxml:datastreamVersion>
     <foxml:datastreamVersion CREATED="2010-09-16T14:31:53.516Z" ID="ISLANDORACM.2" LABEL="Enter a label here."
-      MIMETYPE="text/xml" SIZE="9646">
+      MIMETYPE="text/xml" SIZE="11774">
       <foxml:xmlContent>
         <content_model name="epistemetec_flv">
           <mimetypes>
@@ -941,7 +941,7 @@
       </foxml:xmlContent>
     </foxml:datastreamVersion>
     <foxml:datastreamVersion CREATED="2010-09-16T14:39:36.108Z" ID="ISLANDORACM.3" LABEL="Enter a label here."
-      MIMETYPE="text/xml" SIZE="9646">
+      MIMETYPE="text/xml" SIZE="11774">
       <foxml:xmlContent>
         <content_model name="epistemetec_flv">
           <mimetypes>
@@ -1215,7 +1215,7 @@
       </foxml:xmlContent>
     </foxml:datastreamVersion>
     <foxml:datastreamVersion CREATED="2010-09-16T15:04:09.528Z" ID="ISLANDORACM.4" LABEL="Enter a label here."
-      MIMETYPE="text/xml" SIZE="9646">
+      MIMETYPE="text/xml" SIZE="11774">
       <foxml:xmlContent>
         <content_model name="epistemetec_flv">
           <mimetypes>
@@ -1489,7 +1489,7 @@
       </foxml:xmlContent>
     </foxml:datastreamVersion>
     <foxml:datastreamVersion CREATED="2010-10-11T13:46:45.307Z" ID="ISLANDORACM.5" LABEL="Enter a label here."
-      MIMETYPE="text/xml" SIZE="9658">
+      MIMETYPE="text/xml" SIZE="11786">
       <foxml:xmlContent>
         <content_model name="epistemetec_flv">
           <mimetypes>

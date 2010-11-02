@@ -6,7 +6,7 @@
     <foxml:property NAME="info:fedora/fedora-system:def/model#label" VALUE="Epistemetec Collection Content Model"/>
     <foxml:property NAME="info:fedora/fedora-system:def/model#ownerId" VALUE="fedoraAdmin"/>
     <foxml:property NAME="info:fedora/fedora-system:def/model#createdDate" VALUE="2010-06-15T14:31:40.566Z"/>
-    <foxml:property NAME="info:fedora/fedora-system:def/view#lastModifiedDate" VALUE="2010-06-16T13:53:05.777Z"/>
+    <foxml:property NAME="info:fedora/fedora-system:def/view#lastModifiedDate" VALUE="2010-10-25T14:27:28.546Z"/>
   </foxml:objectProperties>
   <foxml:datastream CONTROL_GROUP="X" ID="AUDIT" STATE="A" VERSIONABLE="false">
     <foxml:datastreamVersion CREATED="2010-06-15T14:31:40.566Z"
@@ -111,7 +111,7 @@
   </foxml:datastream>
   <foxml:datastream CONTROL_GROUP="X" ID="ISLANDORACM" STATE="A" VERSIONABLE="true">
     <foxml:datastreamVersion CREATED="2010-06-15T14:44:01.180Z" ID="ISLANDORACM.0" LABEL="Epistemetec Content Model.xml"
-      MIMETYPE="text/xml" SIZE="1395">
+      MIMETYPE="text/xml" SIZE="1699">
       <foxml:xmlContent>
         <content_model name="E-Collection">
           <mimetypes>
@@ -161,7 +161,7 @@
       </foxml:xmlContent>
     </foxml:datastreamVersion>
     <foxml:datastreamVersion CREATED="2010-06-15T14:53:34.872Z" ID="ISLANDORACM.1" LABEL="Epistemetec Content Model.xml"
-      MIMETYPE="text/xml" SIZE="1397">
+      MIMETYPE="text/xml" SIZE="1701">
       <foxml:xmlContent>
         <content_model name="Epi-Collection">
           <mimetypes>
@@ -211,7 +211,7 @@
       </foxml:xmlContent>
     </foxml:datastreamVersion>
     <foxml:datastreamVersion CREATED="2010-06-15T15:32:16.778Z" ID="ISLANDORACM.2" LABEL="Epistemetec Content Model.xml"
-      MIMETYPE="text/xml" SIZE="1396">
+      MIMETYPE="text/xml" SIZE="1700">
       <foxml:xmlContent>
         <content_model name="EpiCollection">
           <mimetypes>
@@ -261,7 +261,7 @@
       </foxml:xmlContent>
     </foxml:datastreamVersion>
     <foxml:datastreamVersion CREATED="2010-06-16T13:53:05.777Z" ID="ISLANDORACM.3" LABEL="Epistemetec Content Model.xml"
-      MIMETYPE="text/xml" SIZE="1393">
+      MIMETYPE="text/xml" SIZE="1697">
       <foxml:xmlContent>
         <content_model name="Collection">
           <mimetypes>

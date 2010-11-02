@@ -6,7 +6,7 @@
     <foxml:property NAME="info:fedora/fedora-system:def/model#label" VALUE="Islandora Collection Content Model"/>
     <foxml:property NAME="info:fedora/fedora-system:def/model#ownerId" VALUE="fedoraAdmin"/>
     <foxml:property NAME="info:fedora/fedora-system:def/model#createdDate" VALUE="2009-02-24T14:23:47.169Z"/>
-    <foxml:property NAME="info:fedora/fedora-system:def/view#lastModifiedDate" VALUE="2010-07-27T15:01:57.999Z"/>
+    <foxml:property NAME="info:fedora/fedora-system:def/view#lastModifiedDate" VALUE="2010-10-25T14:10:18.212Z"/>
   </foxml:objectProperties>
   <foxml:datastream CONTROL_GROUP="X" ID="AUDIT" STATE="A" VERSIONABLE="false">
     <foxml:datastreamVersion CREATED="2009-02-24T14:23:47.169Z"
@@ -93,6 +93,22 @@
             <audit:date>2010-07-27T15:01:57.999Z</audit:date>
             <audit:justification/>
           </audit:record>
+          <audit:record ID="AUDREC11">
+            <audit:process type="Fedora API-M"/>
+            <audit:action>ingest</audit:action>
+            <audit:componentID/>
+            <audit:responsibility>fedoraAdmin</audit:responsibility>
+            <audit:date>2010-10-19T16:03:41.258Z</audit:date>
+            <audit:justification>Ingested from local file /usr/local/fedora/epistemetec-foxml/foxml/islandora_collectionCModel.xml</audit:justification>
+          </audit:record>
+          <audit:record ID="AUDREC12">
+            <audit:process type="Fedora API-M"/>
+            <audit:action>modifyDatastreamByValue</audit:action>
+            <audit:componentID>ISLANDORACM</audit:componentID>
+            <audit:responsibility>fedoraAdmin</audit:responsibility>
+            <audit:date>2010-10-25T14:10:18.212Z</audit:date>
+            <audit:justification/>
+          </audit:record>
         </audit:auditTrail>
       </foxml:xmlContent>
     </foxml:datastreamVersion>
@@ -151,7 +167,7 @@
   </foxml:datastream>
   <foxml:datastream CONTROL_GROUP="X" ID="ISLANDORACM" STATE="A" VERSIONABLE="true">
     <foxml:datastreamVersion CREATED="2010-04-09T17:02:24.473Z" ID="ISLANDORACM.0" LABEL="Islandora Content Model.xml"
-      MIMETYPE="application/xml" SIZE="7198">
+      MIMETYPE="application/xml" SIZE="8895">
       <foxml:xmlContent>
         <content_model name="Collection">
           <mimetypes>
@@ -376,7 +392,7 @@
       </foxml:xmlContent>
     </foxml:datastreamVersion>
     <foxml:datastreamVersion CREATED="2010-06-16T14:39:28.774Z" ID="ISLANDORACM.1" LABEL="Islandora Content Model.xml"
-      MIMETYPE="application/xml" SIZE="1393">
+      MIMETYPE="application/xml" SIZE="1697">
       <foxml:xmlContent>
         <content_model name="Collection">
           <mimetypes>
@@ -426,7 +442,7 @@
       </foxml:xmlContent>
     </foxml:datastreamVersion>
     <foxml:datastreamVersion CREATED="2010-07-23T13:59:09.401Z" ID="ISLANDORACM.2" LABEL="Islandora Content Model.xml"
-      MIMETYPE="application/xml" SIZE="1416">
+      MIMETYPE="application/xml" SIZE="1720">
       <foxml:xmlContent>
         <content_model name="Collection">
           <mimetypes>
@@ -476,7 +492,7 @@
       </foxml:xmlContent>
     </foxml:datastreamVersion>
     <foxml:datastreamVersion CREATED="2010-07-23T14:13:28.037Z" ID="ISLANDORACM.3" LABEL="Islandora Content Model.xml"
-      MIMETYPE="application/xml" SIZE="1427">
+      MIMETYPE="application/xml" SIZE="1731">
       <foxml:xmlContent>
         <content_model name="Collection">
           <mimetypes>
@@ -526,7 +542,7 @@
       </foxml:xmlContent>
     </foxml:datastreamVersion>
     <foxml:datastreamVersion CREATED="2010-07-27T15:01:57.999Z" ID="ISLANDORACM.4" LABEL="Islandora Content Model.xml"
-      MIMETYPE="application/xml" SIZE="1422">
+      MIMETYPE="application/xml" SIZE="1726">
       <foxml:xmlContent>
         <content_model name="Album">
           <mimetypes>
@@ -551,6 +567,56 @@
           <ingest_form dsid="QDC" page="2">
             <form_builder_method>
               <file>plugins/EpistemetecCollectionFormBuilder.php</file>
+              <class_name>EpistemetecCollectionFormBuilder</class_name>
+              <method_name>buildQDCForm</method_name>
+              <form_handler>handleImageCollectionForm</form_handler>
+            </form_builder_method>
+            <form_elements>
+              <element>
+                <label>Title/Caption/Object Name</label>
+                <name>dc:title</name>
+                <type>textfield</type>
+                <description>The name given to the resource</description>
+                <required>true</required>
+              </element>
+              <element>
+                <label>Creator/Photographer/Author</label>
+                <name>dc:creator</name>
+                <type>textfield</type>
+                <description>An entity primarily responsible for making the content of the resource such as a person, organization or service.</description>
+                <required>false</required>
+              </element>
+            </form_elements>
+          </ingest_form>
+        </content_model>
+      </foxml:xmlContent>
+    </foxml:datastreamVersion>
+    <foxml:datastreamVersion CREATED="2010-10-25T14:10:18.212Z" ID="ISLANDORACM.5" LABEL="Islandora Content Model.xml"
+      MIMETYPE="application/xml" SIZE="1423">
+      <foxml:xmlContent>
+        <content_model name="Album">
+          <mimetypes>
+            <type>text/xml</type>
+            <type>text/plain</type>
+            <type>application/xml</type>
+          </mimetypes>
+          <ingest_rules>
+            <rule>
+              <applies_to>
+                text/xml
+            </applies_to>
+              <applies_to>
+                text/plain
+            </applies_to>
+              <applies_to>
+                application/xml
+            </applies_to>
+              <methods/>
+            </rule>
+          </ingest_rules>
+          <ingest_form dsid="QDC" page="2">
+            <form_builder_method>
+              <file>epistemetec/plugins/CollectionFormBuilder.php</file>
               <class_name>EpistemetecCollectionFormBuilder</class_name>
               <method_name>buildQDCForm</method_name>
               <form_handler>handleImageCollectionForm</form_handler>

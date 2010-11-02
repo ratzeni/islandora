@@ -6,7 +6,7 @@
     <foxml:property NAME="info:fedora/fedora-system:def/model#label" VALUE="Epistemetec Content Model"/>
     <foxml:property NAME="info:fedora/fedora-system:def/model#ownerId" VALUE="fedoraAdmin"/>
     <foxml:property NAME="info:fedora/fedora-system:def/model#createdDate" VALUE="2010-04-14T09:42:58.420Z"/>
-    <foxml:property NAME="info:fedora/fedora-system:def/view#lastModifiedDate" VALUE="2010-10-11T10:48:19.972Z"/>
+    <foxml:property NAME="info:fedora/fedora-system:def/view#lastModifiedDate" VALUE="2010-10-25T14:23:35.247Z"/>
   </foxml:objectProperties>
   <foxml:datastream CONTROL_GROUP="X" ID="AUDIT" STATE="A" VERSIONABLE="false">
     <foxml:datastreamVersion CREATED="2010-04-14T09:42:58.420Z"
@@ -8074,8 +8074,8 @@
           </ingest_rules>
           <ingest_form dsid="QDC" page="2">
             <form_builder_method>
-              <file>
-                plugins/EpistemetecFormBuilder.php
+              <file>   
+             plugins/EpistemetecFormBuilder.php
             </file>
               <class_name>
                 EpistemetecFormBuilder
@@ -8212,8 +8212,8 @@
                     Dimensioni Immagine
                 </label>
                 <name>
-                    img:filesize        
-        </name>
+                    img:filesize                
+</name>
                 <type>
                     textfield
                 </type>
@@ -8486,8 +8486,8 @@
                 <name>
                     dc:contributor
                 </name>
-                <type>
-                    textfield
+                <type> 
+                   textfield
                 </type>
                 <description>
                     An entity responsible for contributing to the content of the resource such as a person, organization or service.
@@ -8901,8 +8901,8 @@
                 <type>
                     textfield
                 </type>
-                <description>
-                    Dimensioni dell'immagine digitale.
+                <description>     
+               Dimensioni dell'immagine digitale.
                 </description>
                 <required>
                     false
@@ -9037,8 +9037,8 @@
                 <type>
                     textfield
                 </type>
-                <description>                   
-  Eventuali annotazioni all'immagine.
+                <description>
+                     Eventuali annotazioni all'immagine.
                 </description>
                 <required>
                     false
@@ -9304,8 +9304,8 @@
                 <label>
                     Rights Management
                 </label>
-                <name>               
-     dc:rights
+                <name>
+                    dc:rights
                 </name>
                 <type>
                     textarea
@@ -9707,8 +9707,8 @@
               </element>
               <element>
                 <label>
-                    Creator/Photographer  
-              </label>
+                    Creator/Photographer          
+      </label>
                 <name>
                     dc:creator
                 </name>
@@ -19718,7 +19718,7 @@
       </foxml:xmlContent>
     </foxml:datastreamVersion>
     <foxml:datastreamVersion CREATED="2010-10-11T10:41:42.826Z" ID="ISLANDORACM.53" LABEL="Content Model x Iglesias"
-      MIMETYPE="text/xml" SIZE="11223">
+      MIMETYPE="text/xml" SIZE="13639">
       <foxml:xmlContent>
         <content_model name="epistemetec_jpeg">
           <mimetypes>
@@ -20026,7 +20026,7 @@
       </foxml:xmlContent>
     </foxml:datastreamVersion>
     <foxml:datastreamVersion CREATED="2010-10-11T10:42:48.469Z" ID="ISLANDORACM.54" LABEL="Content Model x Iglesias"
-      MIMETYPE="text/xml" SIZE="11218">
+      MIMETYPE="text/xml" SIZE="13634">
       <foxml:xmlContent>
         <content_model name="epistemetec_jpeg">
           <mimetypes>
@@ -20334,7 +20334,7 @@
       </foxml:xmlContent>
     </foxml:datastreamVersion>
     <foxml:datastreamVersion CREATED="2010-10-11T10:48:19.972Z" ID="ISLANDORACM.55" LABEL="Content Model x Iglesias"
-      MIMETYPE="text/xml" SIZE="11218">
+      MIMETYPE="text/xml" SIZE="13634">
       <foxml:xmlContent>
         <content_model name="epistemetec_jpeg">
           <mimetypes>

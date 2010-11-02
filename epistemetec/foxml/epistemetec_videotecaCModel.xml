@@ -6,7 +6,7 @@
     <foxml:property NAME="info:fedora/fedora-system:def/model#label" VALUE="Enter a one-line description of the object."/>
     <foxml:property NAME="info:fedora/fedora-system:def/model#ownerId" VALUE="fedoraAdmin"/>
     <foxml:property NAME="info:fedora/fedora-system:def/model#createdDate" VALUE="2010-09-16T10:39:24.268Z"/>
-    <foxml:property NAME="info:fedora/fedora-system:def/view#lastModifiedDate" VALUE="2010-10-11T13:32:55.049Z"/>
+    <foxml:property NAME="info:fedora/fedora-system:def/view#lastModifiedDate" VALUE="2010-10-25T14:22:55.215Z"/>
   </foxml:objectProperties>
   <foxml:datastream CONTROL_GROUP="X" ID="AUDIT" STATE="A" VERSIONABLE="false">
     <foxml:datastreamVersion CREATED="2010-09-16T10:39:24.268Z"
@@ -95,7 +95,7 @@
   </foxml:datastream>
   <foxml:datastream CONTROL_GROUP="X" ID="ISLANDORACM" STATE="A" VERSIONABLE="true">
     <foxml:datastreamVersion CREATED="2010-09-16T10:39:54.512Z" ID="ISLANDORACM.0" LABEL="Enter a label here."
-      MIMETYPE="text/xml" SIZE="1426">
+      MIMETYPE="text/xml" SIZE="1730">
       <foxml:xmlContent>
         <content_model name="Videoteca">
           <mimetypes>
@@ -145,7 +145,7 @@
       </foxml:xmlContent>
     </foxml:datastreamVersion>
     <foxml:datastreamVersion CREATED="2010-10-11T13:32:55.049Z" ID="ISLANDORACM.1" LABEL="Enter a label here."
-      MIMETYPE="text/xml" SIZE="1427">
+      MIMETYPE="text/xml" SIZE="1731">
       <foxml:xmlContent>
         <content_model name="Videoteca">
           <mimetypes>
